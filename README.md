@@ -2,6 +2,8 @@
 
 2023-07-28 v1.1
 
+[Class guide](https://nfdi4culture.github.io/FSCI-Class-Publishing-from-Collections/) | 
+
 This is a hands-on class for participants with no prior experience of computational publishing using Jupyter Notebooks and linked open data (LOD).
 
 The class has three demonstration use cases for the auto-creation of multi-format catalogue publications:
