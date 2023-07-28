@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u1f7f" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" HyphenateLadderLimit="2" LeftIndent="28.34645669291339" FirstLineIndent="-8.503937007874017" Hyphenation="false" HyphenateWordsLongerThan="8" HyphenationZone="34" SpaceBefore="2.834645669291339" SpaceAfter="2.834645669291339" DesiredWordSpacing="110.00000000000001" MaximumWordSpacing="180" MinimumWordSpacing="100" DesiredLetterSpacing="1" MaximumLetterSpacing="5" MinimumLetterSpacing="-1" MaximumGlyphScaling="101" MinimumGlyphScaling="99" KeepLinesTogether="true" RuleAboveTint="100" RuleBelowTint="100" HyphenateLastWord="false" SingleWordJustification="LeftAlign" HyphenWeight="8" TreatIdeographicSpaceAsSpace="false" NumberingAlignment="RightAlign" NumberingExpression="^#^t">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">28.34645669291339</Position>
+					</ListItem>
+				</TabList>
+				<RuleAboveColor type="object">Color/Black</RuleAboveColor>
+				<RuleBelowColor type="object">Color/Black</RuleBelowColor>
+				<BalanceRaggedLines type="enumeration">VeeShape</BalanceRaggedLines>
+				<RuleAboveGapColor type="string">Text Color</RuleAboveGapColor>
+				<RuleBelowGapColor type="string">Text Color</RuleBelowGapColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Semibold" PointSize="10" KerningMethod="$ID/Optical" AppliedLanguage="$ID/English: USA" OTFFigureStyle="ProportionalOldstyle" RubyOpenTypePro="false" RubyAutoAlign="false" WarichuAlignment="LeftAlign" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<Leading type="unit">18</Leading>
+					<AppliedFont type="string">Crimson Text</AppliedFont>
+					<UnderlineGapColor type="string">Text Color</UnderlineGapColor>
+					<StrikeThroughGapColor type="string">Text Color</StrikeThroughGapColor>
+				</Properties>
+				<Content><?ACE 18?></Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

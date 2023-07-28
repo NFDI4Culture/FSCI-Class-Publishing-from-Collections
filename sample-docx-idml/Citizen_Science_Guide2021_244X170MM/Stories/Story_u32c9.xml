@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u32c9" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Liber-Text-Bold">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/LIBER-Text-BOLD">
+				<Content>Lorem ipsum</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/LIBER-Text-BOLD">
+				<Content>adipiscing elit</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Duis dictum augue quis tortor consectetur gravida. Cras pellentesque dolor quis lorem aliquet dapibus vitae at urna. Aenean non nisi nibh. Nulla sollicitudin aliquet tellus, eu maximus odio lacinia eu. Duis ipsum dolor, imperdiet sed iaculis vel, facilisis maximus justo. Nulla et lorem quam. Ut consectetur lobortis nisi, vel blandit mauris volutpat eu. Nulla in tempus ligula. Integer tincidunt in nisl laoreet fermentum. Praesent eget orci.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

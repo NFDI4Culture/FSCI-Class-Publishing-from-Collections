@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u2a60" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="27.90844012341639" RuleAboveLineWeight="0.7752344478726776" RuleBelowLineWeight="0.7752344478726776" Justification="RightAlign" SplitColumnInsideGutter="4.651406687236066" TreatIdeographicSpaceAsSpace="false">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Header" FontStyle="Italic" StrokeWeight="0.7752344478726776" Capitalization="Normal" Underline="false" MiterLimit="3.1009377914907104" RubyFontSize="-0.7752344478726776" KentenFontSize="-0.7752344478726776" DiacriticPosition="OpentypePosition">
+				<Content>Section 3</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Header" StrokeWeight="0.7752344478726776" MiterLimit="3.1009377914907104" RubyFontSize="-0.7752344478726776" KentenFontSize="-0.7752344478726776" DiacriticPosition="OpentypePosition">
+				<Content>Guidelines for Citizen </Content>
+				<Br />
+				<Content>Science  programme </Content>
+				<Br />
+				<Content>development </Content>
+				<Br />
+				<Content>in libraries</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

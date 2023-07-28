@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u3572" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain" LeftIndent="22.67716535433071" HyphenationZone="41.14000000000001" RuleAboveLineWeight="1.2100000000000002" RuleBelowLineWeight="1.2100000000000002" SplitColumnInsideGutter="7.260000000000002">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">14.520000000000003</Position>
+					</ListItem>
+				</TabList>
+				<RuleAboveGapColor type="string">Text Color</RuleAboveGapColor>
+				<RuleBelowGapColor type="string">Text Color</RuleBelowGapColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="8" StrokeWeight="1.2100000000000002" AppliedLanguage="$ID/English: USA" MiterLimit="4.840000000000001" RubyOpenTypePro="false" RubyFontSize="-1.2100000000000002" RubyAutoAlign="false" KentenFontSize="-1.2100000000000002" WarichuAlignment="LeftAlign">
+				<Properties>
+					<Leading type="unit">8</Leading>
+					<UnderlineGapColor type="string">Text Color</UnderlineGapColor>
+					<StrikeThroughGapColor type="string">Text Color</StrikeThroughGapColor>
+				</Properties>
+				<Content>Ligue des Bibliothèques Européennes de Recherche</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Yellow" PointSize="8" StrokeWeight="1.2100000000000002" AppliedLanguage="$ID/English: USA" MiterLimit="4.840000000000001" RubyOpenTypePro="false" RubyFontSize="-1.2100000000000002" RubyAutoAlign="false" KentenFontSize="-1.2100000000000002" WarichuAlignment="LeftAlign">
+				<Properties>
+					<Leading type="unit">8</Leading>
+					<UnderlineGapColor type="string">Text Color</UnderlineGapColor>
+					<StrikeThroughGapColor type="string">Text Color</StrikeThroughGapColor>
+				</Properties>
+				<Content>Association of European Research Libraries</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

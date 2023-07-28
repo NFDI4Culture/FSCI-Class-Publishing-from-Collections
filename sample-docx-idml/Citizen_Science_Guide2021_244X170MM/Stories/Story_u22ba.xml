@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u22ba" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" GridAlignment="AlignBaseline">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>	     </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>Section 4</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>	     </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>Citizen Science skilling </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>	     </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>for library staff, </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>	     </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Content>researchers, and the public</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="RightAlign" GridAlignment="AlignBaseline">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content>Introduction  </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 1  </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 2</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 3</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 4</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 5</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 6</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 7</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Article 8</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" GridAlignment="AlignBaseline">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> </Content>
+				<Br />
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="RightAlign" GridAlignment="AlignBaseline">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Br />
+				<Br />
+				<Br />
+				<Br />
+				<Content>Abbreviations</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Glossary</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+				<Content>Back cover</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/index underline">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+				<Content> p.x</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/LIBER CMYK Dark Blue" FontStyle="Bold Italic" PointSize="11">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified" GridAlignment="AlignBaseline" TreatIdeographicSpaceAsSpace="false">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Bold Italic" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+					<UnderlineColor type="string">Text Color</UnderlineColor>
+					<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				</Properties>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

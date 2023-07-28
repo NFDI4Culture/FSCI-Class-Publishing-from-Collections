@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u1ca7" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain" Justification="RightAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/header" FillColor="Color/Paper" PointSize="17">
+				<Content>#CS4RL</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Chapter-Stroke" HyphenationZone="33.490128148099664" RuleAboveLineWeight="0.9302813374472131" RuleBelowLineWeight="0.9302813374472131" Justification="CenterAlign" SplitColumnInsideGutter="5.581688024683279">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/Paper" FontStyle="Regular" PointSize="17" StrokeWeight="0.7748846479657233" Underline="false" UnderlineOffset="8.4" UnderlineWeight="3.9372" MiterLimit="3.0995385918628933" RubyFontSize="-0.7748846479657233" KentenFontSize="-0.7748846479657233" />
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

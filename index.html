@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="assets/favicon/favicon.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
+  <link rel="stylesheet" href="assets/css/theme-custom.css">
+
+  <!-- Alternate Stylesheets -->
+  <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="Defaults">
+  <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple Dark">
+
+  <!-- Font Awesome Stylesheets -->
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+
+    <!-- Other -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" />
+
+
+  <style>
+    nav li a::before {
+      border-bottom: none !important; /* Removing dots in toc */
+    }
+    a.app-name-link {
+      border-bottom: none !important;
+    }
+    div.sources {
+      font-size: small;
+      top: 10px;
+      right: 10px;
+      position: absolute;
+    }
+    div.sources a {
+      display: inline-block;
+      margin-right: 8px;
+    }
+    div.sources .disabled {
+      display: none;
+    }
+    #toc ol li ol li ol {
+      display: none;
+    }
+  </style>
+  <script>
+    function throttle(fn, wait) {
+      // Source: https://www.sitepoint.com/throttle-scroll-events/
+      let time = Date.now()
+      return function() {
+        if ((time + wait - Date.now()) < 0) {
+          fn()
+          time = Date.now()
+        }
+      }
+    }
+    // Load all data from uhtml page
+    fetch('uhtml/index.html').then(
+      response => response.text()
+    ).then(
+      string => {
+        const parser = new DOMParser()
+        const doc = parser.parseFromString(string, 'text/html')
+        doc.head.querySelectorAll('link').forEach(link => {
+          const href = link.getAttribute('href')
+          link.setAttribute('href', `uhtml/${href}`)
+        })
+        doc.body.querySelectorAll('img').forEach(img => {
+          const src = img.getAttribute('src')
+          img.setAttribute('src', `uhtml/${src}`)
+        })
+        // Copy title/subtitle to sidebar
+        const title = doc.body.querySelector('h1.booktitle')?.innerHTML || ''
+        const subtitle = doc.body.querySelector('h2.booksubtitle')?.innerHTML || ''
+        document.querySelector('.app-name-link').innerHTML = `${title}<br>${subtitle}`
+        // Use title for ebook + pdf download name
+        document.querySelector('div.sources a.epub').setAttribute('download', `${title}.epub`)
+        document.querySelector('div.sources a.pdf').setAttribute('download', `${title}.pdf`)
+        // Copy TOC to sidebar
+        const mainTocNode = doc.body.querySelector('nav[role=doc-toc]')
+        const tocNode = document.body.querySelector('#toc')
+        tocNode.innerHTML += mainTocNode.innerHTML
+        // Move copyright page content to sidebar
+        const copyrightPageNode = doc.body.querySelector('div.copyrightpage')
+        const sideBarNavNode = document.body.querySelector('div.sidebar-nav')
+        sideBarNavNode.innerHTML += copyrightPageNode.innerHTML
+        copyrightPageNode.parentNode.removeChild(copyrightPageNode)
+        // Copy body and header content
+        Array.from(doc.head.children).forEach(node => document.head.appendChild(node))
+        const contentNode = document.body.querySelector('#main')
+        Array.from(doc.body.children).forEach(node => contentNode.appendChild(node))
+        // Enable toggle sidebar button
+        document.querySelector('.sidebar-toggle-button').addEventListener('click', () => document.body.classList.toggle('close'))
+
+        // Mark current item on scroll
+        function onscroll() {
+          const positions = Array.from(
+            document.querySelectorAll('#main *[id]')
+          )
+          let currentNode
+          for (i = 0; i < positions.length; i++) {
+            const node = positions[i]
+            const top = node.getClientRects()[0]?.top
+            if (top > window.innerHeight) {
+              break
+            }
+            currentNode = node
+            if (top > 0) {
+              break
+            }
+          }
+          if (currentNode) {
+            const id = currentNode.id
+            const linkNode = document.querySelector(`.sidebar-nav a[href="#${id}"]`)
+            if (linkNode) {
+              const active = document.querySelector('.sidebar-nav li.active')
+              if (active) {
+                active.classList.remove('active')
+              }
+              linkNode.parentNode.classList.add('active')
+            }
+
+          }
+        }
+        window.document.addEventListener(
+          'scroll',
+          throttle(onscroll, 1000)
+        )
+
+
+
+      }
+    )
+    // Set links for other output formats.
+    fetch('setup.json').then(
+      response => response.json()
+    ).then(setup => {
+      if (setup.podURL) {
+        const link = document.querySelector("div.sources a.pod")
+        link.href = setup.podURL
+        link.classList.remove('disabled')
+      }
+
+      if (setup.vivlioURL) {
+        const link = document.querySelector("div.sources a.vivlio")
+        link.href = `${setup.vivlioURL}#src=${new URL("uhtml/index.html", window.location.href).href}&bookMode=true`
+        link.classList.remove('disabled')
+      }
+
+      if (setup.repoURL) {
+        const link = document.querySelector("div.sources a.repo")
+        link.href = setup.repoURL
+        link.classList.remove('disabled')
+      }
+      if (setup.repoURL && setup.repoBranch) {
+        const link = document.querySelector("div.sources a.uhtml")
+        link.href = `${setup.repoURL}tree/${setup.repoBranch}/uhtml`
+      }
+      // Check which other sources exist and enable links
+      fetch('book.epub', {
+        method: "HEAD"
+      }).then(res => {
+        if (res.ok) {
+          document.querySelector("div.sources a.epub").classList.remove('disabled')
+        }
+      }).catch(err => {})
+      fetch('book.pdf', {
+        method: "HEAD"
+      }).then(res => {
+        if (res.ok) {
+          document.querySelector("div.sources a.pdf").classList.remove('disabled')
+        }
+      }).catch(err => {})
+      fetch('epub/EPUB/document.opf', {
+        method: "HEAD"
+      }).then(res => {
+        if (res.ok) {
+          const link = document.querySelector("div.sources a.epub-source")
+          if (setup.repoURL && setup.repoBranch) {
+            link.href = `${setup.repoURL}tree/${setup.repoBranch}/epub`
+          }
+          link.classList.remove('disabled')
+        }
+      }).catch(err => {})
+      fetch('html/index.html', {
+        method: "HEAD"
+      }).then(res => {
+        if (res.ok) {
+          const link = document.querySelector("div.sources a.html")
+          if (setup.repoURL && setup.repoBranch) {
+            link.href = `${setup.repoURL}tree/${setup.repoBranch}/html`
+          }
+          link.classList.remove('disabled')
+        }
+      }).catch(err => {})
+      fetch('jats/manuscript.xml', {
+        method: "HEAD"
+      }).then(res => {
+        if (res.ok) {
+          const link = document.querySelector("div.sources a.jats")
+          if (setup.repoURL && setup.repoBranch) {
+            link.href = `${setup.repoURL}tree/${setup.repoBranch}/jats`
+          }
+          link.classList.remove('disabled')
+        }
+      }).catch(err => {})
+      fetch('latex/book.tex', {
+        method: "HEAD"
+      }).then(res => {
+        if (res.ok) {
+          const link = document.querySelector("div.sources a.latex")
+          if (setup.repoURL && setup.repoBranch) {
+            link.href = `${setup.repoURL}tree/${setup.repoBranch}/latex`
+          }
+          link.classList.remove('disabled')
+        }
+      }).catch(err => {})
+    })
+  </script>
+</head>
+<body class="ready ready-fix sticky">
+  <main>
+    <button class="sidebar-toggle" aria-label="Menu">
+      <div class="sidebar-toggle-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+    <aside class="sidebar">
+      <h1 class="app-name"><a class="app-name-link" data-nosearch="" href="#top"></a></h1>
+      <div class="sidebar-nav">
+        <ul>
+          <li id="toc">
+            <p><a href="#main" title="Table of contents">Table of contents</a></p>
+          </li>
+        </ul>
+        <hr>
+        <img src="logo/logo.png" alt="logo" width="100%">
+    </div>
+    </aside>
+    <section class="content">
+      <div class="sources">
+        <label>Other formats:</label>
+        <a class="pod disabled" href="#">Order a copy</a>
+        <a class="vivlio disabled" href="#">Vivliostyle</a>
+        <a class="repo disabled" href="#">Repository</a>
+        <a class="epub disabled" href="book.epub">EPUB</a>
+        <a class="pdf disabled" href="book.pdf">PDF</a>
+        <a class="latex disabled" href="latex">LaTeX</a>
+        <a class="epub-source disabled" href="epub">EPUB Source</a>
+        <a class="html disabled" href="html">HTML</a>
+        <a class="jats disabled" href="jats">JATS</a>
+        <a class="uhtml" href="uhtml">Unified HTML</a>
+      </div>
+      <article class="markdown-section" id="main"></article>
+    </section>
+  </main>
+  <script src="https://hypothes.is/embed.js" async></script>
+</body>
+</html>

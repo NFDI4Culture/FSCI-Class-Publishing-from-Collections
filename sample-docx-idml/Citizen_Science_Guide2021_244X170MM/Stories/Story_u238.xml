@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u238" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Cepe doluptatet ut rem quaerum solupta temquodio omnienihit que resciat.</Content>
+				<Br />
+				<Content>Abo. Nam, consequ iandici dit pro que la quatusciame landae poratis sitius, volum volores et eius aut aciti dempori coneces et imagnisquam imusdae cum es aces es dolorer epeditiist, ut verio blaboreium expliciatem consedis ipsaectur sincid quas et rectotat es et aut andempossit accupta temque quo etur maionse nimus, simolupta quibus nem ex et voluptio. Aciis sapedit emodia nis necto earum vellend esedit la nulpa dolestiisi ut ut fugia niaes et harum explant quas molorec tibus, incture nonest, niendae veles et reictusci aut inis explatem eos aut idi rehenecat aut aut offictibus nonsed estibus apitior ibusae. Ita vero eum que volupti berorumquo que volorum excepernat.Um, cus estiatiorem res archici mendige ndanihi lictior epudist, od et facil es et aut dignihilit ex evendist, od mosa conet unt.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

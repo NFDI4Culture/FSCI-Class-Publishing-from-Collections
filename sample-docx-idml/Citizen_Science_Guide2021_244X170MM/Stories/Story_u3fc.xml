@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u3fc" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Chapter-Stroke" HyphenationZone="21.701603039968585" RuleAboveLineWeight="0.6028223066657942" RuleBelowLineWeight="0.6028223066657942" Justification="CenterAlign" SplitColumnInsideGutter="3.6169338399947653" ParagraphBorderTopLeftCornerRadius="0.81" ParagraphBorderTopRightCornerRadius="0.81" ParagraphBorderBottomLeftCornerRadius="0.81" ParagraphBorderBottomRightCornerRadius="0.81" ParagraphShadingTopLeftCornerRadius="0.81" ParagraphShadingTopRightCornerRadius="0.81" ParagraphShadingBottomLeftCornerRadius="0.81" ParagraphShadingBottomRightCornerRadius="0.81" ParagraphBorderTopLineWeight="0.81" ParagraphBorderBottomLineWeight="0.81" ParagraphBorderLeftLineWeight="0.81" ParagraphBorderRightLineWeight="0.81">
+			<Properties>
+				<SameParaStyleSpacing type="unit">-0.81</SameParaStyleSpacing>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Swatch/None" PointSize="130.89600000000002" StrokeWeight="0.2592000000000001" StrokeColor="Color/LIBER CMYK Dark Blue" Underline="false" UnderlineOffset="5.443200000000001" UnderlineWeight="2.5513056" MiterLimit="2.008501007527155" RubyFontSize="-0.5021252518817888" KentenFontSize="-0.5021252518817888">
+				<Properties>
+					<Leading type="unit">92.016</Leading>
+				</Properties>
+				<Content>Looking</Content>
+				<Br />
+				<Content>ahead</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

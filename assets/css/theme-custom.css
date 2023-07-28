@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --base-font-size                                  : 16px;
+    --base-font-family                                : "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
+    --link-color                                      : #000; /*#0A75BD*/
+    --link-border-color                               : #8ACDB7;
+    --link-color--hover                               : #8ACDB7;
+    --link-border-bottom--hover                       : #8ACDB7;
+    --link-text-decoration                            : underline;
+    --link-text-decoration-color                      : #302f2f;
+    --sidebar-name-color                              : #ffffff;
+    --sidebar-background                              : #000;
+    --sidebar-nav-link-color--active                  : #ffffff;
+    --cover-heading-font-size-max                     : 40;
+    --cover-heading-font-size-min                     : 34;
+    --blockquote-border-color                         : #8ACDB7;
+    --heading-font-family                             : "Playfair Display", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
+    --heading-h1-font-size: 2.7rem;
+    --heading-h1-font-weight: 700;
+    --heading-h1-color: #111111;
+    --heading-h1-margin: 10rem 0 3rem 0;
+    --heading-h2-font-size: 2rem; /*var(--font-size-xl)*/
+    --heading-h2-color: #111111;
+    --heading-h3-border-style: solid;
+    --heading-h3-font-size: 1.6rem; /*var(--font-size-l)*/
+    --heading-h3-font-weight: 400;
+    --heading-h4-border-style: solid;
+    --heading-h4-font-size: 1.3rem; /*var(--font-size-m)*/
+    --heading-h4-font-weight: 500;
+    --heading-h5-font-size: 1.1rem; /*var(--font-size-s)*/
+    --heading-h5-font-weight: 500;
+    --heading-h6-font-size: 0.9rem; /*var(--font-size-xs)*/
+    --sidebar-nav-link-font-weight--active            : bold;
+    --sidebar-border-color                            : #8ACDB7;
+    --sidebar-nav-link-border-color--active           : #8ACDB7;
+    --sidebar-nav-link-border-color--hover            : #8ACDB7;
+    --sidebar-nav-link-color--active : #8ACDB7;
+    --sidebar-nav-link-color--hover : #8ACDB7;
+    --sidebar-nav-link-font-weight--hover             : 500;
+    --sidebar-nav-link-font-weight--active            : 500;
+    --sidebar-nav-link-font-weight                    : 500;
+    --sidebar-nav-link-color                          : #d8d8d8; /*thought I'd try this SW 2022-11-29 for nav*/
+    --sidebar-width                                   : 22rem;
+    --sidebar-nav-pagelink-background-position        : 3px 10px;
+    --sidebar-nav-pagelink-background-position--active: 3px 10px; /*left center*/
+    --sidebar-nav-pagelink-background-image           : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--active   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--collapse : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--loaded   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+}
+.content .markdown-section nav::before {
+    content: "";
+    /*font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+    color: #001949;
+    display: block;
+    height: 0px;*/
+}
+.sidebar-nav li {
+  padding-left: 0.8rem;
+  color: #d8d8d8; /*thought I'd try this SW 2022-11-29 for nav*/
+}
+.sidebar>h1 .app-name-link:hover{
+  color: #ffffff;
+}
+.content strong {
+    color: #000000;
+}
+
+/* Frontmatter*/
+.content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/Fidus-Book-Style-Report001/d6232786dc7e4c111f96bdf73d9d9e21916d6d17/images/image.jpg");
+background-position: bottom;
+background-size: 100%;
+background-repeat: no-repeat;*/
+  background-image: none;
+  height: 100%;
+}
+
+.markdown-section h1.booktitle {
+  margin:0;
+  border: none;
+}
+
+.content .markdown-section .booktitle:before {
+  display: block;
+  text-transform: none;
+  counter-increment: chapter;
+  height: 3em;
+  background-image: linear-gradient(#111111,#111111);
+  background-repeat: no-repeat;
+  background-size: 80px 9px;
+  background-position: 0% 0%;
+  padding-top: 1em;
+  color: #000;
+  content:"";
+  font-size: 18px;
+  font-weight: 300;
+}
+.content .markdown-section div.titlepage:after {
+  display: block;
+  height: 1em;
+  background-image: linear-gradient(#111111,#111111);
+  background-repeat: no-repeat;
+  background-size: 80px 9px;
+  background-position: 0% 0%;
+  margin-top: 1.5em;
+  content:"";
+  }
+.content h2.booksubtitle, .content h3.bookauthor,  .content h4.bookversion {
+color: #000;
+font-weight: 300;
+margin: 0;
+border: none;
+}
+
+.content .article-body {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.content section.fnlist {
+   margin-left: 0px;
+ }
+.content .article-body > figure.image-width-100, blockquote {
+  margin-left: 0px!important;
+}
+.content div.csl-bib-body {
+  margin-left: 0px!important;
+}
+.content .article-body > table.table-100.table-fixed  {
+ margin-left: 0px!important;
+ width: auto !important;
+}
+.content .markdown-section table {
+  display: table!important;
+}
+
+.content .markdown-section .booktitle, .content .markdown-section .titlepage {
+  text-align: left;
+}
+.markdown-section h1, .content .markdown-section .article-title {
+    margin: var(--heading-h1-margin, var(--heading-margin));
+    padding: var(--heading-h1-padding, var(--heading-padding));
+    border-width: var(--heading-h1-border-width, 0);
+    border-style: var(--heading-h1-border-style);
+    border-color: var(--heading-h1-border-color);
+    font-family: var(--heading-h1-font-family, var(--heading-font-family));
+    font-size: var(--heading-h1-font-size);
+    font-weight: var(--heading-h1-font-weight, var(--heading-font-weight));
+    line-height: var(--base-line-height);
+    color: var(--heading-h1-color, var(--heading-color));
+    text-align: left;
+
+}
+
+.content .markdown-section h1.article-bibliography-header {
+    margin: var(--heading-h2-margin, var(--heading-margin));
+    padding: var(--heading-h2-padding, var(--heading-padding));
+    border-width: var(--heading-h2-border-width, 0);
+    border-style: var(--heading-h2-border-style);
+    border-color: var(--heading-h2-border-color);
+    font-family: var(--heading-h2-font-family, var(--heading-font-family));
+    font-size: var(--heading-h2-font-size);
+    font-weight: var(--heading-h2-font-weight, var(--heading-font-weight));
+    line-height: var(--base-line-height);
+    color: var(--heading-h2-color, var(--heading-color));
+} /*.markdown-section h2*/
+
+.content .markdown-section h3.bookauthor {
+      font-size: var(--heading-h4-font-size);
+}
+
+.content .markdown-section p {
+  font-size: var(--base-font-size);
+  font-family: var(--base-font-family);
+  line-height: 1.6rem;
+  letter-spacing: normal;
+  word-spacing: normal;
+  orphans: 0;
+  widows: 0;
+}
+
+.content .markdown-section li p {
+    display: inline;
+}
+
+.sidebar-nav  p {
+  font-family: var(--base-font-family);
+  line-height: 1.7;
+  color: #d8d8d8;  /*thought I'd try this SW 2022-11-29 for nav*/
+}
+
+.ready hr {
+  height: 0;
+  margin: 2em 0;
+  border: none;
+  border-bottom: var(--hr-border, 0);
+}
+
+.content .markdown-section table caption:before {
+  content: "";
+  margin-right: 0em;
+}
+.content .markdown-section table caption {
+   padding-left: 0;
+}
+
+.content .markdown-section .article-body ol {
+  font-size: var(--base-font-size)!important;
+  font-family: var(--base-font-family);
+  line-height: 1.6rem;
+}
+.content .markdown-section a {
+  /*text-decoration: underline !important;*/
+  border-bottom: 1px solid !important;
+}
+
+.content .markdown-section blockquote:before {
+    content: "";
+}
+
+.content .markdown-section .csl-entry {
+margin-bottom: 0.8rem;
+font-size: var(--base-font-size);
+font-family: var(--base-font-family);
+font-weight: 400;
+line-height: 1.5rem;
+}
+main > .content {
+    margin-top: 30px;
+}
+/* Links */
+.markdown-section a:visited {
+  color: #8ACDB7;
+}
+.markdown-section a:visited.anchor  {
+color: var(--base-color);
+}
+.markdown-section a.anchor {
+  color:inherit;
+  text-decoration:none}
+.markdown-section a.anchor:hover {color:inherit; text-decoration:underline; }
+.markdown-section a:visited:hover {color:inherit; }
+
+/* Pagination */
+.pagination-item a:visited .pagination-item-title {
+    color: inherit;
+}
+.pagination-item:not(:last-child) a:hover .pagination-item-title, .pagination-item:not(:last-child) a .pagination-item-title, .pagination-item:not(:last-child) a:hover .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-label {
+  -webkit-transition:none !important;
+  -moz-transition:none !important;
+  -o-transition:none !important;
+  transition:none !important;
+}
+
+/*toc from Fidus*/
+.sidebar-nav #toc ol li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 0.8rem;
+}
+.sidebar-nav #toc ol li::before {
+  content: '\f061';
+  font: var(--fa-font-solid);
+  line-height: 1.8;
+  float: left;
+  margin-left: -1.5em;
+}
+.sidebar-nav #toc ol ol li::before {
+  content: '';
+  margin-left: 0em;
+}
+.sidebar-nav #toc ol ol li {
+    margin-left: 0.6em;
+    margin-bottom:0;
+}
+
+#toc ol li ol li ol {
+  display: none;
+}
+
+.content .markdown-section .tocpage a {
+  text-decoration: none!important;
+  border-bottom: none !important;
+  font-size: 1rem;
+}
+.content .markdown-section .tocpage a:visited {
+  color: #000;
+}
+.content .markdown-section .tocpage ol li::before {
+  content: '\f061';
+  font: var(--fa-font-solid);
+  line-height: 1.7;
+  float: left;
+  margin-left: -1.5em;
+}
+.content .markdown-section .tocpage ol ol li::before {
+  content: '';
+  margin-left: 0em;
+}
+
+.content .markdown-section .tocpage ol {
+ list-style-type:none;
+ margin-left: 0;
+
+}
+.content .markdown-section .tocpage nav li ol li ol li ol li {
+  display: none!important;
+}
+
+.content .markdown-section nav li ol ol {
+  display: block !important;
+}
+.sidebar nav ul {
+  padding-left: 0.8rem;
+}
+/*.content .markdown-section table {
+  margin: 0 auto;
+  width: 99% !important;
+  font-family: "Inter", helvetica neue, arial, sans-serif;
+  background-size: 8pt;
+  page-break-inside: avoid;
+  border-collapse: collapse;
+  border-left: 0;
+  border-right: 0;
+  text-align: left;
+  font-size: 8pt;
+}*/
+
+/*.content .markdown-section table th {
+  border-left: 0;
+  border-right: 0;
+  padding: 0em 1em;
+  font-size: 12px;
+  /*color: black;*/
+  font-weight: 700;
+  font-style: italic;
+}
+.markdown-section td {
+  border-color: var(--link-border-color);
+}
+.markdown-section tbody tr:nth-child(odd) {
+  background-color: #FDD5A5;
+}
+.markdown-section tbody tr:nth-child(even) {
+  background-color: #fde5cd;
+}*/
+.content .markdown-section table caption, .content .markdown-section figure figcaption {
+    font-size: 0.9rem;
+    margin: 0.5em 0 0.75em;
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+}
+.content .markdown-section figure {
+    border: none;
+    margin: 2.2em 0;
+}
+.content .markdown-section figure.aligned-left.image-width-50 {
+  margin-right: 20px;
+}
+/* Footnotes*/
+
+.content .markdown-section section.fnlist {
+  display: block!important;
+  font-size: 0.9rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.content .markdown-section section.fnlist p, .content .markdown-section  .footnote-counter {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.content .markdown-section  .article-abstract p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+.content .markdown-section  .footnote-counter::before {
+      content: attr(data-book-counter); /* or data-chapter-counter */
+  }
+
+.content .markdown-section  section[role=doc-footnote] .footnote-counter::after {
+      content: '. ';
+  }
+
+  section[role=doc-footnote]:first-of-type::before {
+      content: 'Footnotes';
+      display: block;
+      font-size: 0.9rem;
+      border-bottom: 1px solid black;
+      height: 2em;
+      margin-bottom: 1em;
+    }
+
+/* Table of Contents*/
+section.content > aside.nav > .page_toc {
+  top: 80px !important;
+  /*font-size: 14px;*/
+}
+section.content > aside.nav > .page_toc ul a:hover span {
+  color: var(--text-color-tertiary, #EE868F) !important;
+  color: #EE868F !important;
+}
+.nav .page_toc ul a:hover span {
+  color: #EE868F !important;
+}
+/*aside.nav > .page_toc .active {
+  border-left: 5px solid #111111 !important;
+  color: inherit !important;
+  padding-left: 10px;
+  font-weight: bold;
+}*/
+
+/*aside.nav > .page_toc li strong {
+  font-weight: normal;
+  color: inherit !important;
+}*/
+aside.nav > .page_toc .active strong {
+  /*font-weight: bold;*/
+  color: inherit !important;
+}
+.sidebar-nav li.active>a, .sidebar-nav li.collapse>a {
+border-width: var(--sidebar-nav-link-border-width--active, var(--sidebar-nav-link-border-width));
+border-style: var(--sidebar-nav-link-border-style--active, var(--sidebar-nav-link-border-style));
+border-color: var(--sidebar-nav-link-border-color--active, var(--sidebar-nav-link-border-color));
+background-color: var(--sidebar-nav-link-background-color--active, var(--sidebar-nav-link-background-color));
+background-image: var(--sidebar-nav-link-background-image--active, var(--sidebar-nav-link-background-image));
+background-position: var(--sidebar-nav-link-background-position--active, var(--sidebar-nav-link-background-position));
+background-size: var(--sidebar-nav-link-background-size--active, var(--sidebar-nav-link-background-size));
+color: var(--sidebar-nav-link-color--active, var(--sidebar-nav-link-color));
+font-weight: var(--sidebar-nav-link-font-weight--active, var(--sidebar-nav-link-font-weight));
+-webkit-text-decoration: var(--sidebar-nav-link-text-decoration--active, var(--sidebar-nav-link-text-decoration));
+text-decoration: var(--sidebar-nav-link-text-decoration--active, var(--sidebar-nav-link-text-decoration));
+-webkit-text-decoration-color: var(--sidebar-nav-link-text-decoration-color);
+text-decoration-color: var(--sidebar-nav-link-text-decoration-color);
+}
+/* top right menu*/
+nav.app-nav li a:active, nav.app-nav li a:hover {
+    color: #EE868F !important;
+    -webkit-transition:none !important;
+    -moz-transition:none !important;
+    -o-transition:none !important;
+    transition:none !important;
+}
+nav.app-nav li a, nav.app-nav li a:visited {
+    color: inherit;
+}
+
+/* Sidebar */
+.sidebar-nav, .sidebar nav { font-size: 0.9rem; }
+.sidebar-nav a, .sidebar nav a {
+  white-space: normal;
+  display:block;
+  overflow: visible;
+}
+.sidebar-nav a {
+  /*letter-spacing: .1em;*/
+  transition: text-shadow .3s;
+}
+
+.sidebar-nav a:hover, .sidebar-nav a:active {
+    text-shadow: 0 0 .50px #33333370, 0 0 .50px #33333370;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    text-decoration: none!important;
+}
+.sidebar .search input[type="search"]:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sidebar-nav > p {
+  font-size: 12px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0; overflow: hidden;
+  max-width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .markdown-section h1, .content .markdown-section .article-title, .markdown-section h1.part { font-size: 2rem; }
+}

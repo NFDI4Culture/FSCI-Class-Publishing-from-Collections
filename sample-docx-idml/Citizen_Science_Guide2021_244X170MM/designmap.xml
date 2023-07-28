@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="16.1(20)" ?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1" Self="d" StoryList="u238 u35a u371 u2c3 u11a u130 u146 u38e u70d u3fc u17cf u1ac3 u1c8f u1ca7 u1da1 u1dcf u1df3 u1e4b u1e8c u1f7f u1f96 u1ff5 u200c u2064 u207b u20d4 u20eb u2200 u225f u22ba u22e9 u2303 u231a u237b u2392 u242c u249a u24cb u24eb u2506 u253f u2601 u2646 u2666 u2698 u26ff u2740 u275a u27b2 u2867 u287e u2919 u2993 u2a60 u2b27 u2d10 u2daa u2dc0 u2ddd u2f17 u305a u30e7 u3126 u3168 u319a u31c9 u31e1 u31ff u3216 u322e u3246 u325e u3275 u3293 u32c9 u32e2 u32f9 u3311 u3384 u33c9 u33e0 u33f8 u340f u3426 u34cd u3501 u3537 u3572 u35a7 u35ce u35fc u3616 u3640 u367a u36cd u36e4 u3704 u371b u375c u3777 u378f u37ae u37c6 u37e4 u37fb u3812 u3829 u3841 u3859 u3874 u388c u38a4 u38da u38f1 u3a4a u3a74 u3a94 u3b0d u3bce u3c0b u3c26 u3c3e u3c86 u3c9d u3cb4 u3cef u3d0b u91" Name="Citizen_Science_Guide2021_244X170MM.indd" ZeroPoint="0 0" ActiveLayer="ufd" CMYKProfile="Coated FOGRA39 (ISO 12647-2:2004)" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+	<Properties>
+		<Label>
+			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
+		</Label>
+	</Properties>
+	<Language Self="Language/$ID/English%3a UK" Name="$ID/English: UK" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/UK" Id="525" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/English%3a USA" Name="$ID/English: USA" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/USA" Id="269" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/French" Name="$ID/French" SingleQuotes="‘’" DoubleQuotes="«»" PrimaryLanguageName="$ID/French" SublanguageName="$ID/" Id="274" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<idPkg:Graphic src="Resources/Graphic.xml" />
+	<idPkg:Fonts src="Resources/Fonts.xml" />
+	<KinsokuTable Self="KinsokuTable/$ID/kHardKinsokuName" Name="$ID/kHardKinsokuName" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName1" Name="$ID/kMojikumiDefaultName1" />
+	<idPkg:Styles src="Resources/Styles.xml" />
+	<NumberingList Self="NumberingList/$ID/[Default]" Name="$ID/[Default]" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
+	<NamedGrid Self="NamedGrid/$ID/[Page Grid]" Name="$ID/[Page Grid]">
+		<GridDataInformation FontStyle="Regular" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</GridDataInformation>
+	</NamedGrid>
+	<ConditionalTextPreference ShowConditionIndicators="ShowIndicators" ActiveConditionSet="n" />
+	<idPkg:Preferences src="Resources/Preferences.xml" />
+	<EndnoteOption EndnoteTitle="Endnotes" EndnoteTitleStyle="ParagraphStyle/$ID/NormalParagraphStyle" StartEndnoteNumberAt="1" EndnoteMarkerStyle="CharacterStyle/$ID/[No character style]" EndnoteTextStyle="ParagraphStyle/$ID/NormalParagraphStyle" EndnoteSeparatorText="&#x9;" EndnotePrefix="" EndnoteSuffix="">
+		<Properties>
+			<EndnoteNumberingStyle type="enumeration">Arabic</EndnoteNumberingStyle>
+			<RestartEndnoteNumbering type="enumeration">Continuous</RestartEndnoteNumbering>
+			<EndnoteMarkerPositioning type="enumeration">SuperscriptMarker</EndnoteMarkerPositioning>
+			<ScopeValue type="enumeration">EndnoteDocumentScope</ScopeValue>
+			<FrameCreateOption type="enumeration">NewPage</FrameCreateOption>
+			<ShowEndnotePrefixSuffix type="enumeration">NoPrefixSuffix</ShowEndnotePrefixSuffix>
+		</Properties>
+	</EndnoteOption>
+	<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+	<LinkedStoryOption UpdateWhileSaving="false" WarnOnUpdateOfEditedStory="true" RemoveForcedLineBreaks="false" ApplyStyleMappings="false" />
+	<LinkedPageItemOption UpdateLinkWhileSaving="false" WarnOnUpdateOfEditedPageItem="true" PreserveSizeAndShape="false" PreserveAppearance="false" PreserveInteractivity="false" PreserveFrameContent="false" PreserveOthers="false" />
+	<WatermarkPreference WatermarkVisibility="false" WatermarkDoPrint="false" WatermarkDrawInBack="true" WatermarkText="" WatermarkFontFamily="Minion Pro" WatermarkFontStyle="Regular" WatermarkFontPointSize="48" WatermarkOpacity="50" WatermarkRotation="0" WatermarkHorizontalPosition="WatermarkHCenter" WatermarkHorizontalOffset="0" WatermarkVerticalPosition="WatermarkVCenter" WatermarkVerticalOffset="0">
+		<Properties>
+			<WatermarkFontColor type="enumeration">Black</WatermarkFontColor>
+		</Properties>
+	</WatermarkPreference>
+	<TaggedPDFPreference StructureOrder="UseXMLStructure" />
+	<AdjustLayoutPreference EnableAdjustLayout="false" AllowLockedObjectsToAdjust="true" AllowFontSizeAndLeadingAdjustment="false" ImposeFontSizeRestriction="false" MinimumFontSize="6" MaximumFontSize="324" EnableAutoAdjustMargins="false" />
+	<HTMLFXLExportPreference EpubPageRange="" EpubPageRangeFormat="ExportAllPages" />
+	<PublishExportPreference PublishCover="FirstPage" CoverImageFile="" PublishPageRange="" PublishPageRangeFormat="ExportAllPages" ImageConversion="Automatic" ImageExportResolution="Ppi96" PublishDescription="" PublishFileName="" PublishFormat="PublishByPages" CoverPage="$ID/" GIFOptionsPalette="AdaptivePalette" JPEGOptionsQuality="High" PublishPdf="false" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefChapterNumber" Name="&lt;?AID 001b?&gt;TV XRefChapterNumber" VariableType="XrefChapterNumberType" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefPageNumber" Name="&lt;?AID 001b?&gt;TV XRefPageNumber" VariableType="XrefPageNumberType" />
+	<TextVariable Self="dTextVariablenChapter Number" Name="Chapter Number" VariableType="ChapterNumberType">
+		<ChapterNumberVariablePreference TextBefore="" Format="Current" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenCreation Date" Name="Creation Date" VariableType="CreationDateType">
+		<DateVariablePreference TextBefore="" Format="dd/MM/yy" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenFile Name" Name="File Name" VariableType="FileNameType">
+		<FileNameVariablePreference TextBefore="" IncludePath="false" IncludeExtension="false" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenImage Name" Name="Image Name" VariableType="LiveCaptionType">
+		<CaptionMetadataVariablePreference TextBefore="" MetadataProviderName="$ID/#LinkInfoNameStr" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenLast Page Number" Name="Last Page Number" VariableType="LastPageNumberType">
+		<PageNumberVariablePreference TextBefore="" Format="Current" TextAfter="" Scope="SectionScope" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenModification Date" Name="Modification Date" VariableType="ModificationDateType">
+		<DateVariablePreference TextBefore="" Format="d MMMM yyyy h:mm aa" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenOutput Date" Name="Output Date" VariableType="OutputDateType">
+		<DateVariablePreference TextBefore="" Format="dd/MM/yy" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenRunning Header" Name="Running Header" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<idPkg:Tags src="XML/Tags.xml" />
+	<Layer Self="ub3" Name="background items" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">Red</LayerColor>
+		</Properties>
+	</Layer>
+	<Layer Self="u3090" Name="images" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">Green</LayerColor>
+		</Properties>
+	</Layer>
+	<Layer Self="ufd" Name="content" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">LightBlue</LayerColor>
+		</Properties>
+	</Layer>
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_ub4.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u1f44.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u1fba.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u2029.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u2098.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1c60.xml" />
+	<idPkg:Spread src="Spreads/Spread_u33af.xml" />
+	<idPkg:Spread src="Spreads/Spread_u203.xml" />
+	<idPkg:Spread src="Spreads/Spread_u327.xml" />
+	<idPkg:Spread src="Spreads/Spread_u412.xml" />
+	<idPkg:Spread src="Spreads/Spread_u27ec.xml" />
+	<idPkg:Spread src="Spreads/Spread_u3c69.xml" />
+	<idPkg:Spread src="Spreads/Spread_u6ed.xml" />
+	<idPkg:Spread src="Spreads/Spread_u7a3.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1149.xml" />
+	<idPkg:Spread src="Spreads/Spread_u885.xml" />
+	<idPkg:Spread src="Spreads/Spread_u9d9.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1a5a.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2934.xml" />
+	<idPkg:Spread src="Spreads/Spread_u29fd.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2ac7.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1703.xml" />
+	<Section Self="uad" Length="31" Name="" ContinueNumbering="false" IncludeSectionPrefix="false" PageNumberStart="1" Marker="" PageStart="u1c67" SectionPrefix="" AlternateLayoutLength="31" AlternateLayout="A4 H">
+		<Properties>
+			<PageNumberStyle type="enumeration">Arabic</PageNumberStyle>
+		</Properties>
+	</Section>
+	<DocumentUser Self="dDocumentUser0" UserName="Nom d&apos;utilisateur inconnu">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<DocumentUser Self="dDocumentUser1" UserName="Nom d&apos;utilisateur inconnu">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<DocumentUser Self="dDocumentUser2" UserName="$ID/Unknown User Name">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<CrossReferenceFormat Self="ud01" Name="Full Paragraph &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud01BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud01BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud01BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud01BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud02" Name="Full Paragraph" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud02BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud02BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud02BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud03" Name="Paragraph Text &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud03BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud03BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud03BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud03BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud04" Name="Paragraph Text" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud04BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud04BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud04BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud05" Name="Paragraph Number &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud05BuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud05BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud05BuildingBlock2" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud06" Name="Paragraph Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud06BuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud07" Name="Text Anchor Name &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud07BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud07BuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud07BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud07BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud08" Name="Text Anchor Name" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud08BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud08BuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud08BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="ud09" Name="Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="ud09BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="ud09BuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<idPkg:BackingStory src="XML/BackingStory.xml" />
+	<idPkg:Story src="Stories/Story_u3d0b.xml" />
+	<idPkg:Story src="Stories/Story_u3cef.xml" />
+	<idPkg:Story src="Stories/Story_u3cb4.xml" />
+	<idPkg:Story src="Stories/Story_u3c9d.xml" />
+	<idPkg:Story src="Stories/Story_u3c86.xml" />
+	<idPkg:Story src="Stories/Story_u3c3e.xml" />
+	<idPkg:Story src="Stories/Story_u3c26.xml" />
+	<idPkg:Story src="Stories/Story_u3c0b.xml" />
+	<idPkg:Story src="Stories/Story_u3bce.xml" />
+	<idPkg:Story src="Stories/Story_u3b0d.xml" />
+	<idPkg:Story src="Stories/Story_u3a94.xml" />
+	<idPkg:Story src="Stories/Story_u3a74.xml" />
+	<idPkg:Story src="Stories/Story_u3a4a.xml" />
+	<idPkg:Story src="Stories/Story_u38f1.xml" />
+	<idPkg:Story src="Stories/Story_u38da.xml" />
+	<idPkg:Story src="Stories/Story_u38a4.xml" />
+	<idPkg:Story src="Stories/Story_u388c.xml" />
+	<idPkg:Story src="Stories/Story_u3874.xml" />
+	<idPkg:Story src="Stories/Story_u3859.xml" />
+	<idPkg:Story src="Stories/Story_u3841.xml" />
+	<idPkg:Story src="Stories/Story_u3829.xml" />
+	<idPkg:Story src="Stories/Story_u3812.xml" />
+	<idPkg:Story src="Stories/Story_u37fb.xml" />
+	<idPkg:Story src="Stories/Story_u37e4.xml" />
+	<idPkg:Story src="Stories/Story_u37c6.xml" />
+	<idPkg:Story src="Stories/Story_u37ae.xml" />
+	<idPkg:Story src="Stories/Story_u378f.xml" />
+	<idPkg:Story src="Stories/Story_u3777.xml" />
+	<idPkg:Story src="Stories/Story_u375c.xml" />
+	<idPkg:Story src="Stories/Story_u371b.xml" />
+	<idPkg:Story src="Stories/Story_u3704.xml" />
+	<idPkg:Story src="Stories/Story_u36e4.xml" />
+	<idPkg:Story src="Stories/Story_u36cd.xml" />
+	<idPkg:Story src="Stories/Story_u367a.xml" />
+	<idPkg:Story src="Stories/Story_u3640.xml" />
+	<idPkg:Story src="Stories/Story_u3616.xml" />
+	<idPkg:Story src="Stories/Story_u35fc.xml" />
+	<idPkg:Story src="Stories/Story_u35ce.xml" />
+	<idPkg:Story src="Stories/Story_u35a7.xml" />
+	<idPkg:Story src="Stories/Story_u3572.xml" />
+	<idPkg:Story src="Stories/Story_u3537.xml" />
+	<idPkg:Story src="Stories/Story_u3501.xml" />
+	<idPkg:Story src="Stories/Story_u34cd.xml" />
+	<idPkg:Story src="Stories/Story_u3426.xml" />
+	<idPkg:Story src="Stories/Story_u340f.xml" />
+	<idPkg:Story src="Stories/Story_u33f8.xml" />
+	<idPkg:Story src="Stories/Story_u33e0.xml" />
+	<idPkg:Story src="Stories/Story_u33c9.xml" />
+	<idPkg:Story src="Stories/Story_u3384.xml" />
+	<idPkg:Story src="Stories/Story_u3311.xml" />
+	<idPkg:Story src="Stories/Story_u32f9.xml" />
+	<idPkg:Story src="Stories/Story_u32e2.xml" />
+	<idPkg:Story src="Stories/Story_u32c9.xml" />
+	<idPkg:Story src="Stories/Story_u3293.xml" />
+	<idPkg:Story src="Stories/Story_u3275.xml" />
+	<idPkg:Story src="Stories/Story_u325e.xml" />
+	<idPkg:Story src="Stories/Story_u3246.xml" />
+	<idPkg:Story src="Stories/Story_u322e.xml" />
+	<idPkg:Story src="Stories/Story_u3216.xml" />
+	<idPkg:Story src="Stories/Story_u31ff.xml" />
+	<idPkg:Story src="Stories/Story_u31e1.xml" />
+	<idPkg:Story src="Stories/Story_u31c9.xml" />
+	<idPkg:Story src="Stories/Story_u319a.xml" />
+	<idPkg:Story src="Stories/Story_u3168.xml" />
+	<idPkg:Story src="Stories/Story_u3126.xml" />
+	<idPkg:Story src="Stories/Story_u30e7.xml" />
+	<idPkg:Story src="Stories/Story_u305a.xml" />
+	<idPkg:Story src="Stories/Story_u2f17.xml" />
+	<idPkg:Story src="Stories/Story_u2ddd.xml" />
+	<idPkg:Story src="Stories/Story_u2dc0.xml" />
+	<idPkg:Story src="Stories/Story_u2daa.xml" />
+	<idPkg:Story src="Stories/Story_u2d10.xml" />
+	<idPkg:Story src="Stories/Story_u2b27.xml" />
+	<idPkg:Story src="Stories/Story_u2a60.xml" />
+	<idPkg:Story src="Stories/Story_u2993.xml" />
+	<idPkg:Story src="Stories/Story_u2919.xml" />
+	<idPkg:Story src="Stories/Story_u287e.xml" />
+	<idPkg:Story src="Stories/Story_u2867.xml" />
+	<idPkg:Story src="Stories/Story_u27b2.xml" />
+	<idPkg:Story src="Stories/Story_u275a.xml" />
+	<idPkg:Story src="Stories/Story_u2740.xml" />
+	<idPkg:Story src="Stories/Story_u26ff.xml" />
+	<idPkg:Story src="Stories/Story_u2698.xml" />
+	<idPkg:Story src="Stories/Story_u2666.xml" />
+	<idPkg:Story src="Stories/Story_u2646.xml" />
+	<idPkg:Story src="Stories/Story_u2601.xml" />
+	<idPkg:Story src="Stories/Story_u253f.xml" />
+	<idPkg:Story src="Stories/Story_u2506.xml" />
+	<idPkg:Story src="Stories/Story_u24eb.xml" />
+	<idPkg:Story src="Stories/Story_u24cb.xml" />
+	<idPkg:Story src="Stories/Story_u249a.xml" />
+	<idPkg:Story src="Stories/Story_u242c.xml" />
+	<idPkg:Story src="Stories/Story_u2392.xml" />
+	<idPkg:Story src="Stories/Story_u237b.xml" />
+	<idPkg:Story src="Stories/Story_u231a.xml" />
+	<idPkg:Story src="Stories/Story_u2303.xml" />
+	<idPkg:Story src="Stories/Story_u22e9.xml" />
+	<idPkg:Story src="Stories/Story_u22ba.xml" />
+	<idPkg:Story src="Stories/Story_u225f.xml" />
+	<idPkg:Story src="Stories/Story_u2200.xml" />
+	<idPkg:Story src="Stories/Story_u20eb.xml" />
+	<idPkg:Story src="Stories/Story_u20d4.xml" />
+	<idPkg:Story src="Stories/Story_u207b.xml" />
+	<idPkg:Story src="Stories/Story_u2064.xml" />
+	<idPkg:Story src="Stories/Story_u200c.xml" />
+	<idPkg:Story src="Stories/Story_u1ff5.xml" />
+	<idPkg:Story src="Stories/Story_u1f96.xml" />
+	<idPkg:Story src="Stories/Story_u1f7f.xml" />
+	<idPkg:Story src="Stories/Story_u1e8c.xml" />
+	<idPkg:Story src="Stories/Story_u1e4b.xml" />
+	<idPkg:Story src="Stories/Story_u1df3.xml" />
+	<idPkg:Story src="Stories/Story_u1dcf.xml" />
+	<idPkg:Story src="Stories/Story_u1da1.xml" />
+	<idPkg:Story src="Stories/Story_u1ca7.xml" />
+	<idPkg:Story src="Stories/Story_u1c8f.xml" />
+	<idPkg:Story src="Stories/Story_u1ac3.xml" />
+	<idPkg:Story src="Stories/Story_u17cf.xml" />
+	<idPkg:Story src="Stories/Story_u3fc.xml" />
+	<idPkg:Story src="Stories/Story_u70d.xml" />
+	<idPkg:Story src="Stories/Story_u38e.xml" />
+	<idPkg:Story src="Stories/Story_u146.xml" />
+	<idPkg:Story src="Stories/Story_u130.xml" />
+	<idPkg:Story src="Stories/Story_u11a.xml" />
+	<idPkg:Story src="Stories/Story_u2c3.xml" />
+	<idPkg:Story src="Stories/Story_u371.xml" />
+	<idPkg:Story src="Stories/Story_u35a.xml" />
+	<idPkg:Story src="Stories/Story_u238.xml" />
+	<HyperlinkPageDestination Self="HyperlinkPageDestination/http%3a//libereurope.eu/copyrightreform" Name="http://libereurope.eu/copyrightreform" NameManually="true" DestinationPage="u20a" ViewSetting="Fixed" ViewPercentage="113.02083503073597" Hidden="false" DestinationUniqueKey="3">
+		<Properties>
+			<ViewBounds Top="-409.65898002265453" Left="-584.8479174837465" Bottom="564.4976873746298" Right="714.9124316594058" />
+		</Properties>
+	</HyperlinkPageDestination>
+	<HyperlinkPageDestination Self="HyperlinkPageDestination/Page 3" Name="Page 3" NameManually="true" DestinationPage="u32e" ViewSetting="Fixed" ViewPercentage="150.69444670764796" Hidden="false" DestinationUniqueKey="38">
+		<Properties>
+			<ViewBounds Top="533.5299459042348" Left="-405.4562151088152" Bottom="1870.009188505141" Right="1271.446985513077" />
+		</Properties>
+	</HyperlinkPageDestination>
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.libereurope.eu" Name="http://www.libereurope.eu" DestinationURL="http://www.libereurope.eu" Hidden="false" DestinationUniqueKey="2" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/03/10/tdm-technical-protection-measures/" Name="https://libereurope.eu/blog/2020/03/10/tdm-technical-protection-measures/" DestinationURL="https://libereurope.eu/blog/2020/03/10/tdm-technical-protection-measures/" Hidden="false" DestinationUniqueKey="12" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.youtube.com/watch?v=5RaKiCCVJ4c" Name="https://www.youtube.com/watch?v=5RaKiCCVJ4c" DestinationURL="https://www.youtube.com/watch?v=5RaKiCCVJ4c" Hidden="false" DestinationUniqueKey="17" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.futuretdm.eu/wp-content/uploads/FutureTDM_D5.3-FutureTDM-practitioner-guidelines-2.pdf" Name="https://www.futuretdm.eu/wp-content/uploads/FutureTDM_D5.3-FutureTDM-practitioner-guidelines-2.pdf" DestinationURL="https://www.futuretdm.eu/wp-content/uploads/FutureTDM_D5.3-FutureTDM-practitioner-guidelines-2.pdf" Hidden="false" DestinationUniqueKey="18" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.fosteropenscience.eu/node/2263" Name="https://www.fosteropenscience.eu/node/2263" DestinationURL="https://www.fosteropenscience.eu/node/2263" Hidden="false" DestinationUniqueKey="19" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.futuretdm.eu/practitioner-guidelines/" Name="https://www.futuretdm.eu/practitioner-guidelines/" DestinationURL="https://www.futuretdm.eu/practitioner-guidelines/" Hidden="false" DestinationUniqueKey="20" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.youtube.com/watch?v=drJVqzgKy-I" Name="https://www.youtube.com/watch?v=drJVqzgKy-I" DestinationURL="https://www.youtube.com/watch?v=drJVqzgKy-I" Hidden="false" DestinationUniqueKey="21" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.nactem.ac.uk" Name="http://www.nactem.ac.uk" DestinationURL="http://www.nactem.ac.uk" Hidden="false" DestinationUniqueKey="22" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//contentmine.org" Name="http://contentmine.org" DestinationURL="http://contentmine.org" Hidden="false" DestinationUniqueKey="23" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//github.com/" Name="https://github.com/" DestinationURL="https://github.com/" Hidden="false" DestinationUniqueKey="24" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//services.openminted.eu/search" Name="https://services.openminted.eu/search" DestinationURL="https://services.openminted.eu/search" Hidden="false" DestinationUniqueKey="25" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//voyant-tools.org" Name="http://voyant-tools.org" DestinationURL="http://voyant-tools.org" Hidden="false" DestinationUniqueKey="26" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//taporware.ualberta.ca" Name="http://taporware.ualberta.ca" DestinationURL="http://taporware.ualberta.ca" Hidden="false" DestinationUniqueKey="27" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//orange.biolab.si" Name="http://orange.biolab.si" DestinationURL="http://orange.biolab.si" Hidden="false" DestinationUniqueKey="28" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%2520Humanities%2520Tools" Name="http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%20Humanities%20Tools" DestinationURL="http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%20Humanities%20Tools" Hidden="false" DestinationUniqueKey="29" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libguides.cam.ac.uk/tdm" Name="https://libguides.cam.ac.uk/tdm" DestinationURL="https://libguides.cam.ac.uk/tdm" Hidden="false" DestinationUniqueKey="30" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//guides.library.yale.edu/tdm" Name="https://guides.library.yale.edu/tdm" DestinationURL="https://guides.library.yale.edu/tdm" Hidden="false" DestinationUniqueKey="31" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//guides.library.uq.edu.au/research-techniques/text-mining-analysis/introduction." Name="https://guides.library.uq.edu.au/research-techniques/text-mining-analysis/introduction." DestinationURL="https://guides.library.uq.edu.au/research-techniques/text-mining-analysis/introduction." Hidden="false" DestinationUniqueKey="32" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/03/29/new-european-copyright-directive-a-detailed-look/" Name="https://libereurope.eu/blog/2019/03/29/new-european-copyright-directive-a-detailed-look/" DestinationURL="https://libereurope.eu/blog/2019/03/29/new-european-copyright-directive-a-detailed-look/" Hidden="false" DestinationUniqueKey="33" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//docs.google.com/forms/d/e/1FAIpQLSfgxa0xXoT6O4R_KhKxFQ6yIyQlCO4bU6SjqWLW086cXQtmwg/viewform)" Name="https://docs.google.com/forms/d/e/1FAIpQLSfgxa0xXoT6O4R_KhKxFQ6yIyQlCO4bU6SjqWLW086cXQtmwg/viewform)" DestinationURL="https://docs.google.com/forms/d/e/1FAIpQLSfgxa0xXoT6O4R_KhKxFQ6yIyQlCO4bU6SjqWLW086cXQtmwg/viewform)" Hidden="false" DestinationUniqueKey="39" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.futuretdm.eu/tool-list/" Name="https://www.futuretdm.eu/tool-list/" DestinationURL="https://www.futuretdm.eu/tool-list/" Hidden="false" DestinationUniqueKey="42" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//docs.google.com/forms/d/e/1FAIpQLSfgxa0xXoT6O4R_KhKxFQ6yIyQlCO4bU6SjqWLW086cXQtmwg/viewform" Name="https://docs.google.com/forms/d/e/1FAIpQLSfgxa0xXoT6O4R_KhKxFQ6yIyQlCO4bU6SjqWLW086cXQtmwg/viewform" DestinationURL="https://docs.google.com/forms/d/e/1FAIpQLSfgxa0xXoT6O4R_KhKxFQ6yIyQlCO4bU6SjqWLW086cXQtmwg/viewform" Hidden="false" DestinationUniqueKey="43" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/wp-content/uploads/2019/05/Proposal-Ensuring-LIBERs-Viability-Building-On-Success-MAY2019-1.pdf" Name="https://libereurope.eu/wp-content/uploads/2019/05/Proposal-Ensuring-LIBERs-Viability-Building-On-Success-MAY2019-1.pdf" DestinationURL="https://libereurope.eu/wp-content/uploads/2019/05/Proposal-Ensuring-LIBERs-Viability-Building-On-Success-MAY2019-1.pdf" Hidden="false" DestinationUniqueKey="47" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//journals.univie.ac.at/index.php/voebm/article/view/3047/2650" Name="https://journals.univie.ac.at/index.php/voebm/article/view/3047/2650" DestinationURL="https://journals.univie.ac.at/index.php/voebm/article/view/3047/2650" Hidden="false" DestinationUniqueKey="48" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//iarla.org/2019/10/a-view-of-plan-s" Name="https://iarla.org/2019/10/a-view-of-plan-s" DestinationURL="https://iarla.org/2019/10/a-view-of-plan-s" Hidden="false" DestinationUniqueKey="49" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/01/27/liber-argues-for-strong-research-library-role-in-the-eosc" Name="https://libereurope.eu/blog/2020/01/27/liber-argues-for-strong-research-library-role-in-the-eosc" DestinationURL="https://libereurope.eu/blog/2020/01/27/liber-argues-for-strong-research-library-role-in-the-eosc" Hidden="false" DestinationUniqueKey="50" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//iarla.org/2020/04/iarla-supports-the-sorbonne-statement-on-research-data-rights" Name="https://iarla.org/2020/04/iarla-supports-the-sorbonne-statement-on-research-data-rights" DestinationURL="https://iarla.org/2020/04/iarla-supports-the-sorbonne-statement-on-research-data-rights" Hidden="false" DestinationUniqueKey="51" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//iarla.org/2020/04/statement-access-digital-content/" Name="https://iarla.org/2020/04/statement-access-digital-content/" DestinationURL="https://iarla.org/2020/04/statement-access-digital-content/" Hidden="false" DestinationUniqueKey="52" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//iarlasymposium.eventbrite.co.uk" Name="https://iarlasymposium.eventbrite.co.uk" DestinationURL="https://iarlasymposium.eventbrite.co.uk " Hidden="false" DestinationUniqueKey="53" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.openaire.eu/cop-training" Name="https://www.openaire.eu/cop-training" DestinationURL="https://www.openaire.eu/cop-training" Hidden="false" DestinationUniqueKey="54" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/communities/liber-publications/" Name="https://zenodo.org/communities/liber-publications/" DestinationURL="https://zenodo.org/communities/liber-publications/" Hidden="false" DestinationUniqueKey="55" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//twitter.com/libereurope" Name="https://twitter.com/libereurope" DestinationURL="https://twitter.com/libereurope" Hidden="false" DestinationUniqueKey="56" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/webinars/" Name="https://libereurope.eu/webinars/" DestinationURL="https://libereurope.eu/webinars/" Hidden="false" DestinationUniqueKey="57" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/ https%3a//libereurope.eu/wp-content/uploads/2020/05/LIBER-Europe-2020-Network-Guide.pdf" Name=" https://libereurope.eu/wp-content/uploads/2020/05/LIBER-Europe-2020-Network-Guide.pdf" DestinationURL=" https://libereurope.eu/wp-content/uploads/2020/05/LIBER-Europe-2020-Network-Guide.pdf" Hidden="false" DestinationUniqueKey="58" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/ https%3a//libereurope.eu/wp-content/uploads/2019/11/LIBER-2019-Strategy-Update-Year-In-Review.pdf" Name=" https://libereurope.eu/wp-content/uploads/2019/11/LIBER-2019-Strategy-Update-Year-In-Review.pdf" DestinationURL=" https://libereurope.eu/wp-content/uploads/2019/11/LIBER-2019-Strategy-Update-Year-In-Review.pdf" Hidden="false" DestinationUniqueKey="59" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/alerts/" Name="https://libereurope.eu/alerts/" DestinationURL="https://libereurope.eu/alerts/" Hidden="false" DestinationUniqueKey="60" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/wp-content/uploads/2020/05/LIBER_WG_TOOLKIT_2020.pdf" Name="https://libereurope.eu/wp-content/uploads/2020/05/LIBER_WG_TOOLKIT_2020.pdf" DestinationURL="https://libereurope.eu/wp-content/uploads/2020/05/LIBER_WG_TOOLKIT_2020.pdf" Hidden="false" DestinationUniqueKey="61" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.us7.list-manage.com/subscribe?u=08b067f65d561cfa7c49b79f4&amp;id=5b369732a6" Name="https://libereurope.us7.list-manage.com/subscribe?u=08b067f65d561cfa7c49b79f4&amp;id=5b369732a6" DestinationURL="https://libereurope.us7.list-manage.com/subscribe?u=08b067f65d561cfa7c49b79f4&amp;id=5b369732a6" Hidden="false" DestinationUniqueKey="62" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/07/11/open-science-essentials-towards-a-skill-set-and-showcases-at-liber-2019/" Name="https://libereurope.eu/blog/2019/07/11/open-science-essentials-towards-a-skill-set-and-showcases-at-liber-2019/" DestinationURL="https://libereurope.eu/blog/2019/07/11/open-science-essentials-towards-a-skill-set-and-showcases-at-liber-2019/" Hidden="false" DestinationUniqueKey="63" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3247286" Name="https://zenodo.org/record/3247286" DestinationURL="https://zenodo.org/record/3247286" Hidden="false" DestinationUniqueKey="64" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/digital-skills-services/digitalhumanities/" Name="https://libereurope.eu/strategy/digital-skills-services/digitalhumanities/" DestinationURL="https://libereurope.eu/strategy/digital-skills-services/digitalhumanities/" Hidden="false" DestinationUniqueKey="65" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/LXk60YDdaMA" Name="https://youtu.be/LXk60YDdaMA" DestinationURL="https://youtu.be/LXk60YDdaMA" Hidden="false" DestinationUniqueKey="66" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/03/10/open-science-skills-diagram/" Name="https://libereurope.eu/blog/2020/03/10/open-science-skills-diagram/" DestinationURL="https://libereurope.eu/blog/2020/03/10/open-science-skills-diagram/" Hidden="false" DestinationUniqueKey="67" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/10/30/book-launched-open-a-glam-lab/" Name="https://libereurope.eu/blog/2019/10/30/book-launched-open-a-glam-lab/" DestinationURL="https://libereurope.eu/blog/2019/10/30/book-launched-open-a-glam-lab/" Hidden="false" DestinationUniqueKey="68" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/digital-skills-services/digitalskills/" Name="https://libereurope.eu/strategy/digital-skills-services/digitalskills/" DestinationURL="https://libereurope.eu/strategy/digital-skills-services/digitalskills/" Hidden="false" DestinationUniqueKey="69" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3484595#.Xdw6lJNKiRs" Name="https://zenodo.org/record/3484595#.Xdw6lJNKiRs" DestinationURL="https://zenodo.org/record/3484595#.Xdw6lJNKiRs" Hidden="false" DestinationUniqueKey="70" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/RWuxbgLpReM" Name="https://youtu.be/RWuxbgLpReM" DestinationURL="https://youtu.be/RWuxbgLpReM" Hidden="false" DestinationUniqueKey="71" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.zotero.org/groups/2340674/liber_digital_skills_for_open_science" Name="https://www.zotero.org/groups/2340674/liber_digital_skills_for_open_science" DestinationURL="https://www.zotero.org/groups/2340674/liber_digital_skills_for_open_science" Hidden="false" DestinationUniqueKey="72" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/our-activities/leadership/emergingleaders/" Name="https://libereurope.eu/our-activities/leadership/emergingleaders/" DestinationURL="https://libereurope.eu/our-activities/leadership/emergingleaders/" Hidden="false" DestinationUniqueKey="73" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/digital-skills-services/leadership/" Name="https://libereurope.eu/strategy/digital-skills-services/leadership/" DestinationURL="https://libereurope.eu/strategy/digital-skills-services/leadership/" Hidden="false" DestinationUniqueKey="74" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/our-activities/leadership/journees/" Name="https://libereurope.eu/our-activities/leadership/journees/" DestinationURL="https://libereurope.eu/our-activities/leadership/journees/" Hidden="false" DestinationUniqueKey="75" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/05/07/research-libraries-how-you-can-support-text-and-data-mining/" Name="https://libereurope.eu/blog/2020/05/07/research-libraries-how-you-can-support-text-and-data-mining/" DestinationURL="https://libereurope.eu/blog/2020/05/07/research-libraries-how-you-can-support-text-and-data-mining/" Hidden="false" DestinationUniqueKey="76" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/04/14/copyright-coronavirus-statement/" Name="https://libereurope.eu/blog/2020/04/14/copyright-coronavirus-statement/" DestinationURL="https://libereurope.eu/blog/2020/04/14/copyright-coronavirus-statement/" Hidden="false" DestinationUniqueKey="77" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/innovative-scholarly-communication/copyright/" Name="https://libereurope.eu/strategy/innovative-scholarly-communication/copyright/" DestinationURL="https://libereurope.eu/strategy/innovative-scholarly-communication/copyright/" Hidden="false" DestinationUniqueKey="78" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/innovative-scholarly-communication/citizenscience/" Name="https://libereurope.eu/strategy/innovative-scholarly-communication/citizenscience/" DestinationURL="https://libereurope.eu/strategy/innovative-scholarly-communication/citizenscience/" Hidden="false" DestinationUniqueKey="79" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.focusopenscience.org/" Name="https://www.focusopenscience.org/" DestinationURL="https://www.focusopenscience.org/" Hidden="false" DestinationUniqueKey="80" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3549394#.Xdz7lZNKiCg" Name="https://zenodo.org/record/3549394#.Xdz7lZNKiCg" DestinationURL="https://zenodo.org/record/3549394#.Xdz7lZNKiCg" Hidden="false" DestinationUniqueKey="81" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/07/30/librarians-your-profession-needs-you-to-advocate-for-libraries-research/" Name="https://libereurope.eu/blog/2019/07/30/librarians-your-profession-needs-you-to-advocate-for-libraries-research/" DestinationURL="https://libereurope.eu/blog/2019/07/30/librarians-your-profession-needs-you-to-advocate-for-libraries-research/" Hidden="false" DestinationUniqueKey="82" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/10/01/copyright-webinar-series-participate-in-national-implementation-of-the-new-directive/" Name="https://libereurope.eu/blog/2019/10/01/copyright-webinar-series-participate-in-national-implementation-of-the-new-directive/" DestinationURL="https://libereurope.eu/blog/2019/10/01/copyright-webinar-series-participate-in-national-implementation-of-the-new-directive/" Hidden="false" DestinationUniqueKey="83" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3552203" Name="https://zenodo.org/record/3552203" DestinationURL="https://zenodo.org/record/3552203" Hidden="false" DestinationUniqueKey="84" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/03/12/webinar-video-how-can-libraries-support-tdm/" Name="https://libereurope.eu/blog/2020/03/12/webinar-video-how-can-libraries-support-tdm/" DestinationURL="https://libereurope.eu/blog/2020/03/12/webinar-video-how-can-libraries-support-tdm/" Hidden="false" DestinationUniqueKey="85" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//strategy/innovative-scholarly-communication/openaccess/" Name="http://strategy/innovative-scholarly-communication/openaccess/" DestinationURL="http://strategy/innovative-scholarly-communication/openaccess/" Hidden="false" DestinationUniqueKey="86" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/8RoID6R7hYQ" Name="https://youtu.be/8RoID6R7hYQ" DestinationURL="https://youtu.be/8RoID6R7hYQ" Hidden="false" DestinationUniqueKey="87" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/innovative-scholarly-communication/metrics/" Name="https://libereurope.eu/strategy/innovative-scholarly-communication/metrics/" DestinationURL="https://libereurope.eu/strategy/innovative-scholarly-communication/metrics/" Hidden="false" DestinationUniqueKey="88" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/09/10/webinar-video-innovating-the-ways-metrics-are-applied-responsible-metrics-measuring-openness/" Name="https://libereurope.eu/blog/2019/09/10/webinar-video-innovating-the-ways-metrics-are-applied-responsible-metrics-measuring-openness/" DestinationURL="https://libereurope.eu/blog/2019/09/10/webinar-video-innovating-the-ways-metrics-are-applied-responsible-metrics-measuring-openness/" Hidden="false" DestinationUniqueKey="89" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3516074" Name="https://zenodo.org/record/3516074" DestinationURL="https://zenodo.org/record/3516074" Hidden="false" DestinationUniqueKey="90" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/07/08/libers-innovative-metrics-working-group-achievements-so-far-upcoming-work/" Name="https://libereurope.eu/blog/2019/07/08/libers-innovative-metrics-working-group-achievements-so-far-upcoming-work/" DestinationURL="https://libereurope.eu/blog/2019/07/08/libers-innovative-metrics-working-group-achievements-so-far-upcoming-work/" Hidden="false" DestinationUniqueKey="91" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inorms.net/activities/research-evaluation-working-group/" Name="https://inorms.net/activities/research-evaluation-working-group/" DestinationURL="https://inorms.net/activities/research-evaluation-working-group/" Hidden="false" DestinationUniqueKey="92" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.coalition-s.org/" Name="https://www.coalition-s.org/" DestinationURL="https://www.coalition-s.org/" Hidden="false" DestinationUniqueKey="93" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/07/26/open-access-books-in-academic-libraries-how-can-we-adapt-workflows-cost-management-to-an-open-scholarly-communications-landscape/" Name="https://libereurope.eu/blog/2019/07/26/open-access-books-in-academic-libraries-how-can-we-adapt-workflows-cost-management-to-an-open-scholarly-communications-landscape/" DestinationURL="https://libereurope.eu/blog/2019/07/26/open-access-books-in-academic-libraries-how-can-we-adapt-workflows-cost-management-to-an-open-scholarly-communications-landscape/" Hidden="false" DestinationUniqueKey="94" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/07/26/oa-monographs-in-europes-research-libraries-best-practices-opportunities-challenges/" Name="https://libereurope.eu/blog/2019/07/26/oa-monographs-in-europes-research-libraries-best-practices-opportunities-challenges/" DestinationURL="https://libereurope.eu/blog/2019/07/26/oa-monographs-in-europes-research-libraries-best-practices-opportunities-challenges/" Hidden="false" DestinationUniqueKey="95" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/lJ2nYZMqmd0" Name="https://youtu.be/lJ2nYZMqmd0" DestinationURL="https://youtu.be/lJ2nYZMqmd0" Hidden="false" DestinationUniqueKey="96" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//iarla.org/2019/10/a-view-of-plan-s/" Name="https://iarla.org/2019/10/a-view-of-plan-s/" DestinationURL="https://iarla.org/2019/10/a-view-of-plan-s/" Hidden="false" DestinationUniqueKey="97" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/wp-content/uploads/2019/02/Plan-S-Statement.pdf" Name="https://libereurope.eu/wp-content/uploads/2019/02/Plan-S-Statement.pdf" DestinationURL="https://libereurope.eu/wp-content/uploads/2019/02/Plan-S-Statement.pdf" Hidden="false" DestinationUniqueKey="98" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//thinkchecksubmit.org/" Name="https://thinkchecksubmit.org/" DestinationURL="https://thinkchecksubmit.org/" Hidden="false" DestinationUniqueKey="99" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//scoss.org/" Name="https://scoss.org/" DestinationURL="https://scoss.org/" Hidden="false" DestinationUniqueKey="100" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2017/09/07/open-access-five-principles-for-negotiations-with-publishers/" Name="https://libereurope.eu/blog/2017/09/07/open-access-five-principles-for-negotiations-with-publishers/" DestinationURL="https://libereurope.eu/blog/2017/09/07/open-access-five-principles-for-negotiations-with-publishers/" Hidden="false" DestinationUniqueKey="101" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/2593823" Name="https://zenodo.org/record/2593823" DestinationURL="https://zenodo.org/record/2593823 " Hidden="false" DestinationUniqueKey="102" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.liberquarterly.eu/articles/10.18352/lq.10303/" Name="https://www.liberquarterly.eu/articles/10.18352/lq.10303/" DestinationURL="https://www.liberquarterly.eu/articles/10.18352/lq.10303/" Hidden="false" DestinationUniqueKey="103" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3739055" Name="https://zenodo.org/record/3739055" DestinationURL="https://zenodo.org/record/3739055 " Hidden="false" DestinationUniqueKey="104" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//sshopencloud.eu/d32-inventory-ssh-citation-practices-and-choice-sshoc-citation-formats-and-implementation-planning" Name="https://sshopencloud.eu/d32-inventory-ssh-citation-practices-and-choice-sshoc-citation-formats-and-implementation-planning" DestinationURL="https://sshopencloud.eu/d32-inventory-ssh-citation-practices-and-choice-sshoc-citation-formats-and-implementation-planning " Hidden="false" DestinationUniqueKey="105" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3596003#.XjfvovlKipo" Name="https://zenodo.org/record/3596003#.XjfvovlKipo" DestinationURL="https://zenodo.org/record/3596003#.XjfvovlKipo " Hidden="false" DestinationUniqueKey="106" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/ https%3a//libereurope.eu/strategy" Name=" https://libereurope.eu/strategy" DestinationURL=" https://libereurope.eu/strategy" Hidden="false" DestinationUniqueKey="107" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/research-infrastructures/architecture/" Name="https://libereurope.eu/strategy/research-infrastructures/architecture/" DestinationURL="https://libereurope.eu/strategy/research-infrastructures/architecture/" Hidden="false" DestinationUniqueKey="108" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//liber-lag.techlib.cz/" Name="http://liber-lag.techlib.cz/" DestinationURL="http://liber-lag.techlib.cz/" Hidden="false" DestinationUniqueKey="109" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/NRbSSTJURlI" Name="https://youtu.be/NRbSSTJURlI" DestinationURL="https://youtu.be/NRbSSTJURlI" Hidden="false" DestinationUniqueKey="110" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/research-infrastructures/fim4l/" Name="https://libereurope.eu/strategy/research-infrastructures/fim4l/" DestinationURL="https://libereurope.eu/strategy/research-infrastructures/fim4l/" Hidden="false" DestinationUniqueKey="111" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/03/02/fim4l-recommendations/" Name="https://libereurope.eu/blog/2020/03/02/fim4l-recommendations/" DestinationURL="https://libereurope.eu/blog/2020/03/02/fim4l-recommendations/" Hidden="false" DestinationUniqueKey="112" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/research-infrastructures/linkedopendata/" Name="https://libereurope.eu/strategy/research-infrastructures/linkedopendata/" DestinationURL="https://libereurope.eu/strategy/research-infrastructures/linkedopendata/" Hidden="false" DestinationUniqueKey="113" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/02/06/linked-open-data-impressions-challenges-among-europes-research-libraries/" Name="https://libereurope.eu/blog/2020/02/06/linked-open-data-impressions-challenges-among-europes-research-libraries/" DestinationURL="https://libereurope.eu/blog/2020/02/06/linked-open-data-impressions-challenges-among-europes-research-libraries/" Hidden="false" DestinationUniqueKey="114" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/strategy/research-infrastructures/rdm/" Name="https://libereurope.eu/strategy/research-infrastructures/rdm/" DestinationURL="https://libereurope.eu/strategy/research-infrastructures/rdm/" Hidden="false" DestinationUniqueKey="115" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3251593" Name="https://zenodo.org/record/3251593" DestinationURL="https://zenodo.org/record/3251593" Hidden="false" DestinationUniqueKey="116" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/OzeNKWs37bo" Name="https://youtu.be/OzeNKWs37bo" DestinationURL="https://youtu.be/OzeNKWs37bo" Hidden="false" DestinationUniqueKey="117" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/11/18/webinar-video-data-curation-from-a-practical-perspective/" Name="https://libereurope.eu/blog/2019/11/18/webinar-video-data-curation-from-a-practical-perspective/" DestinationURL="https://libereurope.eu/blog/2019/11/18/webinar-video-data-curation-from-a-practical-perspective/" Hidden="false" DestinationUniqueKey="118" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2019/05/15/two-new-liber-case-studies-on-research-data-management-support-released/" Name="https://libereurope.eu/blog/2019/05/15/two-new-liber-case-studies-on-research-data-management-support-released/" DestinationURL="https://libereurope.eu/blog/2019/05/15/two-new-liber-case-studies-on-research-data-management-support-released/" Hidden="false" DestinationUniqueKey="119" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3275346#.Xd1FqZNKiCg" Name="https://zenodo.org/record/3275346#.Xd1FqZNKiCg" DestinationURL="https://zenodo.org/record/3275346#.Xd1FqZNKiCg" Hidden="false" DestinationUniqueKey="120" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/wp-content/uploads/2017/12/LIBER-FAIR-Data.pdf" Name="https://libereurope.eu/wp-content/uploads/2017/12/LIBER-FAIR-Data.pdf" DestinationURL="https://libereurope.eu/wp-content/uploads/2017/12/LIBER-FAIR-Data.pdf" Hidden="false" DestinationUniqueKey="121" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/dmpcatalogue/" Name="https://libereurope.eu/dmpcatalogue/" DestinationURL="https://libereurope.eu/dmpcatalogue/" Hidden="false" DestinationUniqueKey="122" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inos-project.eu/" Name="https://inos-project.eu/" DestinationURL="https://inos-project.eu/" Hidden="false" DestinationUniqueKey="123" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3776718" Name="https://zenodo.org/record/3776718" DestinationURL="https://zenodo.org/record/3776718" Hidden="false" DestinationUniqueKey="124" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.recreating.eu" Name="http://www.recreating.eu" DestinationURL="http://www.recreating.eu" Hidden="false" DestinationUniqueKey="125" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//sshopencloud.eu/" Name="http://sshopencloud.eu/" DestinationURL="http://sshopencloud.eu/" Hidden="false" DestinationUniqueKey="126" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.sshopencloud.eu/news/social-sciences-humanities-open-cloud-what%25E2%2580%2599s-it-research-libraries" Name="https://www.sshopencloud.eu/news/social-sciences-humanities-open-cloud-what%E2%80%99s-it-research-libraries" DestinationURL="https://www.sshopencloud.eu/news/social-sciences-humanities-open-cloud-what%E2%80%99s-it-research-libraries" Hidden="false" DestinationUniqueKey="127" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/ https%3a//www.opensciencefair.eu/workshops-2019/making-eosc-training-more-fair" Name=" https://www.opensciencefair.eu/workshops-2019/making-eosc-training-more-fair" DestinationURL=" https://www.opensciencefair.eu/workshops-2019/making-eosc-training-more-fair " Hidden="false" DestinationUniqueKey="128" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.youtube.com/playlist?list=PLpuwwe1MpnqKds5en7SyezeYESYDhy90M" Name="https://www.youtube.com/playlist?list=PLpuwwe1MpnqKds5en7SyezeYESYDhy90M" DestinationURL="https://www.youtube.com/playlist?list=PLpuwwe1MpnqKds5en7SyezeYESYDhy90M" Hidden="false" DestinationUniqueKey="129" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.sshopencloud.eu/join-ssh-training-community" Name="https://www.sshopencloud.eu/join-ssh-training-community" DestinationURL="https://www.sshopencloud.eu/join-ssh-training-community " Hidden="false" DestinationUniqueKey="130" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//liberconference.eu/2019-presentations" Name="https://liberconference.eu/2019-presentations" DestinationURL="https://liberconference.eu/2019-presentations" Hidden="false" DestinationUniqueKey="131" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.liberquarterly.eu" Name="http://www.liberquarterly.eu" DestinationURL="http://www.liberquarterly.eu" Hidden="false" DestinationUniqueKey="132" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.sshopencloud.eu" Name="http://www.sshopencloud.eu" DestinationURL="http://www.sshopencloud.eu" Hidden="false" DestinationUniqueKey="133" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.librarybuildings.eu" Name="https://www.librarybuildings.eu" DestinationURL="https://www.librarybuildings.eu" Hidden="false" DestinationUniqueKey="134" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/blog/2020/05/28/fim4l-un" Name="https://libereurope.eu/blog/2020/05/28/fim4l-un" DestinationURL="https://libereurope.eu/blog/2020/05/28/fim4l-un" Hidden="false" DestinationUniqueKey="135" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inos-project.eu/wp-content/uploads/2020/02/INOS_O1A1_v1.pdf" Name="https://inos-project.eu/wp-content/uploads/2020/02/INOS_O1A1_v1.pdf" DestinationURL="https://inos-project.eu/wp-content/uploads/2020/02/INOS_O1A1_v1.pdf" Hidden="false" DestinationUniqueKey="136" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inos-project.eu/wp-content/uploads/2020/02/INOS_O1A3Recommendations_v1.pdf" Name="https://inos-project.eu/wp-content/uploads/2020/02/INOS_O1A3Recommendations_v1.pdf" DestinationURL="https://inos-project.eu/wp-content/uploads/2020/02/INOS_O1A3Recommendations_v1.pdf" Hidden="false" DestinationUniqueKey="137" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inos-project.eu/wp-content/uploads/2020/03/INOS_O2A1_SOTA_V1.pdf" Name="https://inos-project.eu/wp-content/uploads/2020/03/INOS_O2A1_SOTA_V1.pdf" DestinationURL="https://inos-project.eu/wp-content/uploads/2020/03/INOS_O2A1_SOTA_V1.pdf" Hidden="false" DestinationUniqueKey="138" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inos-project.eu/wp-content/uploads/2020/03/INOS_O2A2_Roadmap_V1.pdf" Name="https://inos-project.eu/wp-content/uploads/2020/03/INOS_O2A2_Roadmap_V1.pdf" DestinationURL="https://inos-project.eu/wp-content/uploads/2020/03/INOS_O2A2_Roadmap_V1.pdf" Hidden="false" DestinationUniqueKey="139" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//youtu.be/n9RccSMBSjE" Name="https://youtu.be/n9RccSMBSjE" DestinationURL="https://youtu.be/n9RccSMBSjE" Hidden="false" DestinationUniqueKey="140" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.opensciencefair.eu/workshops-2019/making-eosc-training-more-fair" Name="http://www.opensciencefair.eu/workshops-2019/making-eosc-training-more-fair" DestinationURL="http://www.opensciencefair.eu/workshops-2019/making-eosc-training-more-fair" Hidden="false" DestinationUniqueKey="141" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//training-toolkit.sshopencloud.eu/" Name="https://training-toolkit.sshopencloud.eu/" DestinationURL="https://training-toolkit.sshopencloud.eu/" Hidden="false" DestinationUniqueKey="142" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//sshopencloud.eu/d31-sshoc-report-sshoc-data-interoperability-problems" Name="https://sshopencloud.eu/d31-sshoc-report-sshoc-data-interoperability-problems" DestinationURL="https://sshopencloud.eu/d31-sshoc-report-sshoc-data-interoperability-problems" Hidden="false" DestinationUniqueKey="143" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//sshopencloud.eu/d414-policy-api-tool" Name="https://sshopencloud.eu/d414-policy-api-tool" DestinationURL="https://sshopencloud.eu/d414-policy-api-tool " Hidden="false" DestinationUniqueKey="144" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/2593823#.Xs9VPVUzaM8" Name="https://zenodo.org/record/2593823#.Xs9VPVUzaM8" DestinationURL="https://zenodo.org/record/2593823#.Xs9VPVUzaM8" Hidden="false" DestinationUniqueKey="145" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3739055#.Xs9VJVUzaM8" Name="https://zenodo.org/record/3739055#.Xs9VJVUzaM8" DestinationURL="https://zenodo.org/record/3739055#.Xs9VJVUzaM8" Hidden="false" DestinationUniqueKey="146" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/zeroembargo/" Name="https://libereurope.eu/zeroembargo/" DestinationURL="https://libereurope.eu/zeroembargo/" Hidden="false" DestinationUniqueKey="147" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/draft-law-for-the-use-of-publicly-funded-scholarly-publications/" Name="https://libereurope.eu/draft-law-for-the-use-of-publicly-funded-scholarly-publications/" DestinationURL="https://libereurope.eu/draft-law-for-the-use-of-publicly-funded-scholarly-publications/" Hidden="false" DestinationUniqueKey="148" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/covid19-survey-research-libraries-europe/" Name="https://libereurope.eu/article/covid19-survey-research-libraries-europe/" DestinationURL="https://libereurope.eu/article/covid19-survey-research-libraries-europe/" Hidden="false" DestinationUniqueKey="149" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/liber-sks-eosc-workshop-series-outcomes/" Name="https://libereurope.eu/article/liber-sks-eosc-workshop-series-outcomes/" DestinationURL="https://libereurope.eu/article/liber-sks-eosc-workshop-series-outcomes/" Hidden="false" DestinationUniqueKey="150" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/liber-signs-memorandum-of-understanding-mou-with-adbu-association-des-directeurs-et-personnels-de-direction-des-bibliotheques-universitaires-et-de-la-documentation/" Name="https://libereurope.eu/article/liber-signs-memorandum-of-understanding-mou-with-adbu-association-des-directeurs-et-personnels-de-direction-des-bibliotheques-universitaires-et-de-la-documentation/" DestinationURL="https://libereurope.eu/article/liber-signs-memorandum-of-understanding-mou-with-adbu-association-des-directeurs-et-personnels-de-direction-des-bibliotheques-universitaires-et-de-la-documentation/" Hidden="false" DestinationUniqueKey="151" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/liber-joins-the-european-alliance-for-research-excellence-eare/" Name="https://libereurope.eu/article/liber-joins-the-european-alliance-for-research-excellence-eare/" DestinationURL="https://libereurope.eu/article/liber-joins-the-european-alliance-for-research-excellence-eare/" Hidden="false" DestinationUniqueKey="152" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/24-sept-5-nov-2020-oclc-liber-joint-discussion-series-on-open-science/" Name="https://libereurope.eu/article/24-sept-5-nov-2020-oclc-liber-joint-discussion-series-on-open-science/" DestinationURL="https://libereurope.eu/article/24-sept-5-nov-2020-oclc-liber-joint-discussion-series-on-open-science/" Hidden="false" DestinationUniqueKey="153" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/oclc-and-liber-announce-collaboration-to-support-librarian-skills-development/" Name="https://libereurope.eu/article/oclc-and-liber-announce-collaboration-to-support-librarian-skills-development/" DestinationURL="https://libereurope.eu/article/oclc-and-liber-announce-collaboration-to-support-librarian-skills-development/" Hidden="false" DestinationUniqueKey="154" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.openaire.eu/cop-training#%3a~%3atext=The%2520Community%2520of%2520Practice%2520for,of%2520research%2520and%2520e%252Dinfrastructures." Name="https://www.openaire.eu/cop-training#:~:text=The%20Community%20of%20Practice%20for,of%20research%20and%20e%2Dinfrastructures." DestinationURL="https://www.openaire.eu/cop-training#:~:text=The%20Community%20of%20Practice%20for,of%20research%20and%20e%2Dinfrastructures." Hidden="false" DestinationUniqueKey="155" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/ttps%3a//libereurope.eu/wp-content/uploads/2020/12/Strategy-Update-2020-1.pdf" Name="ttps://libereurope.eu/wp-content/uploads/2020/12/Strategy-Update-2020-1.pdf" DestinationURL="ttps://libereurope.eu/wp-content/uploads/2020/12/Strategy-Update-2020-1.pdf" Hidden="false" DestinationUniqueKey="156" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/" Name="https://libereurope.eu/" DestinationURL="https://libereurope.eu/" Hidden="false" DestinationUniqueKey="157" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/events/" Name="https://libereurope.eu/events/" DestinationURL="https://libereurope.eu/events/" Hidden="false" DestinationUniqueKey="158" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/liber-insider/" Name="https://libereurope.eu/liber-insider/" DestinationURL="https://libereurope.eu/liber-insider/" Hidden="false" DestinationUniqueKey="159" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/working-group/liber-citizen-science-working-group/" Name="https://libereurope.eu/working-group/liber-citizen-science-working-group/" DestinationURL="https://libereurope.eu/working-group/liber-citizen-science-working-group/" Hidden="false" DestinationUniqueKey="160" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/link%3a https%3a//libereurope.eu/article/libers-response-to-the-german-consultation-on-the-digital-single-market-directive/" Name="link: https://libereurope.eu/article/libers-response-to-the-german-consultation-on-the-digital-single-market-directive/" DestinationURL="link: https://libereurope.eu/article/libers-response-to-the-german-consultation-on-the-digital-single-market-directive/" Hidden="false" DestinationUniqueKey="161" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/link%3a https%3a//libereurope.eu/article/update-on-call-for-urgent-copyright-action-to-support-distance-learning-research/" Name="link: https://libereurope.eu/article/update-on-call-for-urgent-copyright-action-to-support-distance-learning-research/" DestinationURL="link: https://libereurope.eu/article/update-on-call-for-urgent-copyright-action-to-support-distance-learning-research/" Hidden="false" DestinationUniqueKey="162" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/update-on-call-for-urgent-copyright-action-to-support-distance-learning-research/" Name="https://libereurope.eu/article/update-on-call-for-urgent-copyright-action-to-support-distance-learning-research/" DestinationURL="https://libereurope.eu/article/update-on-call-for-urgent-copyright-action-to-support-distance-learning-research/" Hidden="false" DestinationUniqueKey="163" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/why-do-measures-fluctuate-metrics-report-guidelines-for-talking-to-management/" Name="https://libereurope.eu/article/why-do-measures-fluctuate-metrics-report-guidelines-for-talking-to-management/" DestinationURL="https://libereurope.eu/article/why-do-measures-fluctuate-metrics-report-guidelines-for-talking-to-management/" Hidden="false" DestinationUniqueKey="164" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//thinkchecksubmit.org/books-and-chapters/" Name="https://thinkchecksubmit.org/books-and-chapters/" DestinationURL="https://thinkchecksubmit.org/books-and-chapters/" Hidden="false" DestinationUniqueKey="165" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//thinkchecksubmit.org/journals/peer-review/" Name="https://thinkchecksubmit.org/journals/peer-review/" DestinationURL="https://thinkchecksubmit.org/journals/peer-review/" Hidden="false" DestinationUniqueKey="166" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//citsci-wg.github.io/guide/" Name="https://citsci-wg.github.io/guide/" DestinationURL="https://citsci-wg.github.io/guide/" Hidden="false" DestinationUniqueKey="167" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/open-access-five-principles-for-negotiations-with-publishers/" Name="https://libereurope.eu/article/open-access-five-principles-for-negotiations-with-publishers/" DestinationURL="https://libereurope.eu/article/open-access-five-principles-for-negotiations-with-publishers/" Hidden="false" DestinationUniqueKey="168" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/working-group/liber-educational-resources-working-group/)" Name="https://libereurope.eu/working-group/liber-educational-resources-working-group/)" DestinationURL="https://libereurope.eu/working-group/liber-educational-resources-working-group/)" Hidden="false" DestinationUniqueKey="169" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/working-group/liber-educational-resources-working-group/" Name="https://libereurope.eu/working-group/liber-educational-resources-working-group/" DestinationURL="https://libereurope.eu/working-group/liber-educational-resources-working-group/" Hidden="false" DestinationUniqueKey="170" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//doi.org/10.1017/alj.2021.6" Name="https://doi.org/10.1017/alj.2021.6" DestinationURL="https://doi.org/10.1017/alj.2021.6" Hidden="false" DestinationUniqueKey="171" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/wp-content/uploads/2021/01/LIBER-legographic_final.pdf" Name="https://libereurope.eu/wp-content/uploads/2021/01/LIBER-legographic_final.pdf" DestinationURL="https://libereurope.eu/wp-content/uploads/2021/01/LIBER-legographic_final.pdf" Hidden="false" DestinationUniqueKey="172" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/new-poster-on-forming-relationships-in-digital-humanities/" Name="https://libereurope.eu/article/new-poster-on-forming-relationships-in-digital-humanities/" DestinationURL="https://libereurope.eu/article/new-poster-on-forming-relationships-in-digital-humanities/" Hidden="false" DestinationUniqueKey="173" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/reading-list-researcher-needs-in-digital-humanities/" Name="https://libereurope.eu/article/reading-list-researcher-needs-in-digital-humanities/" DestinationURL="https://libereurope.eu/article/reading-list-researcher-needs-in-digital-humanities/" Hidden="false" DestinationUniqueKey="174" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//glamlabs.pubpub.org" Name="https://glamlabs.pubpub.org" DestinationURL="https://glamlabs.pubpub.org" Hidden="false" DestinationUniqueKey="175" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/%3ahttps%3a//www.youtube.com/watch?v=GLH3n4BOA6w" Name=":https://www.youtube.com/watch?v=GLH3n4BOA6w" DestinationURL=":https://www.youtube.com/watch?v=GLH3n4BOA6w" Hidden="false" DestinationUniqueKey="176" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//sshopencloud.eu/sshoc-at-events" Name="https://sshopencloud.eu/sshoc-at-events" DestinationURL="https://sshopencloud.eu/sshoc-at-events" Hidden="false" DestinationUniqueKey="177" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inos-project.eu/2021/04/29/integrating-citizen-science-at-universities-from-what-to-how-2nd-workshop/" Name="https://inos-project.eu/2021/04/29/integrating-citizen-science-at-universities-from-what-to-how-2nd-workshop/" DestinationURL="https://inos-project.eu/2021/04/29/integrating-citizen-science-at-universities-from-what-to-how-2nd-workshop/" Hidden="false" DestinationUniqueKey="178" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/inos-workshop-outcomes-open-and-citizen-science-in-higher-education-co-creating-a-shared-vision/" Name="https://libereurope.eu/article/inos-workshop-outcomes-open-and-citizen-science-in-higher-education-co-creating-a-shared-vision/" DestinationURL="https://libereurope.eu/article/inos-workshop-outcomes-open-and-citizen-science-in-higher-education-co-creating-a-shared-vision/" Hidden="false" DestinationUniqueKey="179" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//sshopencloud.eu/training" Name="https://sshopencloud.eu/training" DestinationURL="https://sshopencloud.eu/training" Hidden="false" DestinationUniqueKey="180" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//sshopencloud.eu/sshoc-at-events). sshopencloud.eu" Name="https://sshopencloud.eu/sshoc-at-events). sshopencloud.eu" DestinationURL="https://sshopencloud.eu/sshoc-at-events). sshopencloud.eu" Hidden="false" DestinationUniqueKey="181" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/webinar-video-open-science-skilling-training-programmes-across-europe/" Name="https://libereurope.eu/article/webinar-video-open-science-skilling-training-programmes-across-europe/" DestinationURL="https://libereurope.eu/article/webinar-video-open-science-skilling-training-programmes-across-europe/" Hidden="false" DestinationUniqueKey="182" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/open-science-skills-diagram/" Name="https://libereurope.eu/article/open-science-skills-diagram/" DestinationURL="https://libereurope.eu/article/open-science-skills-diagram/" Hidden="false" DestinationUniqueKey="183" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/open-science-skills-visualisation-now-available-in-the-greek-language/)" Name="https://libereurope.eu/article/open-science-skills-visualisation-now-available-in-the-greek-language/)" DestinationURL="https://libereurope.eu/article/open-science-skills-visualisation-now-available-in-the-greek-language/)" Hidden="false" DestinationUniqueKey="184" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/events/liber-emerging-leaders-programme-cohort-5-6/" Name="https://libereurope.eu/events/liber-emerging-leaders-programme-cohort-5-6/" DestinationURL="https://libereurope.eu/events/liber-emerging-leaders-programme-cohort-5-6/" Hidden="false" DestinationUniqueKey="185" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/23-nov-2020-webinar-how-are-research-libraries-leading-in-the-times-of-covid-19/" Name="https://libereurope.eu/article/23-nov-2020-webinar-how-are-research-libraries-leading-in-the-times-of-covid-19/" DestinationURL="https://libereurope.eu/article/23-nov-2020-webinar-how-are-research-libraries-leading-in-the-times-of-covid-19/" Hidden="false" DestinationUniqueKey="186" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/30-nov-2020-webinar-new-challenges-and-leading-into-the-post-covid-19-recovery-for-research-libraries/" Name="https://libereurope.eu/article/30-nov-2020-webinar-new-challenges-and-leading-into-the-post-covid-19-recovery-for-research-libraries/" DestinationURL="https://libereurope.eu/article/30-nov-2020-webinar-new-challenges-and-leading-into-the-post-covid-19-recovery-for-research-libraries/" Hidden="false" DestinationUniqueKey="187" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/ttps%3a//libereurope.eu/job-descriptions/" Name="ttps://libereurope.eu/job-descriptions/" DestinationURL="ttps://libereurope.eu/job-descriptions/" Hidden="false" DestinationUniqueKey="188" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/libereurope.eu/event/liber-journees-2022/" Name="libereurope.eu/event/liber-journees-2022/" DestinationURL="libereurope.eu/event/liber-journees-2022/" Hidden="false" DestinationUniqueKey="189" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/libereurope.eu/event/liber-journees-online-event-for-library-directors-2021/" Name="libereurope.eu/event/liber-journees-online-event-for-library-directors-2021/" DestinationURL="libereurope.eu/event/liber-journees-online-event-for-library-directors-2021/" Hidden="false" DestinationUniqueKey="190" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/libereurope.eu/event/emerging-leaders-programme-2021/" Name="libereurope.eu/event/emerging-leaders-programme-2021/" DestinationURL="libereurope.eu/event/emerging-leaders-programme-2021/" Hidden="false" DestinationUniqueKey="191" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.librarybuildings.eu/" Name="https://www.librarybuildings.eu/" DestinationURL="https://www.librarybuildings.eu/" Hidden="false" DestinationUniqueKey="192" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/" Name="https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/" DestinationURL="https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/" Hidden="false" DestinationUniqueKey="193" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//liberconference.eu/workshops/hot-rdm-topics-from-a-library-perspective/" Name="https://liberconference.eu/workshops/hot-rdm-topics-from-a-library-perspective/" DestinationURL="https://liberconference.eu/workshops/hot-rdm-topics-from-a-library-perspective/" Hidden="false" DestinationUniqueKey="194" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/wp-content/uploads/2020/12/The-6-Pillars-of-Engaging-Researchers-in-Research-Data-Management-RDM.pdf" Name="https://libereurope.eu/wp-content/uploads/2020/12/The-6-Pillars-of-Engaging-Researchers-in-Research-Data-Management-RDM.pdf" DestinationURL="https://libereurope.eu/wp-content/uploads/2020/12/The-6-Pillars-of-Engaging-Researchers-in-Research-Data-Management-RDM.pdf" Hidden="false" DestinationUniqueKey="195" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//zenodo.org/record/3693692/files/LIBER%2520Webinar%2520-%2520Research%2520Data%2520What%2520To%2520Keep%2520-%25202%2520March%25202020.pdf?download=1" Name="https://zenodo.org/record/3693692/files/LIBER%20Webinar%20-%20Research%20Data%20What%20To%20Keep%20-%202%20March%202020.pdf?download=1" DestinationURL="https://zenodo.org/record/3693692/files/LIBER%20Webinar%20-%20Research%20Data%20What%20To%20Keep%20-%202%20March%202020.pdf?download=1" Hidden="false" DestinationUniqueKey="196" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.youtube.com/watch?v=QxozHbyfhkE" Name="https://www.youtube.com/watch?v=QxozHbyfhkE" DestinationURL="https://www.youtube.com/watch?v=QxozHbyfhkE" Hidden="false" DestinationUniqueKey="197" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/working-group/liber-data-science-in-libraries-working-group/" Name="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/" DestinationURL="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/" Hidden="false" DestinationUniqueKey="198" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//liberconference.eu/to-everyone-who-made-liber-2020-possible-thank-you/" Name="https://liberconference.eu/to-everyone-who-made-liber-2020-possible-thank-you/" DestinationURL="https://liberconference.eu/to-everyone-who-made-liber-2020-possible-thank-you/" Hidden="false" DestinationUniqueKey="199" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.linkedin.com/company/18107214/admin/" Name="https://www.linkedin.com/company/18107214/admin/" DestinationURL="https://www.linkedin.com/company/18107214/admin/" Hidden="false" DestinationUniqueKey="200" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.facebook.com/LIBEREurope%0d" Name="https://www.facebook.com/LIBEREurope&#xd;" DestinationURL="https://www.facebook.com/LIBEREurope&#xd;" Hidden="false" DestinationUniqueKey="201" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//twitter.com/LIBEReurope" Name="https://twitter.com/LIBEReurope" DestinationURL="https://twitter.com/LIBEReurope" Hidden="false" DestinationUniqueKey="202" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/open-research-europe.ec.europa.eu/" Name="open-research-europe.ec.europa.eu/" DestinationURL="open-research-europe.ec.europa.eu/" Hidden="false" DestinationUniqueKey="203" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/open-research-europe-survey-outcomes-perspectives-of-our-research-libraries/" Name="https://libereurope.eu/article/open-research-europe-survey-outcomes-perspectives-of-our-research-libraries/" DestinationURL="https://libereurope.eu/article/open-research-europe-survey-outcomes-perspectives-of-our-research-libraries/" Hidden="false" DestinationUniqueKey="204" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//open-research-europe.ec.europa.eu/about/" Name="https://open-research-europe.ec.europa.eu/about/" DestinationURL="https://open-research-europe.ec.europa.eu/about/" Hidden="false" DestinationUniqueKey="205" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/libereurope.eu/project/european-language-equality-ele/" Name="libereurope.eu/project/european-language-equality-ele/" DestinationURL="libereurope.eu/project/european-language-equality-ele/" Hidden="false" DestinationUniqueKey="206" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/project/mes-cobrad/" Name="https://libereurope.eu/project/mes-cobrad/" DestinationURL="https://libereurope.eu/project/mes-cobrad/" Hidden="false" DestinationUniqueKey="207" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/research-under-pressure-impact-of-covid-19-through-a-librarians-eyes/" Name="https://libereurope.eu/article/research-under-pressure-impact-of-covid-19-through-a-librarians-eyes/" DestinationURL="https://libereurope.eu/article/research-under-pressure-impact-of-covid-19-through-a-librarians-eyes/" Hidden="false" DestinationUniqueKey="208" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//iarla.org/2020/07/iarla-supports-coalition-s-rights-retention-strategy/#%3a~%3atext=Under%2520the%2520strategy%252C%2520participating%2520funders,in%2520part%2520by%2520their%2520funding" Name="https://iarla.org/2020/07/iarla-supports-coalition-s-rights-retention-strategy/#:~:text=Under%20the%20strategy%2C%20participating%20funders,in%20part%20by%20their%20funding" DestinationURL="https://iarla.org/2020/07/iarla-supports-coalition-s-rights-retention-strategy/#:~:text=Under%20the%20strategy%2C%20participating%20funders,in%20part%20by%20their%20funding" Hidden="false" DestinationUniqueKey="209" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//i4oa.org/#stakeholders" Name="https://i4oa.org/#stakeholders" DestinationURL="https://i4oa.org/#stakeholders" Hidden="false" DestinationUniqueKey="210" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.ifla.org/FR/node/93230" Name="https://www.ifla.org/FR/node/93230" DestinationURL="https://www.ifla.org/FR/node/93230" Hidden="false" DestinationUniqueKey="211" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.coar-repositories.org/news-updates/joint-position-statement-on-data-repository-selection-criteria-that-matter/" Name="https://www.coar-repositories.org/news-updates/joint-position-statement-on-data-repository-selection-criteria-that-matter/" DestinationURL="https://www.coar-repositories.org/news-updates/joint-position-statement-on-data-repository-selection-criteria-that-matter/" Hidden="false" DestinationUniqueKey="212" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu/article/liber-signs-open-letter-by-coalition-s-on-the-rights-retention-strategy-and-publisher-equivocation/" Name="https://libereurope.eu/article/liber-signs-open-letter-by-coalition-s-on-the-rights-retention-strategy-and-publisher-equivocation/" DestinationURL="https://libereurope.eu/article/liber-signs-open-letter-by-coalition-s-on-the-rights-retention-strategy-and-publisher-equivocation/" Hidden="false" DestinationUniqueKey="213" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/Anchor" Name="Anchor" DestinationURL="" Hidden="false" DestinationUniqueKey="216" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//doi.org/10.5281/zenodo.1303002." Name="https://doi.org/10.5281/zenodo.1303002." DestinationURL="https://doi.org/10.5281/zenodo.1303002." Hidden="false" DestinationUniqueKey="217" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//libereurope.eu" Name="https://libereurope.eu" DestinationURL="https://libereurope.eu" Hidden="false" DestinationUniqueKey="218" />
+	<Hyperlink Self="u3c65" Name="LIBER Europe" Source="u3c62" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="218">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/https%3a//libereurope.eu</Destination>
+		</Properties>
+	</Hyperlink>
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u12ColorGroupSwatch0" SwatchItemRef="Swatch/None" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch1" SwatchItemRef="Color/Registration" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch2" SwatchItemRef="Color/Paper" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch3" SwatchItemRef="Color/Black" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch4" SwatchItemRef="Color/Hyperlink" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch5" SwatchItemRef="Color/LIBER CMYK Dark Blue" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch6" SwatchItemRef="Color/LIBER CMYK Light Blue" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch7" SwatchItemRef="Color/LIBER CMYK Orange" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch8" SwatchItemRef="Color/LIBER CMYK Yellow" />
+	</ColorGroup>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Symbol" Name="$ID/kIndexGroup_Symbol" Include="true" Priority="0" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Alphabet" Name="$ID/kIndexGroup_Alphabet" Include="true" Priority="1" HeaderType="BasicLatin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Numeric" Name="$ID/kIndexGroup_Numeric" Include="false" Priority="2" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_GreekAlphabet" Name="$ID/kWRIndexGroup_GreekAlphabet" Include="false" Priority="3" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_CyrillicAlphabet" Name="$ID/kWRIndexGroup_CyrillicAlphabet" Include="false" Priority="4" HeaderType="Russian" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Kana" Name="$ID/kIndexGroup_Kana" Include="false" Priority="5" HeaderType="HiraganaAll" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Chinese" Name="$ID/kIndexGroup_Chinese" Include="false" Priority="6" HeaderType="ChinesePinyin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Korean" Name="$ID/kIndexGroup_Korean" Include="false" Priority="7" HeaderType="KoreanConsonant" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_ArabicAlphabet" Name="$ID/kWRIndexGroup_ArabicAlphabet" Include="false" Priority="8" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_HebrewAlphabet" Name="$ID/kWRIndexGroup_HebrewAlphabet" Include="false" Priority="9" HeaderType="Nothing" />
+	<ABullet Self="dABullet0" CharacterType="UnicodeOnly" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet1" CharacterType="UnicodeOnly" CharacterValue="42">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet2" CharacterType="UnicodeOnly" CharacterValue="9674">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet3" CharacterType="UnicodeWithFont" CharacterValue="187">
+		<Properties>
+			<BulletsFont type="string">Myriad Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet4" CharacterType="GlyphWithFont" CharacterValue="503">
+		<Properties>
+			<BulletsFont type="string">Minion Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<Assignment Self="uc2" Name="$ID/UnassignedInCopy" UserName="$ID/" ExportOptions="AssignedSpreads" IncludeLinksWhenPackage="true" FilePath="$ID/">
+		<Properties>
+			<FrameColor type="enumeration">Nothing</FrameColor>
+		</Properties>
+	</Assignment>
+</Document>

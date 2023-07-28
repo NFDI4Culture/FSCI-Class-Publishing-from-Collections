@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u1ac3" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/First level" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="9">
+				<Properties>
+					<Leading type="unit">11</Leading>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Br />
+				<Table Self="u1ac3i1ada" HeaderRowCount="0" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="5" ColumnCount="4" AppliedTableStyle="TableStyle/$ID/[Basic Table]" TableDirection="LeftToRightDirection">
+					<Row Self="u1ac3i1adaRow0" Name="0" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="15.901881098077306" MinimumHeight="15.901881098077306" AutoGrow="true" />
+					<Row Self="u1ac3i1adaRow1" Name="1" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="15.748871089905268" MinimumHeight="15.748871089905268" AutoGrow="true" />
+					<Row Self="u1ac3i1adaRow2" Name="2" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="15.748871089905268" MinimumHeight="15.748871089905268" AutoGrow="true" />
+					<Row Self="u1ac3i1adaRow3" Name="3" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="15.748871089905268" MinimumHeight="15.748871089905268" AutoGrow="true" />
+					<Row Self="u1ac3i1adaRow4" Name="4" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="15.748871089905268" MinimumHeight="15.748871089905268" AutoGrow="true" />
+					<Column Self="u1ac3i1adaColumn0" Name="0" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="190.83858267713543" />
+					<Column Self="u1ac3i1adaColumn1" Name="1" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="51.49606299212597" />
+					<Column Self="u1ac3i1adaColumn2" Name="2" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="69.34040280138514" />
+					<Column Self="u1ac3i1adaColumn3" Name="3" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="85.02539710799066" />
+					<Cell Self="u1ac3i1adai0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/Paper" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokePriority="1002" RightEdgeStrokePriority="1003" TopEdgeStrokePriority="1002" BottomEdgeStrokePriority="1065" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai1" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Light Blue" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/Paper" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokePriority="1003" RightEdgeStrokePriority="1004" TopEdgeStrokePriority="1003" BottomEdgeStrokePriority="1076" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai2" Name="2:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Light Blue" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/Paper" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokePriority="1004" RightEdgeStrokePriority="1004" TopEdgeStrokePriority="1004" BottomEdgeStrokePriority="1077" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai3c" Name="3:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Light Blue" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/Paper" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokePriority="1004" RightEdgeStrokePriority="1004" TopEdgeStrokePriority="1004" BottomEdgeStrokePriority="1078" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai50" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Yellow" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1085" RightEdgeStrokePriority="1085" TopEdgeStrokePriority="1065" BottomEdgeStrokePriority="920" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai51" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="2" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Yellow" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1085" RightEdgeStrokePriority="1085" TopEdgeStrokePriority="1076" BottomEdgeStrokePriority="1082" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai52" Name="2:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="2" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Yellow" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1085" RightEdgeStrokePriority="1085" TopEdgeStrokePriority="1077" BottomEdgeStrokePriority="1083" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai53" Name="3:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="2" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Color/LIBER CMYK Yellow" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/Paper" RightEdgeStrokeColor="Color/Paper" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1085" RightEdgeStrokePriority="1085" TopEdgeStrokePriority="1078" BottomEdgeStrokePriority="1084" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai6" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="743" RightEdgeStrokePriority="1090" TopEdgeStrokePriority="920" BottomEdgeStrokePriority="923" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai7" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1090" RightEdgeStrokePriority="1090" TopEdgeStrokePriority="1082" BottomEdgeStrokePriority="924" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai8" Name="2:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1090" RightEdgeStrokePriority="1090" TopEdgeStrokePriority="1083" BottomEdgeStrokePriority="925" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai3e" Name="3:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1090" RightEdgeStrokePriority="1086" TopEdgeStrokePriority="1084" BottomEdgeStrokePriority="925" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai9" Name="0:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/Paper" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="746" RightEdgeStrokePriority="1090" TopEdgeStrokePriority="923" BottomEdgeStrokePriority="923" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adaia" Name="1:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1090" RightEdgeStrokePriority="1090" TopEdgeStrokePriority="924" BottomEdgeStrokePriority="933" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adaib" Name="2:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1090" RightEdgeStrokePriority="1090" TopEdgeStrokePriority="925" BottomEdgeStrokePriority="934" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai3f" Name="3:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" BottomEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1090" RightEdgeStrokePriority="1086" TopEdgeStrokePriority="925" BottomEdgeStrokePriority="934" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai12" Name="0:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="4" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Swatch/None" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1097" RightEdgeStrokePriority="1095" TopEdgeStrokePriority="923" BottomEdgeStrokePriority="1095" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular" PointSize="9" Underline="false" UnderlineOffset="-9999" UnderlineWeight="-9999" DiacriticPosition="OpentypePosition">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+									<UnderlineColor type="string">Text Color</UnderlineColor>
+									<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai13" Name="1:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1095" RightEdgeStrokePriority="1095" TopEdgeStrokePriority="933" BottomEdgeStrokePriority="1095" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai14" Name="2:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="1" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Color/LIBER CMYK Yellow" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1095" RightEdgeStrokePriority="1095" TopEdgeStrokePriority="934" BottomEdgeStrokePriority="1095" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u1ac3i1adai42" Name="3:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4.251968503937008" TextLeftInset="4" TextBottomInset="4.251968503937008" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" TopInset="4.251968503937008" BottomInset="4.251968503937008" FillColor="Swatch/None" FillTint="-1" LeftEdgeStrokeWeight="1" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="1" BottomEdgeStrokeWeight="1" LeftEdgeStrokeColor="Color/LIBER CMYK Yellow" TopEdgeStrokeColor="Color/LIBER CMYK Yellow" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Color/LIBER CMYK Yellow" LeftEdgeStrokeType="StrokeStyle/$ID/Solid" RightEdgeStrokeType="StrokeStyle/$ID/Solid" TopEdgeStrokeType="StrokeStyle/$ID/Solid" BottomEdgeStrokeType="StrokeStyle/$ID/Solid" FirstBaselineOffset="AscentOffset" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" LeftEdgeStrokePriority="1095" RightEdgeStrokePriority="1097" TopEdgeStrokePriority="934" BottomEdgeStrokePriority="1095" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" TreatIdeographicSpaceAsSpace="false">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW" FontStyle="Regular">
+								<Properties>
+									<AppliedFont type="string">Lato</AppliedFont>
+								</Properties>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

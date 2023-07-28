@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u2666" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<Properties>
+				<RuleAboveGapColor type="string">Text Color</RuleAboveGapColor>
+				<RuleBelowGapColor type="string">Text Color</RuleBelowGapColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/bullet" PointSize="12.5" AppliedLanguage="$ID/English: USA" RubyOpenTypePro="false" RubyAutoAlign="false" WarichuAlignment="LeftAlign">
+				<Properties>
+					<AppliedFont type="string">Crimson Text</AppliedFont>
+					<UnderlineGapColor type="string">Text Color</UnderlineGapColor>
+					<StrikeThroughGapColor type="string">Text Color</StrikeThroughGapColor>
+				</Properties>
+				<Content>Sit amet, consectetur adipiscing elit. Donec vitae nisl pretium, pharetra neque id, tempus massa. Nulla venenatis quam vitae enim faucibus, vel egestas sem tincidunt. Maecenas sodales velit a placerat viverra. Donec fermentum at leo ac laoreet. Donec pellentesque orci ut ultrices ultricies. Pellentesque interdum laoreet lacus, in ultricies neque laoreet et. Donec a erat pharetra, aliquet mi vel, mollis felis. Donec consequat libero non leo ornare sollicitudin. Nullam condimentum quis libero bibendum facilisis. Quisque sit amet euismod orci.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/header">
+				<Content>Nunc tempus nibh ipsum</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+				<Content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum ligula sed est aliquam elementum. Duis at est in arcu ullamcorper ullamcorper faucibus eu augue. In sollicitudin ac risus quis cursus. Vestibulum non urna mollis, consequat odio eget, efficitur libero. Nam lacinia mi sed ante egestas lacinia. Nulla tortor eros, bibendum vitae laoreet ac, eleifend nec lorem. Mauris sit amet leo venenatis, auctor sapien vel, tempus tellus.</Content>
+				<Br />
+				<Br />
+				<Content>Curabitur eget interdum urna. Praesent viverra molestie interdum. Sed sed lectus elementum, pretium ex eget, consequat odio. Aliquam at eros ligula. Aenean efficitur, tortor ut consectetur convallis, ligula justo venenatis nunc, nec sodales tortor augue id massa. Pellentesque rutrum neque nisl, a porttitor ligula commodo a. Donec non fermentum arcu. Morbi ornare elit at velit ullamcorper feugiat. Nam in hendrerit magna, id commodo neque. Suspendisse varius quam nunc, in convallis orci elementum nec. Donec cursus efficitur risus sed ornare. Aliquam aliquet nisi felis, sed volutpat arcu blandit vel. Morbi tempus tristique aliquam. Nulla efficitur vehicula nunc, at convallis dui cursus vel. In luctus massa et diam vehicula malesuada. Nunc suscipit justo fermentum, eleifend sapien posuere, dapibus eros. Duis at velit fringilla, luctus arcu at, accumsan tellus. Proin et turpis dui. Proin posuere venenatis mauris id tempus. Sed cursus lorem ac mauris suscipit, ac vehicula augue tincidunt. Phasellus hendrerit elit gravida viverra volutpat. Ut earchilles enducia tquosapiet adipsam, officid usaepro vidicab oratur? Qui cum, ullabor eptatibus que reperum quidunt eos autem. Nem voloribusam.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u2601" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/First level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Lorem ipsum dolor </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>sit amet, consectetur adipiscing elit. Donec vitae nisl pretium, pharetra neque id, tempus massa. Nulla venenatis quam vitae enim faucibus, vel egestas sem tincidunt. Maecenas sodales velit a placerat viverra. Donec fermentum at leo ac laoreet. Donec pellentesque orci ut ultrices ultricies. Pellentesque interdum laoreet lacus, in ultricies neque laoreet et. Donec a erat pharetra, aliquet mi vel, mollis felis. Donec consequat libero non leo ornare sollicitudin. Nullam condimentum quis libero bibendum facilisis. Quisque sit amet euismod orci.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Second level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Ut accumsan ultrices aliquet</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Mauris porta leo vel nisl vehicula, nec rhoncus dui facilisis. Proin euismod sit amet tellus sit amet posuere. Sed fringilla eros ac urna tempus interdum. Duis cursus diam id augue tempor euismod. Proin suscipit vitae magna at fermentum. Vestibulum accumsan pulvinar lacus et gravida. Sed placerat erat egestas dui rhoncus condimentum. Vestibulum facilisis nibh ipsum, sit amet bibendum lectus porta nec. Phasellus nisi erat, elementum vel elementum non, dignissim ac ex. Sed at elit lacus. Etiam feugiat mi ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus neque diam, pulvinar a molestie porta, interdum vel metus.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW">
+				<Content> Cras maximus nulla mauris, eu sollicitudin lectus accumsan ac.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Cras vel magna </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>et sapien rhoncus dapibus at et urna. Sed rutrum mi vel convallis vestibulum. Sed at lectus ut leo posuere varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vitae dui ut magna sagittis faucibus. In dictum quis dolor gravida varius. Vivamus ultricies velit ut nisi tincidunt dapibus. Vestibulum vulputate commodo purus vel euismod.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Nunc tempus nibh ipsum</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Ac ultrices lectus faucibus ut. Nam eu tristique purus. Donec pretium libero sit amet turpis fringilla, at luctus eros porttitor. Maecenas viverra, massa ultrices molestie molestie, elit lorem dictum felis, non volutpat sapien ipsum at erat. Quisque cursus, turpis ac tempus pretium, elit ligula consequat ligula, eget ultrices eros lacus quis orci. </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Quote-Phrase">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Praesent elementum libero urna, tincidunt euismod quam convallis sit amet. Donec convallis, ante at semper mattis, quam ipsum iaculis nisi, ac egestas quam lacus vitae tellus. </Content>
+				<Br />
+				<Content>Quote </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Regular" PointSize="9" StrokeWeight="1" MiterLimit="4">
+				<Properties>
+					<AppliedFont type="string">Lato</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+				<Content>Vivamus molestie eu sapien vel placerat. Nunc ultricies nulla sit amet pharetra pulvinar. Phasellus sit amet enim eu tellus pellentesque pulvinar. Donec ullamcorper commodo pretium. Morbi id tincidunt orci. Fusce gravida libero ac mi dapibus, sit amet tristique sapien pulvinar. Donec non luctus augue. Nulla blandit velit ac ipsum aliquam laoreet. Donec auctor sed lacus in convallis.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Cras vel magna </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Is cone pro dolut faci totatem et volorerum quid magnatius mi, sinisimolo int rendam sitiae sendis invelen desciunt. Ad ma volor repere commoluptas dit officip susam, sincius a veratis idem fugiam latium fuga. Ga. Uptatio es voluptatum quis aut harum sum netur, ut vit volorenimin cum venimoluptat alignist, asperitiur alis excepudam, et velis eum quo to tenis estis sus utate venime neturion necte eos cus simagnatur? Sediaspe quae est, nulpa cupta pelit, sima commodis explicae. Nequatu remporeic totatquat. Occum andae remporio idundit pa quo dolorporibus recum doluptaquodi aut etur? Ti si ut laceseque omnitias con et aut peror autem quatece peliber chicima gnisit volorem. Nequi occum incto es estecab orerian debitem oluptas dolor siti ut quis es derum aperum dipsant evendandae. Nequod quo ommoles re, occupta tquuntectem aut laut elitatur, nulparc ipidel es dolo esenihi litate dolupta eperum int, qui ulpa sa sae volupid mo dem simuscit latini simin nisqui con num acid moditem dolorecto estiat.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/First level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+				<Content>Heniminctis delest hitatati as</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Et hil ea dolorep eriorat rerovidit, odi coreptam andam aut que diaturi asitatio ellorescim et ommoloribus de ante nonseque sundelluptas ullectatum, estor autat la dolorem fuga. </Content>
+				<Br />
+				<Br />
+				<Content>Nequid quunt estia velignamus magnati il illor solut es et, sus aditia adit harit ulparchictum quid evernam voluptas ex etur, sequos qui omnimodi simpos am veri di optatem commo dolupid mos reius doluptur serrupta aut magnatur suntisquodis alitatum lab iditi nimus. </Content>
+				<Br />
+				<Content>Vid quaspel est aute porisin nesti quodiat quatemped et exerem qui od que sit, sed quibusam, a pres velenih ilicienduci bearchici a sedita perro optate eatia dignatur?</Content>
+				<Br />
+				<Br />
+				<Content>Re con everem quatur, coreic tem quo tem apis eum ex et ut et ut am, quo est apide consequist, ut quistint, nobis eosam et landam fugiata corat ilit accaerro ium sit di rerunt illoria susam aditibus moluptatur, cullania cum, utemporia qui comnimi niscidus culpa quis ipit, core nus et, ut aut aut acerspe lecaest doluptatet unt volenitam, iust voluptatus nonsende postio. Dus consero quo vitate dolupti simaxim este enim ipis explaut omnisin cturios sim quat volupti orepudi quis eicabo. Hicatque nam, ut vid exceprepero blabor ab ipsum deliae consedis explabo ribustior magniscit moditi sit eritate core natia core ratures ad ut latur simagnam vel inus di berorero odicium fugia doloresto quae neceptum nonsed magnam voloreh entibus pe int enimustorem volorep eribusa nistisq uassiminctum inimaximus re comnihitem deliquatet volest, omni cumquo tem et eos ut pelibust, quis volorpos natur audae cus se laborecte con culparunt quia verfernam faccum eatium deria dipisquatem evel eos est.Edis atiae quos num quia ditia plabore rnatem.Labor molorit mo cus, que derae voluptas vendit optia idi nonsecestem nosant rem suntorum.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

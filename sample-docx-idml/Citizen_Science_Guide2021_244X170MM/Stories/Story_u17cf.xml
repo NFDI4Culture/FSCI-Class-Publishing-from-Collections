@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u17cf" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/First level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Lorem ipsum dolor </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>sit amet, consectetur adipiscing elit. Donec vitae nisl pretium, pharetra neque id, tempus massa. Nulla venenatis quam vitae enim faucibus, vel egestas sem tincidunt. Maecenas sodales velit a placerat viverra. Donec fermentum at leo ac laoreet. Donec pellentesque orci ut ultrices ultricies. Pellentesque interdum laoreet lacus, in ultricies neque laoreet et. Donec a erat pharetra, aliquet mi vel, mollis felis. Donec consequat libero non leo ornare sollicitudin. Nullam condimentum quis libero bibendum facilisis. Quisque sit amet euismod orci.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/bullet" FillColor="Color/LIBER CMYK Light Blue" StrokeWeight="0" StrokeAlignment="CenterAlignment">
+				<Content>Ut accumsan ultrices aliquet</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+				<Content>Mauris porta leo vel nisl vehicula, nec rhoncus dui facilisis. Proin euismod sit amet tellus sit amet posuere. Sed fringilla eros ac urna tempus interdum. Duis cursus diam id augue tempor euismod. Proin suscipit vitae magna at fermentum. Vestibulum accumsan pulvinar lacus et gravida. Sed placerat erat egestas dui rhoncus condimentum. Vestibulum facilisis nibh ipsum, sit amet bibendum lectus porta nec. Phasellus nisi erat, elementum vel elementum non, dignissim ac ex. Sed at elit lacus. Etiam feugiat mi ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus neque diam, pulvinar a molestie porta, interdum vel metus.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW">
+				<Content> Cras maximus nulla mauris, eu sollicitudin lectus accumsan ac.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Cras vel magna </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>et sapien rhoncus dapibus at et urna. Sed rutrum mi vel convallis vestibulum. Sed at lectus ut leo posuere varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vitae dui ut magna sagittis faucibus. In dictum quis dolor gravida varius. Vivamus ultricies velit ut nisi tincidunt dapibus. Vestibulum vulputate commodo purus vel euismod.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Nunc tempus nibh ipsum</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Ac ultrices lectus faucibus ut. Nam eu tristique purus. Donec pretium libero sit amet turpis fringilla, at luctus eros porttitor. Maecenas viverra, massa ultrices molestie molestie, elit lorem dictum felis, non volutpat sapien ipsum at erat. Quisque cursus, turpis ac tempus pretium, elit ligula consequat ligula, eget ultrices eros lacus quis orci. Praesent elementum libero urna, tincidunt euismod quam convallis sit amet. Donec convallis, ante at semper mattis, quam ipsum iaculis nisi, ac egestas quam lacus vitae tellus. Vivamus molestie eu sapien vel placerat. Nunc ultricies nulla sit amet pharetra pulvinar. Phasellus sit amet enim eu tellus pellentesque pulvinar. Donec ullamcorper commodo pretium. Morbi id tincidunt orci. Fusce gravida libero ac mi dapibus, sit amet tristique sapien pulvinar. Donec non luctus augue. Nulla blandit velit ac ipsum aliquam laoreet. Donec auctor sed lacus in convallis. Aliquam euismod eget ligula nec aliquet. Morbi vel condimentum dolor. Morbi dictum tortor nec est rhoncus, sit amet laoreet lectus blandit. Vestibulum quam orci, egestas sit amet tellus sed, ornare imperdiet mi. Ut interdum diam ac libero consectetur, eu aliquam est placerat. Phasellus sed ornare sapien. Phasellus non lacus gravida enim dignissim fringilla. Integer nec massa mi.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Bullet" Hyphenation="false">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/LIBER-Text-BOLD">
+				<Content>Fusce velit magna,</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> viverra sit amet porttitor non, ornare vel augue. Nam fringilla, ex quis eleifend congue, erat est varius arcu, at luctus massa erat at tellus. Quisque felis est, luctus ut finibus non, fringilla vel metus. </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/LIBER-Text-BOLD">
+				<Content>Duis sem urna, dapibus pulvinar</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> dictum sed, sagittis nec eros. Praesent est neque, tincidunt at mauris vitae, feugiat dignissim erat. Mauris nisi elit, suscipit quis neque posuere, fringilla vulputate ipsum. Cras eget urna</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/LIBER-Text-BOLD">
+				<Content>Ut odio dictum bibendum</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> id finibus leo. Pellentesque pharetra, nulla vel pellentesque pellentesque, ex sem eleifend eros, et interdum lectus felis </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/LIBER-Text-BOLD">
+				<Content>Sit amet nisl.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> Vestibulum iaculis orci dui, et fermentum magna elementum vitae. Pellentesque in diam in neque posuere ornare sed at ligula. Aliquam magna enim, elementum eu quam ut, bibendum tempus augue. Aliquam mollis lectus ut quam pulvinar, non vulputate lorem consequat.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Pellentesque rhoncus lacus vitae mattis feugiat. Sed volutpat, ligula ut blandit malesuada, lectus mauris dictum lectus, commodo suscipit leo massa eu felis. Nunc sed augue euismod, pulvinar felis in, sollicitudin metus. Phasellus quis risus nisi. Sed feugiat, orci a egestas efficitur, lectus nibh consectetur massa, ut ullamcorper risus neque id nisi. Class n, sollicitudin metus. Phasellus quis risus nisi. Sed feugiat, orci a egestas efficitur, lectus nibh consectetur massa, ut ullamcorper risus neque id nisi. Class an, sollicitudin metus. Phasellus quis risus nisi. Sed feugiat, orci a egestas efficitur, lectus nibh consectetur massa, ut ullamcorper risus neque id nisi. Class aaptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras convallis, ipsum at tincidunt tincidunt, purus justo hendrerit ipsum, tristique porta eros nisi dignissim odio. Curabitur diam nulla, pretium a arcu vel, scelerisque mattis dui. Suspendisse ultrices, ex eu vehicula rutrum, felis</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Second level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Sit amet, consectetur adipiscing elit.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Donec vitae nisl pretium, pharetra neque id, tempus massa. Nulla venenatis quam vitae enim faucibus, vel egestas sem tincidunt. Maecenas sodales velit a placerat viverra. Donec fermentum at leo ac laoreet. Donec pellentesque orci ut ultrices ultricies. Pellentesque interdum laoreet lacus, in ultricies neque laoreet et. Donec a erat pharetra, aliquet mi vel, mollis felis. Donec consequat libero non leo ornare sollicitudin. Nullam condimentum quis libero bibendum facilisis. Quisque sit amet euismod orci.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Second level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Ut accumsan ultrices aliquet</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Mauris porta leo vel nisl vehicula, nec rhoncus dui facilisis. Proin euismod sit amet tellus sit amet posuere. Sed fringilla eros ac urna tempus interdum. Duis cursus diam id augue tempor euismod. Proin suscipit vitae magna at fermentum. Vestibulum accumsan pulvinar lacus et gravida. Sed placerat erat egestas dui rhoncus condimentum. Vestibulum facilisis nibh ipsum, sit amet bibendum lectus porta nec. Phasellus nisi erat, elementum vel elementum Sed at elit lacus. Etiam feugiat mi ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus neque diam, pulvinar a molestie porta, interdum vel metus.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK YELLOW">
+				<Content> Cras maximus nulla mauris, eu sollicitudin lectus accumsan ac.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Cras vel magna </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>et sapien rhoncus dapibus at et urna. Sed rutrum mi vel convallis vestibulum. Sed at lectus ut leo posuere varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vitae dui ut magna sagittis faucibus. In dictum quis dolor gravida varius. Vivamus ultricies velit ut nisi tincidunt dapibus. Vestibulum vulputate commodo purus vel euismod.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Third level">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Nunc tempus nibh ipsum</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/LIBER-Text-Plain">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Ac ultrices lectus faucibus ut. Nam eu tristique purus. Donec pretium libero sit amet turpis fringilla, at luctus eros porttitor. Maecenas viverra, massa ultrices molestie molestie, elit lorem dictum felis, non volutpat sapien ipsum at erat. Quisque cursus, turpis ac tempus pretium, elit ligula consequat ligula, eget ultrices eros lacus quis orci. Praesent elementum libero urna, tincidunt euismod quam convallis sit amet. Donec convallis, ante at semper mattis, quam ipsum iaculis nisi, ac egestas quam lacus vitae tellus. Vivamus molestie eu sapien vel placerat. Nunc ultricies nulla sit amet pharetra pulvinar. Phasellui. Fusce gravida libero ac mi dapibus, site sapien pulvinar. Donec non luctus augue </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>sem dignissim. In consectetur nisi a turpis lobortis dignissim quis quis elit. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HYPERLINK light blue">
+				<Content>Praesent lobortis</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

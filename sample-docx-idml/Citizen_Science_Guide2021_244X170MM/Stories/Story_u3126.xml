@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Story Self="u3126" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Intro yellow single space">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Sit amet, consectetur adipiscing elit. Donec vitae nisl pretium, pharetra neque id, tempus massa. Nulla venenatis quam vitae enim faucibus, vel egestas sem tincidunt. Maecenas sodales velit a placerat viverra. Donec fermentum at leo ac laoreet. Donec pellentesque orci ut ultrices ultricies. Pellentesque interdum laoreet lacus, in ultricies neque laoreet et. Donec a erat pharetra, aliquet mi vel, mollis felis. Donec consequat libero non leo ornare sollicitudin. Nullam condimentum quis libero bibendum facilisis. Quisque sit amet euismod orci.As sundem rem. Orum dolut aute prepe moluptam nem nectatis magnimus ant quiam, enient, ex ent que sanitas dolorro corento ritatendam inctem quist ape</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

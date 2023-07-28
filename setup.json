@@ -1,0 +1,6 @@
+{
+  "__comment": "Set values to false if no link should be created.",
+  "repoURL": "https://github.com/NFDI4Culture/class-ADA-CP-pipeline",
+  "repoBranch": "main",
+  "vivlioURL": "https://vivliostyle.vercel.app/"
+}

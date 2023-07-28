@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.1">
+	<Spread Self="u33af" PageTransitionType="None" PageTransitionDirection="NotApplicable" PageTransitionDuration="Medium" ShowMasterItems="true" PageCount="1" BindingLocation="0" AllowPageShuffle="false" ItemTransform="1 0 0 1 2.842170943040401e-14 888.661417322887" FlattenerOverride="Default">
+		<FlattenerPreference LineArtAndTextResolution="300" GradientAndMeshResolution="150" ClipComplexRegions="false" ConvertAllStrokesToOutlines="false" ConvertAllTextToOutlines="false">
+			<Properties>
+				<RasterVectorBalance type="double">50</RasterVectorBalance>
+			</Properties>
+		</FlattenerPreference>
+		<Page Self="u33b8" TabOrder="" AppliedMaster="ub4" OverrideList="u142 n" MasterPageTransform="1 0 0 1.0000000000000004 -246.61417322830005 123.30708661415002" Name="2" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GeometricBounds="75.11811023620672 113.3858267716724 766.7716535432937 595.2755905512" ItemTransform="1 0 0 1 -354.33070866143623 -420.94488188975026" AppliedAlternateLayout="uad" LayoutRule="Off" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" GridStartingPoint="TopOutside" UseMasterGrid="false">
+			<Properties>
+				<PageColor type="enumeration">UseMasterColor</PageColor>
+				<Descriptor type="list">
+					<ListItem type="string"></ListItem>
+					<ListItem type="enumeration">Arabic</ListItem>
+					<ListItem type="boolean">false</ListItem>
+					<ListItem type="boolean">false</ListItem>
+					<ListItem type="long">2</ListItem>
+					<ListItem type="string"></ListItem>
+				</Descriptor>
+			</Properties>
+			<MarginPreference ColumnCount="4" ColumnGutter="14.173228346456694" Top="42.5196850394" Bottom="42.5196850394" Left="42.5196850394" Right="42.5196850394" ColumnDirection="Horizontal" ColumnsPositions="0 88.58267716533939 102.75590551179607 191.3385826771355 205.5118110235922 294.09448818893156 308.2677165353883 396.85039370072764" />
+			<GridDataInformation FontStyle="Regular" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+				<Properties>
+					<AppliedFont type="string">Minion Pro</AppliedFont>
+				</Properties>
+			</GridDataInformation>
+		</Page>
+		<Rectangle Self="u393d" ContentType="GraphicType" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="u3090" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="1 0 0 1 1617.1861415198482 1648.027464989893" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-1866.634960417512 -1716.0589610528855" LeftDirection="-1866.634960417512 -1716.0589610528855" RightDirection="-1866.634960417512 -1716.0589610528855" />
+							<PathPointType Anchor="-1866.634960417512 -1293.6967563284495" LeftDirection="-1866.634960417512 -1293.6967563284495" RightDirection="-1866.634960417512 -1293.6967563284495" />
+							<PathPointType Anchor="-1367.7373226221844 -1293.6967563284495" LeftDirection="-1367.7373226221844 -1293.6967563284495" RightDirection="-1367.7373226221844 -1293.6967563284495" />
+							<PathPointType Anchor="-1367.7373226221844 -1716.0589610528855" LeftDirection="-1367.7373226221844 -1716.0589610528855" RightDirection="-1367.7373226221844 -1716.0589610528855" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<FrameFittingOption LeftCrop="2847.33384822882" TopCrop="345.86308031405497" RightCrop="955.6185683191707" BottomCrop="5.539817786437197" FittingOnEmptyFrame="Proportionally" />
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+				<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+			</TextWrapPreference>
+			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			<Image Self="u393e" Space="$ID/#Links_RGB" ActualPpi="72 72" EffectivePpi="844 844" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/JPEG" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.08528095381763322 0 0 0.08528095381763323 -2109.458306831698 -1745.5544944323728" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+				<Properties>
+					<Profile type="string">$ID/Embedded</Profile>
+					<GraphicBounds Left="0" Top="0" Right="9653" Bottom="5304" />
+				</Properties>
+				<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+				<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/kNoneName" />
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+					<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+				</TextWrapPreference>
+				<Link Self="u3942" AssetURL="$ID/" AssetID="$ID/" LinkResourceURI="file:/Users/gigi/Dropbox/01%20ongoing%20projects/Liber/Citizen%20Science/Citizen_Science_Guide2021_244X170MM%20Folder/Links/thisisengineering-raeng-nZbtducZUFU-unsplash.jpg" LinkResourceFormat="$ID/JPEG" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 132669420445272736 19422935" LinkImportModificationTime="2021-05-31T15:40:44" LinkImportTime="2021-05-31T15:41:34" LinkResourceSize="0~1285ed7" RenditionData="Actual" />
+				<MetadataPacketPreference>
+					<Properties>
+						<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c004 79.164570, 2020/11/18-15:51:46        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+         <xmpMM:DocumentID>EF3D58B0F0DC943E7C6F353F9FCA1740</xmpMM:DocumentID>
+         <xmpMM:InstanceID>xmp.iid:2b12c3f1-acf8-47d9-b1e1-74ba7f2d5f20</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>EF3D58B0F0DC943E7C6F353F9FCA1740</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2b12c3f1-acf8-47d9-b1e1-74ba7f2d5f20</stEvt:instanceID>
+                  <stEvt:when>2021-05-31T15:40:35+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC 2019 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>image/jpeg</dc:format>
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>c2</photoshop:ICCProfile>
+         <xmp:CreateDate>2021-05-31T13:35:53+02:00</xmp:CreateDate>
+         <xmp:ModifyDate>2021-05-31T15:40:35+02:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2021-05-31T15:40:35+02:00</xmp:MetadataDate>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+					</Properties>
+				</MetadataPacketPreference>
+			</Image>
+		</Rectangle>
+		<Group Self="u33be" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" StrokeWeight="1" MiterLimit="10" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.9999999999999999 0 0 0.9999999999999999 -429.18115104070984 138.43829293096783" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+			<Polygon Self="u33bf" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/LIBER CMYK Dark Blue" StrokeWeight="1" MiterLimit="10" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.9999999999999999 0 0 0.9999999999999999 -48.430700529693176 -183.55501697385904" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+				<Properties>
+					<PathGeometry>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="324.3833173932329 -232.05494602162696" LeftDirection="324.3833173932329 -232.05494602162696" RightDirection="324.3833173932329 -232.05494602162696" />
+								<PathPointType Anchor="321.89757331445816 -233.58460666367827" LeftDirection="321.89757331445816 -233.58460666367827" RightDirection="321.89757331445816 -233.58460666367827" />
+								<PathPointType Anchor="322.4507078162815 -234.45391601197667" LeftDirection="322.4507078162815 -234.45391601197667" RightDirection="323.28153649506464 -235.75931257100888" />
+								<PathPointType Anchor="324.78125947920086 -235.48241959360405" LeftDirection="324.1250847391556 -235.88685639872605" RightDirection="325.58919686017254 -234.9853966991622" />
+								<PathPointType Anchor="325.06033536548904 -233.11988794993366" LeftDirection="325.6045475528187 -233.97504499049808" RightDirection="325.06033536548904 -233.11988794993366" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="327.5195868827771 -228.47812329996216" LeftDirection="327.5195868827771 -228.47812329996216" RightDirection="327.5195868827771 -228.47812329996216" />
+								<PathPointType Anchor="328.2721627967175 -229.66243686741674" LeftDirection="328.2721627967175 -229.66243686741674" RightDirection="328.2721627967175 -229.66243686741674" />
+								<PathPointType Anchor="325.3445755128846 -231.46452943334802" LeftDirection="325.3445755128846 -231.46452943334802" RightDirection="325.3445755128846 -231.46452943334802" />
+								<PathPointType Anchor="326.0600363624156 -232.58936869669742" LeftDirection="326.0600363624156 -232.58936869669742" RightDirection="326.0600363624156 -232.58936869669742" />
+								<PathPointType Anchor="330.2946128780929 -232.8422450540483" LeftDirection="330.2946128780929 -232.8422450540483" RightDirection="330.2946128780929 -232.8422450540483" />
+								<PathPointType Anchor="331.20979442141373 -234.28255002484937" LeftDirection="331.20979442141373 -234.28255002484937" RightDirection="331.20979442141373 -234.28255002484937" />
+								<PathPointType Anchor="326.61709060701486 -233.99888855244123" LeftDirection="326.61709060701486 -233.99888855244123" RightDirection="326.7470741771427 -235.00401006042108" />
+								<PathPointType Anchor="325.50686266316444 -236.78904678809138" LeftDirection="326.5131488279545 -236.1704794137762" RightDirection="324.39304815467415 -237.47403001962573" />
+								<PathPointType Anchor="321.60922723650486 -235.26473171879837" LeftDirection="322.8875435499435 -237.27407098684566" RightDirection="321.60922723650486 -235.26473171879837" />
+								<PathPointType Anchor="320.16816320301024 -232.99930490400962" LeftDirection="320.16816320301024 -232.99930490400962" RightDirection="320.16816320301024 -232.99930490400962" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="316.25376107662674 -220.3666781276384" LeftDirection="316.25376107662674 -220.3666781276384" RightDirection="316.25376107662674 -220.3666781276384" />
+								<PathPointType Anchor="321.285162502506 -222.96701084433428" LeftDirection="321.285162502506 -222.96701084433428" RightDirection="321.285162502506 -222.96701084433428" />
+								<PathPointType Anchor="320.74972563931595 -223.96997874026758" LeftDirection="320.74972563931595 -223.96997874026758" RightDirection="320.74972563931595 -223.96997874026758" />
+								<PathPointType Anchor="316.9757678965935 -222.0186331680435" LeftDirection="316.9757678965935 -222.0186331680435" RightDirection="316.9757678965935 -222.0186331680435" />
+								<PathPointType Anchor="315.72053886810505 -224.36778165113927" LeftDirection="315.72053886810505 -224.36778165113927" RightDirection="315.72053886810505 -224.36778165113927" />
+								<PathPointType Anchor="318.6811891822528 -225.89871138600358" LeftDirection="318.6811891822528 -225.89871138600358" RightDirection="318.6811891822528 -225.89871138600358" />
+								<PathPointType Anchor="318.1542287628156 -226.88520030404555" LeftDirection="318.1542287628156 -226.88520030404555" RightDirection="318.1542287628156 -226.88520030404555" />
+								<PathPointType Anchor="315.193568649311 -225.3547512861559" LeftDirection="315.193568649311 -225.3547512861559" RightDirection="315.193568649311 -225.3547512861559" />
+								<PathPointType Anchor="314.0129323258481 -227.56191520361577" LeftDirection="314.0129323258481 -227.56191520361577" RightDirection="314.0129323258481 -227.56191520361577" />
+								<PathPointType Anchor="317.7548657700915 -229.49583959267815" LeftDirection="317.7548657700915 -229.49583959267815" RightDirection="317.7548657700915 -229.49583959267815" />
+								<PathPointType Anchor="317.2194289069013 -230.49803834145197" LeftDirection="317.2194289069013 -230.49803834145197" RightDirection="317.2194289069013 -230.49803834145197" />
+								<PathPointType Anchor="312.22004198014423 -227.91372311435185" LeftDirection="312.22004198014423 -227.91372311435185" RightDirection="312.22004198014423 -227.91372311435185" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="303.2410088084986 -226.29786030440442" LeftDirection="303.2410088084986 -226.29786030440442" RightDirection="303.2410088084986 -226.29786030440442" />
+								<PathPointType Anchor="304.31863429181027 -226.2352709543035" LeftDirection="304.31863429181027 -226.2352709543035" RightDirection="305.7913502482204 -226.1503571078992" />
+								<PathPointType Anchor="306.1185605757969 -224.99725168643982" LeftDirection="306.15573933602644 -225.61503068491646" RightDirection="306.0655754528234 -224.11396308851823" />
+								<PathPointType Anchor="305.212178855008 -223.70275778839292" LeftDirection="305.2483972782575 -223.71833301837188" RightDirection="305.212178855008 -223.70275778839292" />
+								<PathPointType Anchor="303.0928425315689 -223.8255329037214" LeftDirection="303.0928425315689 -223.8255329037214" RightDirection="303.0928425315689 -223.8255329037214" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="302.8661148100531 -220.04702056816768" LeftDirection="302.8661148100531 -220.04702056816768" RightDirection="302.8661148100531 -220.04702056816768" />
+								<PathPointType Anchor="303.0284019603329 -222.73103649581256" LeftDirection="303.0284019603329 -222.73103649581256" RightDirection="303.0284019603329 -222.73103649581256" />
+								<PathPointType Anchor="304.5895473137677 -222.63996947213263" LeftDirection="304.5895473137677 -222.63996947213263" RightDirection="305.901103045946 -222.56397773277828" />
+								<PathPointType Anchor="306.393589327669 -221.17105222699968" LeftDirection="306.4399892827789 -221.94804468748424" RightDirection="306.3476303436214 -220.39359827821946" />
+								<PathPointType Anchor="304.42948461751314 -219.9559535444879" LeftDirection="305.7396194429352 -219.87950031683772" RightDirection="304.42948461751314 -219.9559535444879" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="301.3799149384938 -218.99851916039447" LeftDirection="301.3799149384938 -218.99851916039447" RightDirection="301.3799149384938 -218.99851916039447" />
+								<PathPointType Anchor="304.5577288017842 -218.81453915985213" LeftDirection="304.5577288017842 -218.81453915985213" RightDirection="306.4254078396525 -218.7060894103685" />
+								<PathPointType Anchor="307.8849632596925 -221.10244430037605" LeftDirection="307.7952697456226 -219.60058832813925" RightDirection="307.9677384277629 -222.47935231655887" />
+								<PathPointType Anchor="306.41490292901307 -223.3314327684855" LeftDirection="306.9428040867165 -223.1062264801962" RightDirection="306.9029892994701 -223.63986077942818" />
+								<PathPointType Anchor="307.6228108628393 -225.14002462791416" LeftDirection="307.56716031477816 -224.22164369084228" RightDirection="307.681117036631 -226.1291286462983" />
+								<PathPointType Anchor="304.6019435002965 -227.3537647535874" LeftDirection="306.9896842103164 -227.2148567765893" RightDirection="304.6019435002965 -227.3537647535874" />
+								<PathPointType Anchor="301.89152956496326 -227.51036311525314" LeftDirection="301.89152956496326 -227.51036311525314" RightDirection="301.89152956496326 -227.51036311525314" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="292.29051160963525 -222.738881796839" LeftDirection="292.29051160963525 -222.738881796839" RightDirection="292.29051160963525 -222.738881796839" />
+								<PathPointType Anchor="293.5302380554449 -222.05651366564686" LeftDirection="293.5302380554449 -222.05651366564686" RightDirection="293.5302380554449 -222.05651366564686" />
+								<PathPointType Anchor="297.764040421924 -229.49845469302022" LeftDirection="297.764040421924 -229.49845469302022" RightDirection="297.764040421924 -229.49845469302022" />
+								<PathPointType Anchor="296.52287347064413 -230.180072905732" LeftDirection="296.52287347064413 -230.180072905732" RightDirection="296.52287347064413 -230.180072905732" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="283.2820019723146 -231.66360394689468" LeftDirection="283.2820019723146 -231.66360394689468" RightDirection="283.2820019723146 -231.66360394689468" />
+								<PathPointType Anchor="286.79267059277885 -227.1333271776867" LeftDirection="286.79267059277885 -227.1333271776867" RightDirection="286.79267059277885 -227.1333271776867" />
+								<PathPointType Anchor="287.70878307500897 -227.82050247862554" LeftDirection="287.70878307500897 -227.82050247862554" RightDirection="287.70878307500897 -227.82050247862554" />
+								<PathPointType Anchor="285.05857638871373 -231.23886165676296" LeftDirection="285.05857638871373 -231.23886165676296" RightDirection="285.05857638871373 -231.23886165676296" />
+								<PathPointType Anchor="291.0374286403166 -235.72100904246787" LeftDirection="291.0374286403166 -235.72100904246787" RightDirection="291.0374286403166 -235.72100904246787" />
+								<PathPointType Anchor="290.1769667061476 -236.83242668788472" LeftDirection="290.1769667061476 -236.83242668788472" RightDirection="290.1769667061476 -236.83242668788472" />
+							</PathPointArray>
+						</GeometryPathType>
+					</PathGeometry>
+				</Properties>
+				<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+					<Properties>
+						<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+						<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					</Properties>
+				</ObjectExportOption>
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+				</TextWrapPreference>
+				<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			</Polygon>
+			<Polygon Self="u33c0" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/LIBER CMYK Yellow" StrokeWeight="1" MiterLimit="10" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.9999999999999999 0 0 0.9999999999999999 -48.43070052969119 -183.55501942131835" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+				<Properties>
+					<PathGeometry>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="282.6611049172519 -243.10017454394028" LeftDirection="282.6611049172519 -243.10017454394028" RightDirection="282.6611049172519 -243.10017454394028" />
+								<PathPointType Anchor="282.6739518742 -239.54165983730158" LeftDirection="282.6739518742 -239.54165983730158" RightDirection="282.6739518742 -239.54165983730158" />
+								<PathPointType Anchor="284.78435118411 -242.44672677061067" LeftDirection="284.78435118411 -242.44672677061067" RightDirection="284.78435118411 -242.44672677061067" />
+								<PathPointType Anchor="288.2500407562206 -241.3729980338091" LeftDirection="288.2500407562206 -241.3729980338091" RightDirection="288.2500407562206 -241.3729980338091" />
+								<PathPointType Anchor="286.08036513618185 -244.22730128758462" LeftDirection="286.08036513618185 -244.22730128758462" RightDirection="286.08036513618185 -244.22730128758462" />
+								<PathPointType Anchor="288.19702623517634 -247.16482620992883" LeftDirection="288.19702623517634 -247.16482620992883" RightDirection="288.19702623517634 -247.16482620992883" />
+								<PathPointType Anchor="284.745947504263 -246.02866199303423" LeftDirection="284.745947504263 -246.02866199303423" RightDirection="284.745947504263 -246.02866199303423" />
+								<PathPointType Anchor="282.6336569184636 -248.85080530210521" LeftDirection="282.6336569184636 -248.85080530210521" RightDirection="282.6336569184636 -248.85080530210521" />
+								<PathPointType Anchor="282.63680251204124 -245.3410064220189" LeftDirection="282.63680251204124 -245.3410064220189" RightDirection="282.63680251204124 -245.3410064220189" />
+								<PathPointType Anchor="279.18665472003715 -244.1897477019296" LeftDirection="279.18665472003715 -244.1897477019296" RightDirection="279.18665472003715 -244.1897477019296" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="330.5285382272804 -245.3331803547575" LeftDirection="330.5285382272804 -245.3331803547575" RightDirection="330.5285382272804 -245.3331803547575" />
+								<PathPointType Anchor="330.87738553498 -248.8749372785502" LeftDirection="330.87738553498 -248.8749372785502" RightDirection="330.87738553498 -248.8749372785502" />
+								<PathPointType Anchor="328.483064556775 -246.19152879820456" LeftDirection="328.483064556775 -246.19152879820456" RightDirection="328.483064556775 -246.19152879820456" />
+								<PathPointType Anchor="325.1438846827571 -247.59971134559993" LeftDirection="325.1438846827571 -247.59971134559993" RightDirection="325.1438846827571 -247.59971134559993" />
+								<PathPointType Anchor="327.0123672678945 -244.54678558131593" LeftDirection="327.0123672678945 -244.54678558131593" RightDirection="327.0123672678945 -244.54678558131593" />
+								<PathPointType Anchor="324.6070661102385 -241.83215936092384" LeftDirection="324.6070661102385 -241.83215936092384" RightDirection="324.6070661102385 -241.83215936092384" />
+								<PathPointType Anchor="328.15679006778623 -242.62301518499098" LeftDirection="328.15679006778623 -242.62301518499098" RightDirection="328.15679006778623 -242.62301518499098" />
+								<PathPointType Anchor="329.9731841711102 -239.60717190403298" LeftDirection="329.9731841711102 -239.60717190403298" RightDirection="329.9731841711102 -239.60717190403298" />
+								<PathPointType Anchor="330.32425103315666 -243.10065526060254" LeftDirection="330.32425103315666 -243.10065526060254" RightDirection="330.32425103315666 -243.10065526060254" />
+								<PathPointType Anchor="333.87567517913345 -243.90795159451866" LeftDirection="333.87567517913345 -243.90795159451866" RightDirection="333.87567517913345 -243.90795159451866" />
+							</PathPointArray>
+						</GeometryPathType>
+					</PathGeometry>
+				</Properties>
+				<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+					<Properties>
+						<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+						<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					</Properties>
+				</ObjectExportOption>
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+				</TextWrapPreference>
+				<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			</Polygon>
+			<Polygon Self="u33c1" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/LIBER CMYK Dark Blue" StrokeWeight="1" MiterLimit="10" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.9999999999999999 0 0 0.9999999999999999 -48.430700529692494 -183.55501862335032" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+				<Properties>
+					<PathGeometry>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="324.3293765729452 -259.24273752261354" LeftDirection="324.3293765729452 -259.24273752261354" RightDirection="324.3293765729452 -259.24273752261354" />
+								<PathPointType Anchor="326.7293520459905 -260.8982490222504" LeftDirection="326.7293520459905 -260.8982490222504" RightDirection="326.7293520459905 -260.8982490222504" />
+								<PathPointType Anchor="327.3294010356406 -260.05835036786016" LeftDirection="327.3294010356406 -260.05835036786016" RightDirection="328.2275023993134 -258.79802647671306" />
+								<PathPointType Anchor="327.38334650157066 -257.54676890307303" LeftDirection="328.01660061588996 -257.9836442662926" RightDirection="326.6020681845982 -257.00820272302315" />
+								<PathPointType Anchor="325.0625253429759 -258.21484978422177" LeftDirection="325.65066321294614 -257.3890938159956" RightDirection="325.0625253429759 -258.21484978422177" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="319.7573782932424 -257.7984241106493" LeftDirection="319.7573782932424 -257.7984241106493" RightDirection="319.7573782932424 -257.7984241106493" />
+								<PathPointType Anchor="320.5728612694028 -256.65456826857894" LeftDirection="320.5728612694028 -256.65456826857894" RightDirection="320.5728612694028 -256.65456826857894" />
+								<PathPointType Anchor="323.4008678013197 -258.6037400035631" LeftDirection="323.4008678013197 -258.6037400035631" RightDirection="323.4008678013197 -258.6037400035631" />
+								<PathPointType Anchor="324.175565849378 -257.5175317116217" LeftDirection="324.175565849378 -257.5175317116217" RightDirection="324.175565849378 -257.5175317116217" />
+								<PathPointType Anchor="322.76241022788884 -253.58243264056227" LeftDirection="322.76241022788884 -253.58243264056227" RightDirection="322.76241022788884 -253.58243264056227" />
+								<PathPointType Anchor="323.75334091013644 -252.19243060462867" LeftDirection="323.75334091013644 -252.19243060462867" RightDirection="323.75334091013644 -252.19243060462867" />
+								<PathPointType Anchor="325.2787579771649 -256.46289689443404" LeftDirection="325.2787579771649 -256.46289689443404" RightDirection="326.1696323142939 -255.9530968034412" />
+								<PathPointType Anchor="328.3239280822835 -256.3807327911313" LeftDirection="327.35290479586456 -255.71020025466524" RightDirection="329.39918224034005 -257.1215845707002" />
+								<PathPointType Anchor="328.415797063772 -260.5044458779398" LeftDirection="329.79979469545657 -258.5641962454441" RightDirection="328.415797063772 -260.5044458779398" />
+								<PathPointType Anchor="326.8568318945433 -262.69204349612096" LeftDirection="326.8568318945433 -262.69204349612096" RightDirection="326.8568318945433 -262.69204349612096" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="311.51431511197876 -262.650048082685" LeftDirection="311.51431511197876 -262.650048082685" RightDirection="311.51431511197876 -262.650048082685" />
+								<PathPointType Anchor="316.61816374915384 -260.1901628949231" LeftDirection="316.61816374915384 -260.1901628949231" RightDirection="316.61816374915384 -260.1901628949231" />
+								<PathPointType Anchor="317.12396741299443 -261.2066768755094" LeftDirection="317.12396741299443 -261.2066768755094" RightDirection="317.12396741299443 -261.2066768755094" />
+								<PathPointType Anchor="313.29655375413785 -263.0512542646203" LeftDirection="313.29655375413785 -263.0512542646203" RightDirection="313.29655375413785 -263.0512542646203" />
+								<PathPointType Anchor="314.48252105916555 -265.4343593764431" LeftDirection="314.48252105916555 -265.4343593764431" RightDirection="314.48252105916555 -265.4343593764431" />
+								<PathPointType Anchor="317.488327143096 -263.9865175036888" LeftDirection="317.488327143096 -263.9865175036888" RightDirection="317.488327143096 -263.9865175036888" />
+								<PathPointType Anchor="317.98661469933114 -264.9875043339317" LeftDirection="317.98661469933114 -264.9875043339317" RightDirection="317.98661469933114 -264.9875043339317" />
+								<PathPointType Anchor="314.98219032488225 -266.4347212749384" LeftDirection="314.98219032488225 -266.4347212749384" RightDirection="314.98219032488225 -266.4347212749384" />
+								<PathPointType Anchor="316.0990329583986 -268.67447665820475" LeftDirection="316.0990329583986 -268.67447665820475" RightDirection="316.0990329583986 -268.67447665820475" />
+								<PathPointType Anchor="319.89365796530205 -266.84528220441825" LeftDirection="319.89365796530205 -266.84528220441825" RightDirection="319.89365796530205 -266.84528220441825" />
+								<PathPointType Anchor="320.39946162914265 -267.86211345804554" LeftDirection="320.39946162914265 -267.86211345804554" RightDirection="320.39946162914265 -267.86211345804554" />
+								<PathPointType Anchor="315.3274413068342 -270.30662532481733" LeftDirection="315.3274413068342 -270.30662532481733" RightDirection="315.3274413068342 -270.30662532481733" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="301.60067697325576 -270.0228005537432" LeftDirection="301.60067697325576 -270.0228005537432" RightDirection="301.60067697325576 -270.0228005537432" />
+								<PathPointType Anchor="302.67374587447244 -270.1398743058984" LeftDirection="302.67374587447244 -270.1398743058984" RightDirection="304.1386225076201 -270.3007605807247" />
+								<PathPointType Anchor="304.65996795328897 -269.21934984173765" LeftDirection="304.5909706734319 -269.83389810795677" RightDirection="304.75983321092616 -268.34006125858184" />
+								<PathPointType Anchor="303.9895350746212 -267.79273641973145" LeftDirection="304.0222845291422 -267.8139456418103" RightDirection="303.9895350746212 -267.79273641973145" />
+								<PathPointType Anchor="301.8805466384621 -267.561059799408" LeftDirection="301.8805466384621 -267.561059799408" RightDirection="301.8805466384621 -267.561059799408" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="302.3071714894572 -263.7990091364161" LeftDirection="302.3071714894572 -263.7990091364161" RightDirection="302.3071714894572 -263.7990091364161" />
+								<PathPointType Anchor="302.00423413545906 -266.47088078728586" LeftDirection="302.00423413545906 -266.47088078728586" RightDirection="302.00423413545906 -266.47088078728586" />
+								<PathPointType Anchor="303.560215400169 -266.64147754003613" LeftDirection="303.560215400169 -266.64147754003613" RightDirection="304.8642551700451 -266.78498109794566" />
+								<PathPointType Anchor="305.589407663927 -265.4943432098745" LeftDirection="305.50175240638947 -266.2678068123316" RightDirection="305.6781604495633 -264.7202835186738" />
+								<PathPointType Anchor="303.8622218151547 -263.9691347867721" LeftDirection="305.1679568739692 -264.11266718768525" RightDirection="303.8622218151547 -263.9691347867721" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="301.02448452071854 -262.51867781501255" LeftDirection="301.02448452071854 -262.51867781501255" RightDirection="301.02448452071854 -262.51867781501255" />
+								<PathPointType Anchor="304.18723712278415 -262.86619755266497" LeftDirection="304.18723712278415 -262.86619755266497" RightDirection="306.0469200914182 -263.0704733194416" />
+								<PathPointType Anchor="307.0718545460141 -265.6746504405485" LeftDirection="307.2408836725947 -264.1803713317829" RightDirection="306.91631913543443 -267.0461833397578" />
+								<PathPointType Anchor="305.23818887293754 -267.62659110389086" LeftDirection="305.7966836848809 -267.4929133959197" RightDirection="305.664970513661 -268.01206823445705" />
+								<PathPointType Anchor="306.11730888011493 -269.61069171639633" LeftDirection="306.2215740495056 -268.6957147232873" RightDirection="306.00630175240286 -270.5951995771727" />
+								<PathPointType Anchor="302.76044079492345 -271.2883546429006" LeftDirection="305.1373926762879 -271.5497203284008" RightDirection="302.76044079492345 -271.2883546429006" />
+								<PathPointType Anchor="300.0610018403001 -270.99206007987914" LeftDirection="300.0610018403001 -270.99206007987914" RightDirection="300.0610018403001 -270.99206007987914" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="295.68986100204455 -259.5756146287041" LeftDirection="295.68986100204455 -259.5756146287041" RightDirection="295.68986100204455 -259.5756146287041" />
+								<PathPointType Anchor="296.89291838746857 -260.3209370738516" LeftDirection="296.89291838746857 -260.3209370738516" RightDirection="296.89291838746857 -260.3209370738516" />
+								<PathPointType Anchor="292.2683857493914 -267.5344377069616" LeftDirection="292.2683857493914 -267.5344377069616" RightDirection="292.2683857493914 -267.5344377069616" />
+								<PathPointType Anchor="291.06658268179456 -266.78929793417115" LeftDirection="291.06658268179456 -266.78929793417115" RightDirection="291.06658268179456 -266.78929793417115" />
+							</PathPointArray>
+						</GeometryPathType>
+						<GeometryPathType PathOpen="false">
+							<PathPointArray>
+								<PathPointType Anchor="289.6119169797095 -252.56317857462145" LeftDirection="289.6119169797095 -252.56317857462145" RightDirection="289.6119169797095 -252.56317857462145" />
+								<PathPointType Anchor="292.8764359148693 -257.2678570569683" LeftDirection="292.8764359148693 -257.2678570569683" RightDirection="292.8764359148693 -257.2678570569683" />
+								<PathPointType Anchor="291.92486925380996 -257.90657576031606" LeftDirection="291.92486925380996 -257.90657576031606" RightDirection="291.92486925380996 -257.90657576031606" />
+								<PathPointType Anchor="289.46154583080937 -254.35526169693725" LeftDirection="289.46154583080937 -254.35526169693725" RightDirection="289.46154583080937 -254.35526169693725" />
+								<PathPointType Anchor="283.2514280674274 -258.52450827230655" LeftDirection="283.2514280674274 -258.52450827230655" RightDirection="283.2514280674274 -258.52450827230655" />
+								<PathPointType Anchor="282.4502031571941 -257.3701920342154" LeftDirection="282.4502031571941 -257.3701920342154" RightDirection="282.4502031571941 -257.3701920342154" />
+							</PathPointArray>
+						</GeometryPathType>
+					</PathGeometry>
+				</Properties>
+				<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+					<Properties>
+						<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+						<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					</Properties>
+				</ObjectExportOption>
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+				</TextWrapPreference>
+				<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			</Polygon>
+		</Group>
+		<Rectangle Self="u33c2" ContentType="GraphicType" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.9999999999999999 0 0 0.9999999999999999 -98.96568367604418 -98.82027283573632" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-150.4831352216197 -254.8017744083844" LeftDirection="-150.4831352216197 -254.8017744083844" RightDirection="-150.4831352216197 -254.8017744083844" />
+							<PathPointType Anchor="-150.4831352216197 396.3780303632526" LeftDirection="-150.4831352216197 396.3780303632526" RightDirection="-150.4831352216197 396.3780303632526" />
+							<PathPointType Anchor="245.15260398750843 396.3780303632526" LeftDirection="245.15260398750843 396.3780303632526" RightDirection="245.15260398750843 396.3780303632526" />
+							<PathPointType Anchor="245.15260398750843 -254.8017744083844" LeftDirection="245.15260398750843 -254.8017744083844" RightDirection="245.15260398750843 -254.8017744083844" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<FrameFittingOption LeftCrop="451.7100058435864" TopCrop="25.70111527321751" RightCrop="80.94516651734489" BottomCrop="-94.9959356244608" FittingAlignment="TopLeftAnchor" />
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+				<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+			</TextWrapPreference>
+			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			<TransparencySetting>
+				<BlendingSetting Opacity="15" />
+			</TransparencySetting>
+			<PDF Self="u33c3" GrayVectorPolicy="IgnoreAll" RGBVectorPolicy="HonorAllProfiles" CMYKVectorPolicy="IgnoreAll" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Adobe Portable Document Format (PDF)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.613498253157513 0 0 0.6134982531575134 -427.60643474043 -270.5693637327035" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+				<Properties>
+					<GraphicBounds Left="0" Top="0" Right="1177.5400390625" Bottom="992.1259765625" />
+				</Properties>
+				<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+				<GraphicLayerOption UpdateLinkOption="KeepOverrides">
+					<GraphicLayer Self="u33c3GraphicLayerOption1i50" Name="$ID/Layer 1" OriginalVisibility="true" CurrentVisibility="true" SeparatorLayer="false" AdjustmentLayer="false" FXLayer="false" Locked="false" HasViewState="false" ViewState="false" HasExportState="false" ExportState="false" HasPrintState="false" PrintState="false" Id="80" />
+					<GraphicLayer Self="u33c3GraphicLayerOption1i4f" Name="$ID/Layer 2" OriginalVisibility="true" CurrentVisibility="true" SeparatorLayer="false" AdjustmentLayer="false" FXLayer="false" Locked="false" HasViewState="false" ViewState="false" HasExportState="false" ExportState="false" HasPrintState="false" PrintState="false" Id="79" />
+				</GraphicLayerOption>
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+					<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+				</TextWrapPreference>
+				<Link Self="u33c5" AssetURL="$ID/" AssetID="$ID/" LinkResourceURI="file:/Users/gigi/Dropbox/01%20ongoing%20projects/Liber/Citizen%20Science/Citizen_Science_Guide2021_244X170MM%20Folder/Links/MAP-2.ai" LinkResourceFormat="$ID/Adobe Portable Document Format (PDF)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131630961130000000 1009145" LinkImportModificationTime="2018-02-14T16:35:13" LinkImportTime="2020-05-26T14:38:27" LinkResourceSize="0~f65f9" RenditionData="Actual" />
+				<MetadataPacketPreference>
+					<Properties>
+						<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c004 79.164570, 2020/11/18-15:51:46        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/">
+         <xmp:CreateDate>2018-02-12T11:17:50+01:00</xmp:CreateDate>
+         <xmp:ModifyDate>2018-02-14T16:35:13+01:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2018-02-14T16:35:13+01:00</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe Illustrator CS5.1</xmp:CreatorTool>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>212</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgA1AEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYq7FXYq7FXYq7&#xA;FXYq7FXYq7FXYq7FXYq7FXYq07oiM7sFRQSzE0AA3JJOKpQPMBvRx0OD9IA1H1wkxWYp/wAXUb1O&#xA;n+6lb3Iyzgr6tvvYcd8t2G6/pF75uuLfTLjUJZdPnmYSSQcoYJFgo8rRRo1WhRuMZaR2JkYcSqg8&#xA;siEhAXW7ROJntezPdEvJL3RrC9kFJLm2hmcf5UiBj0+eYsxRIciJsAo3IsnYq7FXYq7FXYq7FXYq&#xA;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</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpMM:VersionID>1</xmpMM:VersionID>
+         <xmpMM:InstanceID>uuid:d2b7995f-1844-2947-ad1d-c6b47b38aa49</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>adobe:docid:indd:7867eb50-bc78-11e1-840b-ec2fb2538690</xmpMM:OriginalDocumentID>
+         <xmpMM:DocumentID>xmp.did:FF7F11740720681180838044E50B2904</xmpMM:DocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:79342545-f6dd-384f-89e6-bb78f7b4cf41</stRef:instanceID>
+            <stRef:documentID>xmp.did:F97F1174072068118C14A7AD7700B8C6</stRef:documentID>
+            <stRef:originalDocumentID>adobe:docid:indd:7867eb50-bc78-11e1-840b-ec2fb2538690</stRef:originalDocumentID>
+            <stRef:versionID>1</stRef:versionID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:parameters>from application/x-indesign to application/pdf</stEvt:parameters>
+                  <stEvt:softwareAgent>Adobe InDesign CS6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+                  <stEvt:when>2017-11-20T07:27:46+01:00</stEvt:when>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F77F1174072068118083FF2C2CB0EA0B</stEvt:instanceID>
+                  <stEvt:when>2017-12-19T17:33:12+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:02801174072068118083AFAD08A29E17</stEvt:instanceID>
+                  <stEvt:when>2018-01-09T12:23:27+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F77F1174072068118083F80746A72CEE</stEvt:instanceID>
+                  <stEvt:when>2018-01-12T11:37:43+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F87F1174072068118083F80746A72CEE</stEvt:instanceID>
+                  <stEvt:when>2018-01-12T11:44:25+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:03801174072068118C1486DDB5E6A9E3</stEvt:instanceID>
+                  <stEvt:when>2018-01-22T15:48:53+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:05801174072068118C1486DDB5E6A9E3</stEvt:instanceID>
+                  <stEvt:when>2018-01-22T16:12:05+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:06801174072068118C1486DDB5E6A9E3</stEvt:instanceID>
+                  <stEvt:when>2018-01-22T16:12:16+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F97F1174072068118C14A7AD7700B8C6</stEvt:instanceID>
+                  <stEvt:when>2018-02-08T11:10:06+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:FF7F11740720681180838044E50B2904</stEvt:instanceID>
+                  <stEvt:when>2018-02-12T11:17:50+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">LIBER-ORGANOGRAM2018final-CRIMSON</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <pdf:Producer>Adobe PDF library 9.90</pdf:Producer>
+         <pdf:Trapped>False</pdf:Trapped>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>415.409269</stDim:w>
+            <stDim:h>349.999997</stDim:h>
+            <stDim:unit>Millimeters</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Cyan</rdf:li>
+               <rdf:li>Magenta</rdf:li>
+               <rdf:li>Yellow</rdf:li>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=80 M=35 Y=0 K=50 1</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>80.000000</xmpG:cyan>
+                           <xmpG:magenta>35.000004</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>50.000000</xmpG:black>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <illustrator:Type>Document</illustrator:Type>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+					</Properties>
+				</MetadataPacketPreference>
+				<PDFAttribute PageNumber="1" PDFCrop="CropPDF" TransparentBackground="true" />
+			</PDF>
+		</Rectangle>
+		<TextFrame Self="u33c6" ParentStory="u33c9" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="0 -1 1 0 1218.3267716535204 87.92469899189939" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-138.8976377952756 -14.527697080530515" LeftDirection="-138.8976377952756 -14.527697080530515" RightDirection="-138.8976377952756 -14.527697080530515" />
+							<PathPointType Anchor="-138.8976377952756 6.94881889763775" LeftDirection="-138.8976377952756 6.94881889763775" RightDirection="-138.8976377952756 6.94881889763775" />
+							<PathPointType Anchor="-31.13041911832738 6.94881889763775" LeftDirection="-31.13041911832738 6.94881889763775" RightDirection="-31.13041911832738 6.94881889763775" />
+							<PathPointType Anchor="-31.13041911832738 -14.527697080530515" LeftDirection="-31.13041911832738 -14.527697080530515" RightDirection="-31.13041911832738 -14.527697080530515" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="107.76721867694823" TextColumnMaxWidth="0" ColumnRuleOverride="false" ColumnRuleOffset="0" ColumnRuleTopInset="0" ColumnRuleInsetChainOverride="true" ColumnRuleBottomInset="0" ColumnRuleStrokeWidth="1" ColumnRuleStrokeColor="Color/Black" ColumnRuleStrokeType="StrokeStyle/$ID/Solid" ColumnRuleStrokeTint="100" ColumnRuleOverprintOverride="false">
+				<Properties>
+					<InsetSpacing type="list">
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+					</InsetSpacing>
+				</Properties>
+			</TextFramePreference>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+		<TextFrame Self="u33dd" ParentStory="u33e0" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 -103.73200486584372 47.11487611367839" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="233.95034667486578 -104.04400997199836" LeftDirection="233.95034667486578 -104.04400997199836" RightDirection="233.95034667486578 -104.04400997199836" />
+							<PathPointType Anchor="233.95034667486578 -59.413456768675985" LeftDirection="233.95034667486578 -59.413456768675985" RightDirection="233.95034667486578 -59.413456768675985" />
+							<PathPointType Anchor="301.64332323073353 -59.413456768675985" LeftDirection="301.64332323073353 -59.413456768675985" RightDirection="301.64332323073353 -59.413456768675985" />
+							<PathPointType Anchor="301.64332323073353 -104.04400997199836" LeftDirection="301.64332323073353 -104.04400997199836" RightDirection="301.64332323073353 -104.04400997199836" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextFramePreference TextColumnCount="1" TextColumnGutter="9.298615775588681" TextColumnFixedWidth="67.69297655586774" VerticalJustification="BottomAlign" TextColumnMaxWidth="0" ColumnRuleOverride="false" ColumnRuleOffset="0" ColumnRuleTopInset="0" ColumnRuleInsetChainOverride="true" ColumnRuleBottomInset="0" ColumnRuleStrokeWidth="1" ColumnRuleStrokeColor="Color/Black" ColumnRuleStrokeType="StrokeStyle/$ID/Solid" ColumnRuleStrokeTint="100" ColumnRuleOverprintOverride="false">
+				<Properties>
+					<InsetSpacing type="list">
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+					</InsetSpacing>
+				</Properties>
+			</TextFramePreference>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+		<TextFrame Self="u33f4" ParentStory="u33f8" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="0 -1 1 0 283.63210449208844 109.93252278558366" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-193.37456382855993 -68.19903362594678" LeftDirection="-193.37456382855993 -68.19903362594678" RightDirection="-193.37456382855993 -68.19903362594678" />
+							<PathPointType Anchor="-193.37456382855993 -50.48275541422794" LeftDirection="-193.37456382855993 -50.48275541422794" RightDirection="-193.37456382855993 -50.48275541422794" />
+							<PathPointType Anchor="-65.25131495707913 -50.48275541422794" LeftDirection="-65.25131495707913 -50.48275541422794" RightDirection="-65.25131495707913 -50.48275541422794" />
+							<PathPointType Anchor="-65.25131495707913 -68.19903362594678" LeftDirection="-65.25131495707913 -68.19903362594678" RightDirection="-65.25131495707913 -68.19903362594678" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="128.1232488714808" TextColumnMaxWidth="0" ColumnRuleOverride="false" ColumnRuleOffset="0" ColumnRuleTopInset="0" ColumnRuleInsetChainOverride="true" ColumnRuleBottomInset="0" ColumnRuleStrokeWidth="1" ColumnRuleStrokeColor="Color/Black" ColumnRuleStrokeType="StrokeStyle/$ID/Solid" ColumnRuleStrokeTint="100" ColumnRuleOverprintOverride="false">
+				<Properties>
+					<InsetSpacing type="list">
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+					</InsetSpacing>
+				</Properties>
+			</TextFramePreference>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+		<TextFrame Self="u340c" ParentStory="u340f" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="0.9999999999999998 0 0 0.9999999999999998 67.17661380090993 -178.96555726196598" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-132.13130853441638 -168.2785372262233" LeftDirection="-132.13130853441638 -168.2785372262233" RightDirection="-132.13130853441638 -168.2785372262233" />
+							<PathPointType Anchor="-132.13130853441638 78.785557971603" LeftDirection="-132.13130853441638 78.785557971603" RightDirection="-132.13130853441638 78.785557971603" />
+							<PathPointType Anchor="130.7347045639799 78.785557971603" LeftDirection="130.7347045639799 78.785557971603" RightDirection="130.7347045639799 78.785557971603" />
+							<PathPointType Anchor="130.7347045639799 -168.2785372262233" LeftDirection="130.7347045639799 -168.2785372262233" RightDirection="130.7347045639799 -168.2785372262233" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextFramePreference TextColumnCount="1" TextColumnGutter="7.748846479657234" TextColumnFixedWidth="262.86601309839625" VerticalJustification="CenterAlign" TextColumnMaxWidth="0" ColumnRuleOverride="false" ColumnRuleOffset="0" ColumnRuleTopInset="0" ColumnRuleInsetChainOverride="true" ColumnRuleBottomInset="0" ColumnRuleStrokeWidth="1" ColumnRuleStrokeColor="Color/Black" ColumnRuleStrokeType="StrokeStyle/$ID/Solid" ColumnRuleStrokeTint="100" ColumnRuleOverprintOverride="false">
+				<Properties>
+					<InsetSpacing type="list">
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+					</InsetSpacing>
+				</Properties>
+			</TextFramePreference>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+		<TextFrame Self="u3423" ParentStory="u3426" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ufd" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 133.10250938257852 -88.75916365521532" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-133.10250938257855 -123.62801294772063" LeftDirection="-133.10250938257855 -123.62801294772063" RightDirection="-133.10250938257855 -123.62801294772063" />
+							<PathPointType Anchor="-133.10250938257855 40.53863813101282" LeftDirection="-133.10250938257855 40.53863813101282" RightDirection="-133.10250938257855 40.53863813101282" />
+							<PathPointType Anchor="65.32268746778527 40.53863813101282" LeftDirection="65.32268746778527 40.53863813101282" RightDirection="65.32268746778527 40.53863813101282" />
+							<PathPointType Anchor="65.32268746778527 -123.62801294772063" LeftDirection="65.32268746778527 -123.62801294772063" RightDirection="65.32268746778527 -123.62801294772063" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="198.42519685036382" TextColumnMaxWidth="0" ColumnRuleOverride="false" ColumnRuleOffset="0" ColumnRuleTopInset="0" ColumnRuleInsetChainOverride="true" ColumnRuleBottomInset="0" ColumnRuleStrokeWidth="1" ColumnRuleStrokeColor="Color/Black" ColumnRuleStrokeType="StrokeStyle/$ID/Solid" ColumnRuleStrokeTint="100" ColumnRuleOverprintOverride="false">
+				<Properties>
+					<InsetSpacing type="list">
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+					</InsetSpacing>
+				</Properties>
+			</TextFramePreference>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+	</Spread>
+</idPkg:Spread>
