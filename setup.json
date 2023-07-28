@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/NFDI4Culture/class-ADA-CP-pipeline",
+  "repoURL": "https://github.com/NFDI4Culture/FSCI-Class-Publishing-from-Collections",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.vercel.app/"
 }
