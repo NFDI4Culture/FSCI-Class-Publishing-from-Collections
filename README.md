@@ -17,10 +17,10 @@ The example workflows have been put together by researchers from the two researc
 Distributed LOD sources include: Wikidata and Thoth.
 
 Coordinated by Simon Worthington - NFDI4Culture @Open Science Lab, TIB, Hannover; with Simon Bowie - Centre for Postdigital Cultures
-Coventry University and Janneke Adema - Centre for Postdigital Cultures | Institute for Creative Cultures| Coventry University, of the COPIM project.
+Coventry University and, Janneke Adema - Centre for Postdigital Cultures | Institute for Creative Cultures | Coventry University (both of the COPIM project).
 
 ### Cite as 
 
-Document DOI: TBC | Author: Simon Worthington https://orcid.org/0000-0002-8579-9717 
+DOI: TBC | Author: Simon Worthington https://orcid.org/0000-0002-8579-9717 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
