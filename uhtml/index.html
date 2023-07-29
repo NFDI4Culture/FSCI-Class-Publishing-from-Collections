@@ -232,6 +232,30 @@
           </li>
           <li>
             <a href="#_7_0">
+              Create a Wikidata query
+            </a>
+            <ol>
+              <li>
+                <a href="#H5822983">
+                  Steps
+                </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="#_8_0">
+              Transfering a Wikidata SPARQL query to a Juypter Notebook
+            </a>
+            <ol>
+              <li>
+                <a href="#H9669908">
+                  A painting collection
+                </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="#_9_0">
               Quarto Rendering
             </a>
             <ol>
@@ -248,7 +272,7 @@
             </ol>
           </li>
           <li>
-            <a href="#_8_0">
+            <a href="#_10_0">
               Editing Quarto
             </a>
             <ol>
@@ -267,7 +291,7 @@
             </ol>
           </li>
           <li>
-            <a href="#_9_0">
+            <a href="#_11_0">
               Jupyter Notebooks: Setup, Editing, and Saving
             </a>
             <ol>
@@ -279,79 +303,7 @@
             </ol>
           </li>
           <li>
-            <a href="#_10_0">
-              Activity: Create a Wikidata query
-            </a>
-            <ol>
-              <li>
-                <a href="#H5822983">
-                  Steps
-                </a>
-              </li>
-            </ol>
-          </li>
-          <li>
-            <a href="#_11_0">
-              Activity: Making SPARQL Queries in Wikidata of Collections
-            </a>
-            <ol>
-              <li>
-                <a href="#H5313897">
-                  The activity goal
-                </a>
-                <ol>
-                  <li>
-                    <a href="#H9669908">
-                      Query 1: A painting collection
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#H3164141">
-                      Query 2: Make your own collection query
-                    </a>
-                    <ol>
-                      <li>
-                        <a href="#H286828">
-                          Resources for finding collections: Data models and information
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li>
-                    <a href="#H4465979">
-                      Steps for making your own query
-                    </a>
-                  </li>
-                </ol>
-              </li>
-            </ol>
-          </li>
-          <li>
             <a href="#_12_0">
-              Transfering a Wikidata SPARQL query to a Juypter Notebook
-            </a>
-            <ol>
-              <li>
-                <a href="#H9669908">
-                  Query 1: A painting collection
-                </a>
-              </li>
-              <li>
-                <a href="#H3164141">
-                  Query 2: Your custom collection query
-                </a>
-                <ol>
-                  <li>
-                    <a href="#H7994039">
-                      Steps
-                    </a>
-                  </li>
-                </ol>
-              </li>
-            </ol>
-          </li>
-          <li>
-            <a href="#_13_0">
               Publishing Tasks
             </a>
             <ol>
@@ -370,12 +322,12 @@
             </ol>
           </li>
           <li>
-            <a href="#_14_0">
+            <a href="#_13_0">
               Review and Flight Check
             </a>
           </li>
           <li>
-            <a href="#_15_0">
+            <a href="#_14_0">
               Software (open-source)
             </a>
             <ol>
@@ -609,7 +561,7 @@
           <p>Turn on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages" title="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a> - <em><strong>voilà</strong></em> you have a website :-)</p>
           <ul id="L57786631">
             <li>
-              <p>First go to the Settings tab in your repository; second in the left menu go down to Pages; third, secect main, docs - and save. In a few minutes this will torn on your Github Pages website. Congrats!</p>
+              <p>First go to the Settings tab in your repository; second in the left menu go down to Pages; third, secect main, docs - and save. In a few minutes this will turn on your Github Pages website. Congrats!</p>
             </li>
             <li>
               <figure id="F29949071" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/0745897f-933f-4fa1-b083-8bcd8cd90747.png">
@@ -715,7 +667,123 @@
       <p>[&gt;] Checking R installation...........(None) Unable to locate an installed version of R. Install R from https://cloud.r-project.org/</p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_7_0">Quarto Rendering</div>
+    <div class="article-part article-title" id="_7_0">Create a Wikidata query</div>
+    <div class="article-part article-richtext article-body">
+      <p><strong>Objective:</strong> To builds a Wikidata query. See example query: paintings, <a href="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A" title="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A">query link</a>.</p>
+      <ul id="L11155881">
+        <li>
+          <p>Allows for non-expert query building with plain language</p>
+        </li>
+      </ul>
+      <ul id="L33276711">
+        <li>
+          <p>View query as plain language and as code</p>
+        </li>
+        <li>
+          <p>Experience of building a query</p>
+        </li>
+        <li>
+          <p>Contact with some basic building blocks of Wikidata</p>
+        </li>
+        <li>
+          <p>View and export SPARQL query</p>
+        </li>
+      </ul>
+      <p><strong>Notes:</strong> Wikidata Query (<a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help" title="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help">help</a>)</p>
+      <h4 id="H5822983">Steps</h4>
+      <ol id="L18547311">
+        <li>
+          <p>Go to the sample painting collection query <a href="Notes: Wikidata Query (help)" title="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A">here</a>. </p>
+        </li>
+        <li>
+          <p>Example perameters to change:</p>
+          <ol id="L53347471">
+            <li>
+              <p>Change the collection used</p>
+            </li>
+          </ol>
+          <ol id="L35759401" start="2">
+            <li>
+              <p>Change the filter for subject depicted in the paintings </p>
+            </li>
+          </ol>
+          <ol id="L91851941" start="3">
+            <li>
+              <p>Change the number to items retrieved</p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <ol id="L21588281" start="3">
+        <li>
+          <p><em><strong>Step-by-step instructions</strong></em> </p>
+          <p><strong>Note: You will use the lefthand 'Query helper' GUI, where you can type in names of items. Sometimes you need to enter a term twice to get the correct item to appear.</strong></p>
+          <ol id="L87126511">
+            <li>
+              <p>Enable split view with <em><strong>i info</strong></em> button top left.</p>
+            </li>
+            <li>
+              <p>Filter: <strong>instance of</strong> <a href="https://www.wikidata.org/wiki/Property:P31" title="https://www.wikidata.org/wiki/Property:P31">P31</a>, <strong>painting</strong> <a href="https://www.wikidata.org/wiki/Q3305213" title="https://www.wikidata.org/wiki/Q3305213">Q3305213</a> - wdt:P31 wd:Q3305213.</p>
+            </li>
+            <li>
+              <p>Filter: <strong>collection</strong> <a href="https://www.wikidata.org/wiki/Property:P195" title="https://www.wikidata.org/wiki/Property:P195">P195</a>, <strong>Bavarian State Painting Collection</strong> <a href="https://www.wikidata.org/wiki/Q812285" title="https://www.wikidata.org/wiki/Q812285">Q812285</a> - wdt:P195 wd:Q812285. Change to a painting collection of your choice - see list of <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection">collections on Wikipedia</a>.</p>
+            </li>
+            <li>
+              <p>Filter: <strong>depicts</strong> <a href="https://www.wikidata.org/wiki/Property:P180" title="https://www.wikidata.org/wiki/Property:P180">P180</a>, <strong>river</strong> <a href="https://www.wikidata.org/wiki/Q4022" title="https://www.wikidata.org/wiki/Q4022">Q4022</a> - change to your preference</p>
+            </li>
+            <li>
+              <p>Limit, bottom left set limit to number of items returned.</p>
+            </li>
+            <li>
+              <p>Play button - bottom left - renders query below</p>
+            </li>
+            <li>
+              <p>Image grid view :-)</p>
+            </li>
+            <li>
+              <p>Save your query: Options. Bottom right you will see a Link icon, clikc this and you can access a Short Link creator (but this is often not working). Alternatively you can copy the URL of your query from the browser address bar. Save the link in your browser bookmakr bar or in a text editor.</p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+    <div class="article-part article-title" id="_8_0">Transfering a Wikidata SPARQL query to a Juypter Notebook</div>
+    <div class="article-part article-richtext article-body">
+      <h3 id="H9669908">A painting collection</h3>
+      <ul id="L65523571">
+        <li>
+          <p><a href="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A" title="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A">Wikidata query link</a></p>
+        </li>
+        <li>
+          <p><a href="https://github.com/NFDI4Culture/ada-painting-notebook/blob/main/paintings-fsci.ipynb" title="https://github.com/NFDI4Culture/ada-painting-notebook/blob/main/paintings-fsci.ipynb">Jupyter Notebook link</a></p>
+        </li>
+      </ul>
+      <p>We are using a pre-configured Jupyter Notebook that combines the SPARQL query and custom Python code. The Python code adds formatting to the SPARQL output to enable the Markdown rendering.</p>
+      <p>Wikidata's query builder cannot create all the Python needed for the Jupyter Notebook which means a Python coder to create the Python needed.</p>
+      <p>In this example we are only editing three perameters</p>
+      <ol id="L41723701">
+        <li>
+          <p>Collection</p>
+        </li>
+        <li>
+          <p>Depicts</p>
+        </li>
+        <li>
+          <p>Limit</p>
+        </li>
+      </ol>
+      <p>The Wikidata query builder is only being used for <a href="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A" title="https://query.wikidata.org/#SELECT%20%0A%20%20%3Fpainting%20%0A%20%20%3FcreatorLabel%0A%20%20%3Fimage%0A%20%20%3Fcopyright_status%20%0A%20%20%3Finventory_number%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fmade_from_materialLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fmade_from_materialLabels%29%20%0A%20%20%3FlocationLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FgenreLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FgenreLabels%29%20%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3FdepictsLabel%3B%20separator%3D%22%2C%20%22%29%20AS%20%3FdepictsLabels%29%20%0A%20%20%3Fmain_subjectLabel%0AWHERE%20%7B%0A%20%20%3Fpainting%20wdt%3AP31%20wd%3AQ3305213%3B%20%20%23%20Instance%20of%20%22painting%22%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP195%20wd%3AQ160236%3B%20%20%20%23%20Part%20of%20the%20Metropolitan%20Museum%20of%20Art%20collection%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP180%20wd%3AQ4022.%20%20%20%20%23%20Depicts%20%27river%27%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP170%20%3Fcreator.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP6216%20%3Fcopyright_status.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP571%20%3Finception.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP217%20%3Finventory_number.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP186%20%3Fmade_from_material.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP276%20%3Flocation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP180%20%3Fdepicts.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fpainting%20wdt%3AP921%20%3Fmain_subject.%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%0A%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%0A%20%20%20%20%3Fmade_from_material%20rdfs%3Alabel%20%3Fmade_from_materialLabel.%0A%20%20%20%20%3Flocation%20rdfs%3Alabel%20%3FlocationLabel.%0A%20%20%20%20%3Fgenre%20rdfs%3Alabel%20%3FgenreLabel.%0A%20%20%20%20%3Fdepicts%20rdfs%3Alabel%20%3FdepictsLabel.%0A%20%20%20%20%3Fmain_subject%20rdfs%3Alabel%20%3Fmain_subjectLabel.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fpainting%20%3FcreatorLabel%20%3Fimage%20%3Fcopyright_status%20%3Finventory_number%20%3Fmade_from_materialLabels%20%3FlocationLabel%20%3FgenreLabels%20%3FdepictsLabels%20%3Fmain_subjectLabel%0AORDER%20BY%20%3Fpainting%0ALIMIT%2027%0A">previewing the query</a>.</p>
+      <p>On line 24 and 25 of the Notebook you can change the collection and depiction codes to your updated IDs:</p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; wdt:P195 wd:<strong>Q160236</strong>; &nbsp; # Part of the Metropolitan Museum of Art collection</p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; wdt:P180 wd:<strong>Q4022</strong>. &nbsp; &nbsp;# Depicts 'river'</p>
+      <p>Change the limit on line 49:</p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LIMIT <strong>27</strong></p>
+      <p>Save and run the Notebook cell to see the results displayed in the same way as the Wikidata query perview.</p>
+      <p>Save the Notebook.</p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+    <div class="article-part article-title" id="_9_0">Quarto Rendering</div>
     <div class="article-part article-richtext article-body">
       <p>Quarto help docs: <a href="https://quarto.org/" title="https://quarto.org/">https://quarto.org/</a></p>
       <p>Using quarto to render as multi-format.</p>
@@ -768,7 +836,7 @@
       <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_8_0">Editing Quarto </div>
+    <div class="article-part article-title" id="_10_0">Editing Quarto </div>
     <div class="article-part article-richtext article-body">
       <p>Visual Studio Code is one option as an editor, but you can use any editor suite that you like.</p>
       <h2 id="H4307972">Install Visual Studio Code (VSC)</h2>
@@ -785,7 +853,7 @@
       <p>If you are using VSC you can run Notebooks as well as use the Terminal to run Quarto commands, and commit to GitHub.</p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_9_0">Jupyter Notebooks: Setup, Editing, and Saving</div>
+    <div class="article-part article-title" id="_11_0">Jupyter Notebooks: Setup, Editing, and Saving</div>
     <div class="article-part article-richtext article-body">
       <p>General instructions for using Jupyter Notebooks.</p>
       <p>Installation of Python and Jupyter Notebooks is covered in Quarto install section.</p>
@@ -800,264 +868,7 @@
       <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_10_0">Activity: Create a Wikidata query</div>
-    <div class="article-part article-richtext article-body">
-      <p><strong>Objective:</strong> User builds a Wikidata query. See example query: paintings, Bavarian Collections, 1590 - 1750 - <a href="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Finceptionyear%20%3Fcreator%20%3FcreatorLabel%20%3Fcopyright%20%3FcopyrightLabel%20%3Fimage%0AWHERE%0A%7B%0A%20%20%23%20find%20items%20which%3A%0A%20%20%23%20are%20instances%20of%20%28wdt%3AP31%29%20paintings%20%28wd%3AQ3305213%29%0A%20%20%23%20have%20the%20property%20%28wdt%3AP195%29%20of%20being%20in%20collection%20wd%3AQ812285%20%28Bavarian%20State%20Painting%20Collections%20https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FWikidata%3AWikiProject_sum_of_all_paintings%2FCollection%2FBavarian_State_Painting_Collections%29%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP195%20wd%3AQ812285%20.%0A%20%20%23%20get%20the%20item%27s%20creator%20property%20%28wdt%3AP170%29%0A%20%20%3Fitem%20wdt%3AP170%20%3Fcreator%20.%0A%20%20%23%20get%20the%20item%27s%20image%20property%20%28wdt%3AP18%29%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%23%20get%20the%20item%27s%20copyright%20status%20%28wdt%3AP6216%29%0A%20%20%3Fitem%20wdt%3AP6216%20%3Fcopyright%20.%20%0A%20%20%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP571%20%3Finception.%0A%20%20%20%20BIND%28YEAR%28%3Finception%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab30.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob%3B%0A%20%20%20%20%20%20wdt%3AP570%20%3Fdod.%0A%20%20%20%20BIND%28%28%28%28YEAR%28%3Fdod%29%29%20-%20%28YEAR%28%3Fdob%29%29%29%20%2F%202%20%29%20%2B%20%28YEAR%28%3Fdob%29%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab31.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20MINUS%20%7B%20%3Fcreator%20wdt%3AP570%20_%3Ab32.%20%7D%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob.%0A%20%20%20%20BIND%28%28YEAR%28%3Fdob%29%29%20%2B%2050%20%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20%23%20filter%20out%20all%20paintings%20not%20created%20between%20the%20years%201600%20and%201700%0A%20%20FILTER%28%281600%20%20%3C%3D%20%3Finceptionyear%29%20%26%26%20%28%3Finceptionyear%20%3C%201700%20%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%20%7D%0A%23%20limit%20to%20nine%20results%0ALIMIT%209" title="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Finceptionyear%20%3Fcreator%20%3FcreatorLabel%20%3Fcopyright%20%3FcopyrightLabel%20%3Fimage%0AWHERE%0A%7B%0A%20%20%23%20find%20items%20which%3A%0A%20%20%23%20are%20instances%20of%20%28wdt%3AP31%29%20paintings%20%28wd%3AQ3305213%29%0A%20%20%23%20have%20the%20property%20%28wdt%3AP195%29%20of%20being%20in%20collection%20wd%3AQ812285%20%28Bavarian%20State%20Painting%20Collections%20https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FWikidata%3AWikiProject_sum_of_all_paintings%2FCollection%2FBavarian_State_Painting_Collections%29%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP195%20wd%3AQ812285%20.%0A%20%20%23%20get%20the%20item%27s%20creator%20property%20%28wdt%3AP170%29%0A%20%20%3Fitem%20wdt%3AP170%20%3Fcreator%20.%0A%20%20%23%20get%20the%20item%27s%20image%20property%20%28wdt%3AP18%29%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%23%20get%20the%20item%27s%20copyright%20status%20%28wdt%3AP6216%29%0A%20%20%3Fitem%20wdt%3AP6216%20%3Fcopyright%20.%20%0A%20%20%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP571%20%3Finception.%0A%20%20%20%20BIND%28YEAR%28%3Finception%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab30.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob%3B%0A%20%20%20%20%20%20wdt%3AP570%20%3Fdod.%0A%20%20%20%20BIND%28%28%28%28YEAR%28%3Fdod%29%29%20-%20%28YEAR%28%3Fdob%29%29%29%20%2F%202%20%29%20%2B%20%28YEAR%28%3Fdob%29%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab31.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20MINUS%20%7B%20%3Fcreator%20wdt%3AP570%20_%3Ab32.%20%7D%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob.%0A%20%20%20%20BIND%28%28YEAR%28%3Fdob%29%29%20%2B%2050%20%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20%23%20filter%20out%20all%20paintings%20not%20created%20between%20the%20years%201600%20and%201700%0A%20%20FILTER%28%281600%20%20%3C%3D%20%3Finceptionyear%29%20%26%26%20%28%3Finceptionyear%20%3C%201700%20%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%20%7D%0A%23%20limit%20to%20nine%20results%0ALIMIT%209">query link</a></p>
-      <p><strong>External LOD and media used: </strong>Wikidata LOD, and Wiki Commons, Web Gallery of Art (images) - <a href="https://www.wga.hu/">https://www.wga.hu/</a></p>
-      <p><strong>Notes:</strong> Wikidata Query (<a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help" title="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help">help</a>)</p>
-      <ul id="L11155881">
-        <li>
-          <p>Allows for non-expert query building with plain language</p>
-        </li>
-        <li>
-          <p>View query as plain language and as code</p>
-        </li>
-        <li>
-          <p>Experience of building a query</p>
-        </li>
-        <li>
-          <p>Contact with some basic building blocks of Wikidata</p>
-        </li>
-        <li>
-          <p>View and export SPARQL query</p>
-        </li>
-      </ul>
-      <h4 id="H5822983">Steps</h4>
-      <ol id="L18547311">
-        <li>
-          <p>Go to <a href="https://query.wikidata.org/" title="https://query.wikidata.org/">https://query.wikidata.org/</a> </p>
-        </li>
-        <li>
-          <p>Build a query around the <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections/17th_Century" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections/17th_Century">17C Bavarian painting</a> collection to replicate the catalogue selection to be used in Activity B. Example:</p>
-          <ol id="L53347471">
-            <li>
-              <p>Code Repo: Current publication link</p>
-            </li>
-          </ol>
-          <ol id="L35759401" start="2">
-            <li>
-              <p>Rendering: Current publication link </p>
-            </li>
-          </ol>
-          <ol id="L91851941" start="3">
-            <li>
-              <p>Example: Paintings; in collection; Bavarian Collections; 1600 - 1700 -&nbsp;<a href="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Finceptionyear%20%3Fcreator%20%3FcreatorLabel%20%3Fcopyright%20%3FcopyrightLabel%20%3Fimage%0AWHERE%0A%7B%0A%20%20%23%20find%20items%20which%3A%0A%20%20%23%20are%20instances%20of%20%28wdt%3AP31%29%20paintings%20%28wd%3AQ3305213%29%0A%20%20%23%20have%20the%20property%20%28wdt%3AP195%29%20of%20being%20in%20collection%20wd%3AQ812285%20%28Bavarian%20State%20Painting%20Collections%20https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FWikidata%3AWikiProject_sum_of_all_paintings%2FCollection%2FBavarian_State_Painting_Collections%29%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP195%20wd%3AQ812285%20.%0A%20%20%23%20get%20the%20item%27s%20creator%20property%20%28wdt%3AP170%29%0A%20%20%3Fitem%20wdt%3AP170%20%3Fcreator%20.%0A%20%20%23%20get%20the%20item%27s%20image%20property%20%28wdt%3AP18%29%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%23%20get%20the%20item%27s%20copyright%20status%20%28wdt%3AP6216%29%0A%20%20%3Fitem%20wdt%3AP6216%20%3Fcopyright%20.%20%0A%20%20%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP571%20%3Finception.%0A%20%20%20%20BIND%28YEAR%28%3Finception%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab30.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob%3B%0A%20%20%20%20%20%20wdt%3AP570%20%3Fdod.%0A%20%20%20%20BIND%28%28%28%28YEAR%28%3Fdod%29%29%20-%20%28YEAR%28%3Fdob%29%29%29%20%2F%202%20%29%20%2B%20%28YEAR%28%3Fdob%29%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab31.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20MINUS%20%7B%20%3Fcreator%20wdt%3AP570%20_%3Ab32.%20%7D%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob.%0A%20%20%20%20BIND%28%28YEAR%28%3Fdob%29%29%20%2B%2050%20%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20%23%20filter%20out%20all%20paintings%20not%20created%20between%20the%20years%201600%20and%201700%0A%20%20FILTER%28%281600%20%20%3C%3D%20%3Finceptionyear%29%20%26%26%20%28%3Finceptionyear%20%3C%201700%20%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%20%7D%0A%23%20limit%20to%20nine%20results%0ALIMIT%209" title="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Finceptionyear%20%3Fcreator%20%3FcreatorLabel%20%3Fcopyright%20%3FcopyrightLabel%20%3Fimage%0AWHERE%0A%7B%0A%20%20%23%20find%20items%20which%3A%0A%20%20%23%20are%20instances%20of%20%28wdt%3AP31%29%20paintings%20%28wd%3AQ3305213%29%0A%20%20%23%20have%20the%20property%20%28wdt%3AP195%29%20of%20being%20in%20collection%20wd%3AQ812285%20%28Bavarian%20State%20Painting%20Collections%20https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FWikidata%3AWikiProject_sum_of_all_paintings%2FCollection%2FBavarian_State_Painting_Collections%29%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP195%20wd%3AQ812285%20.%0A%20%20%23%20get%20the%20item%27s%20creator%20property%20%28wdt%3AP170%29%0A%20%20%3Fitem%20wdt%3AP170%20%3Fcreator%20.%0A%20%20%23%20get%20the%20item%27s%20image%20property%20%28wdt%3AP18%29%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%23%20get%20the%20item%27s%20copyright%20status%20%28wdt%3AP6216%29%0A%20%20%3Fitem%20wdt%3AP6216%20%3Fcopyright%20.%20%0A%20%20%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP571%20%3Finception.%0A%20%20%20%20BIND%28YEAR%28%3Finception%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab30.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob%3B%0A%20%20%20%20%20%20wdt%3AP570%20%3Fdod.%0A%20%20%20%20BIND%28%28%28%28YEAR%28%3Fdod%29%29%20-%20%28YEAR%28%3Fdob%29%29%29%20%2F%202%20%29%20%2B%20%28YEAR%28%3Fdob%29%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab31.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20MINUS%20%7B%20%3Fcreator%20wdt%3AP570%20_%3Ab32.%20%7D%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob.%0A%20%20%20%20BIND%28%28YEAR%28%3Fdob%29%29%20%2B%2050%20%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20%23%20filter%20out%20all%20paintings%20not%20created%20between%20the%20years%201600%20and%201700%0A%20%20FILTER%28%281600%20%20%3C%3D%20%3Finceptionyear%29%20%26%26%20%28%3Finceptionyear%20%3C%201700%20%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%20%7D%0A%23%20limit%20to%20nine%20results%0ALIMIT%209">query link</a></p>
-            </li>
-          </ol>
-        </li>
-      </ol>
-      <ol id="L21588281" start="3">
-        <li>
-          <p><em><strong>Step-by-step instructions</strong></em> to replicate parts of this <a href="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Finceptionyear%20%3Fcreator%20%3FcreatorLabel%20%3Fcopyright%20%3FcopyrightLabel%20%3Fimage%0AWHERE%0A%7B%0A%20%20%23%20find%20items%20which%3A%0A%20%20%23%20are%20instances%20of%20%28wdt%3AP31%29%20paintings%20%28wd%3AQ3305213%29%0A%20%20%23%20have%20the%20property%20%28wdt%3AP195%29%20of%20being%20in%20collection%20wd%3AQ812285%20%28Bavarian%20State%20Painting%20Collections%20https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FWikidata%3AWikiProject_sum_of_all_paintings%2FCollection%2FBavarian_State_Painting_Collections%29%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP195%20wd%3AQ812285%20.%0A%20%20%23%20get%20the%20item%27s%20creator%20property%20%28wdt%3AP170%29%0A%20%20%3Fitem%20wdt%3AP170%20%3Fcreator%20.%0A%20%20%23%20get%20the%20item%27s%20image%20property%20%28wdt%3AP18%29%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%23%20get%20the%20item%27s%20copyright%20status%20%28wdt%3AP6216%29%0A%20%20%3Fitem%20wdt%3AP6216%20%3Fcopyright%20.%20%0A%20%20%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP571%20%3Finception.%0A%20%20%20%20BIND%28YEAR%28%3Finception%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab30.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob%3B%0A%20%20%20%20%20%20wdt%3AP570%20%3Fdod.%0A%20%20%20%20BIND%28%28%28%28YEAR%28%3Fdod%29%29%20-%20%28YEAR%28%3Fdob%29%29%29%20%2F%202%20%29%20%2B%20%28YEAR%28%3Fdob%29%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab31.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20MINUS%20%7B%20%3Fcreator%20wdt%3AP570%20_%3Ab32.%20%7D%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob.%0A%20%20%20%20BIND%28%28YEAR%28%3Fdob%29%29%20%2B%2050%20%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20%23%20filter%20out%20all%20paintings%20not%20created%20between%20the%20years%201600%20and%201700%0A%20%20FILTER%28%281600%20%20%3C%3D%20%3Finceptionyear%29%20%26%26%20%28%3Finceptionyear%20%3C%201700%20%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%20%7D%0A%23%20limit%20to%20nine%20results%0ALIMIT%209" title="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Finceptionyear%20%3Fcreator%20%3FcreatorLabel%20%3Fcopyright%20%3FcopyrightLabel%20%3Fimage%0AWHERE%0A%7B%0A%20%20%23%20find%20items%20which%3A%0A%20%20%23%20are%20instances%20of%20%28wdt%3AP31%29%20paintings%20%28wd%3AQ3305213%29%0A%20%20%23%20have%20the%20property%20%28wdt%3AP195%29%20of%20being%20in%20collection%20wd%3AQ812285%20%28Bavarian%20State%20Painting%20Collections%20https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FWikidata%3AWikiProject_sum_of_all_paintings%2FCollection%2FBavarian_State_Painting_Collections%29%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP195%20wd%3AQ812285%20.%0A%20%20%23%20get%20the%20item%27s%20creator%20property%20%28wdt%3AP170%29%0A%20%20%3Fitem%20wdt%3AP170%20%3Fcreator%20.%0A%20%20%23%20get%20the%20item%27s%20image%20property%20%28wdt%3AP18%29%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%23%20get%20the%20item%27s%20copyright%20status%20%28wdt%3AP6216%29%0A%20%20%3Fitem%20wdt%3AP6216%20%3Fcopyright%20.%20%0A%20%20%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP571%20%3Finception.%0A%20%20%20%20BIND%28YEAR%28%3Finception%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab30.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob%3B%0A%20%20%20%20%20%20wdt%3AP570%20%3Fdod.%0A%20%20%20%20BIND%28%28%28%28YEAR%28%3Fdod%29%29%20-%20%28YEAR%28%3Fdob%29%29%29%20%2F%202%20%29%20%2B%20%28YEAR%28%3Fdob%29%29%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20MINUS%20%7B%20%3Fitem%20wdt%3AP571%20_%3Ab31.%20%7D%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3Fcreator.%0A%20%20%20%20MINUS%20%7B%20%3Fcreator%20wdt%3AP570%20_%3Ab32.%20%7D%0A%20%20%20%20%3Fcreator%20wdt%3AP569%20%3Fdob.%0A%20%20%20%20BIND%28%28YEAR%28%3Fdob%29%29%20%2B%2050%20%20AS%20%3Finceptionyear%29%0A%20%20%7D%0A%20%20%23%20filter%20out%20all%20paintings%20not%20created%20between%20the%20years%201600%20and%201700%0A%20%20FILTER%28%281600%20%20%3C%3D%20%3Finceptionyear%29%20%26%26%20%28%3Finceptionyear%20%3C%201700%20%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%20%7D%0A%23%20limit%20to%20nine%20results%0ALIMIT%209">query link</a> base on this collection <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections/17th_Century" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections/17th_Century">17C Bavarian painting</a>:</p>
-          <p><strong>Note: You will use the lefthand 'Query helper' GUI, where you can type in names of items. Sometimes you need to enter a term twice to get the correct item to appear.</strong></p>
-          <p>Items names are in bold below with their corresponding identifiers.</p>
-          <ol id="L87126511">
-            <li>
-              <p>Go to <a href="https://query.wikidata.org/" title="https://query.wikidata.org/">https://query.wikidata.org/</a> </p>
-            </li>
-            <li>
-              <p>Enable split view with <em><strong>i info</strong></em> button top left.</p>
-            </li>
-            <li>
-              <p>Filter: <strong>instance of</strong> <a href="https://www.wikidata.org/wiki/Property:P31" title="https://www.wikidata.org/wiki/Property:P31">P31</a>, <strong>painting</strong> <a href="https://www.wikidata.org/wiki/Q3305213" title="https://www.wikidata.org/wiki/Q3305213">Q3305213</a> - wdt:P31 wd:Q3305213.</p>
-            </li>
-            <li>
-              <p>Filter: <strong>collection</strong> <a href="https://www.wikidata.org/wiki/Property:P195" title="https://www.wikidata.org/wiki/Property:P195">P195</a>, <strong>Bavarian State Painting Collection</strong> <a href="https://www.wikidata.org/wiki/Q812285" title="https://www.wikidata.org/wiki/Q812285">Q812285</a> - wdt:P195 wd:Q812285.</p>
-            </li>
-            <li>
-              <p>Play button - bottom left - renders query below</p>
-            </li>
-            <li>
-              <p>Show: <strong>creator</strong> <a href="https://www.wikidata.org/wiki/Property:P170" title="https://www.wikidata.org/wiki/Property:P170">P170</a>; <strong>image</strong> <a href="https://www.wikidata.org/wiki/Property:P18" title="https://www.wikidata.org/wiki/Property:P18">P18</a>; <strong>copyright status</strong> <a href="https://www.wikidata.org/wiki/Property:P6216" title="https://www.wikidata.org/wiki/Property:P6216">P6216</a>; <strong>inception</strong> <a href="https://www.wikidata.org/wiki/Property:P571" title="https://www.wikidata.org/wiki/Property:P571">P571</a>.</p>
-            </li>
-            <li>
-              <p>Play button - bottom left - renders query below</p>
-            </li>
-            <li>
-              <p>Image grid view :-)</p>
-            </li>
-            <li>
-              <p>Limit</p>
-            </li>
-            <li>
-              <p>Dates from to 1590-1750 (code only)</p>
-              <p>BIND(YEAR(?inception) AS ?inceptionyear)</p>
-              <p>FILTER((1590 &lt;= ?inceptionyear) &amp;&amp; (?inceptionyear &lt; 1750 ))</p>
-            </li>
-            <li>
-              <p>Link query: <a href="https://w.wiki/6MGX" title="https://w.wiki/6MGX">https://w.wiki/6MGX</a> - results: <a href="https://w.wiki/6MGY " title="https://w.wiki/6MGY ">https://w.wiki/6MGY </a></p>
-            </li>
-          </ol>
-        </li>
-        <li>
-          <p>Participants can change the selection criteria around the available criteria: artists, dates, etc., as in collection <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections/17th_Century" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections/17th_Century">17C Bavarian painting</a></p>
-        </li>
-        <li>
-          <p>Completion: Paste your query link into the HedgeDoc link provided. <a href="https://demo.hedgedoc.org/s/4gr9JvUS7">https://demo.HedgeDoc.org/s/4gr9JvUS7</a></p>
-          <p>- END of activity.</p>
-        </li>
-      </ol>
-    </div>
-    <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_11_0">Activity: Making SPARQL Queries in Wikidata of Collections</div>
-    <div class="article-part article-richtext article-body">
-      <p>Keywords: Collections, Wikidata, SPARQL</p>
-      <p>If you are not familiar with creating a Wikidata SPARQL query then see the section on how to create a query: <strong><a href="https://nfdi4culture.github.io/class-ADA-CP-pipeline/#_7_0" title="https://nfdi4culture.github.io/class-ADA-CP-pipeline/#_7_0">Activity: Create a Wikidata query</a></strong></p>
-      <h2 id="H5313897">The activity goal</h2>
-      <p><strong>Create a sample SPARQL query of a cultural collection of a museum and save a link to the query on your Wikiversity user page.</strong></p>
-      <p>Note: <em><strong>Two collections are needed</strong></em> as the painting collection is easier to add to Jupyter Notebooks as you edit existing data. The second general collection is used to explore more options - assistence will be needed to help move the second query to the Jupyter Notebooks as they can be complex.</p>
-      <ol id="L66168051">
-        <li>
-          <p><strong>First one of a painting collection, and then,</strong></p>
-        </li>
-        <li>
-          <p><strong>A second one - of any type of media or artifact from a collection: books, sculpture, photography, etc.</strong></p>
-        </li>
-      </ol>
-      <p>Here is an example: <a href="https://github.com/orgs/NFDI4Culture/projects/2/views/1?pane=issue&amp;itemId=23832721" title="https://github.com/orgs/NFDI4Culture/projects/2/views/1?pane=issue&amp;itemId=23832721">Bavarian Collections, 1590 - 1750</a> SW March 2023</p>
-      <p>If you need support the GitHub Project (task tracker) for the class is <a href="https://github.com/orgs/NFDI4Culture/projects/2" title="https://github.com/orgs/NFDI4Culture/projects/2">here</a> - titled: <em>Prototype catalogue - ADA CP pipeline</em>.</p>
-      <p>Later in the workflow the query will be added to a Jupyter Notebook for rendering in Quarto.</p>
-      <p><strong>Create the two queries and add the query links to Wikiversity.</strong></p>
-      <h3 id="H9669908">Query 1: A painting collection</h3>
-      <p>The Painting Notebook is simpler to move to Jupyter Notebooks as the number of edits needed are fewer.</p>
-      <ol id="L68245451">
-        <li>
-          <p>Use and copy the existing painting collection and modify the setting <a href="https://github.com/orgs/NFDI4Culture/projects/2/views/1?pane=issue&amp;itemId=23832721" title="https://github.com/orgs/NFDI4Culture/projects/2/views/1?pane=issue&amp;itemId=23832721">Bavarian Collections, 1590 - 1750</a>.</p>
-        </li>
-        <li>
-          <p>The exercise is to change three parts: the painting collection, date perameters, and number of items.</p>
-          <ol id="L56445551">
-            <li>
-              <p><strong>Collection:</strong> Line 9 - <em>?item wdt:P195 wd:Q812285</em>: Add in the identifier of a different collection - see list here Here is a sample list of painting collections found on Wikidata, <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection">Wikidata:WikiProject sum of all paintings/Collection</a>. As an example here the the Frick Museum - <a href="https://www.wikidata.org/wiki/Q682827" title="https://www.wikidata.org/wiki/Q682827">https://www.wikidata.org/wiki/Q682827</a> has a unique identifier of unique Q682827. </p>
-            </li>
-            <li>
-              <p><strong>Date:</strong> Line 37 - <em>FILTER((1590 &lt;= ?inceptionyear) &amp;&amp; (?inceptionyear &lt; 1750 ))</em>: here change the from and to dates. </p>
-            </li>
-            <li>
-              <p><strong>Number of items:</strong> Line 40 - <em>LIMIT 9</em>: Change the number of items and run preview.</p>
-            </li>
-          </ol>
-          <p>Now copy the query URL and save the link to your Wikiversiyt page. To copy the link you need to have previewed the query and bottom right is a short link copy button (if this doesnt work - copy the URL from your browsers address bar). Later we will add the new query to the Notebook painting.ipny.</p>
-        </li>
-      </ol>
-      <h3 id="H3164141">Query 2: Make your own collection query</h3>
-      <p>Note: We want to have images in our query, using the image grid view allows you to preview images.</p>
-      <h4 id="H286828">Resources for finding collections: Data models and information</h4>
-      <p>The links will help you find collections and see what types of artwork or media are listed on Wikidata.</p>
-      <p><strong>The <a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help" title="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help">help</a> and <a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples" title="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples">examples</a> in the query service are useful for seeing examples and modifying them  <a href="https://query.wikidata.org/" title="https://query.wikidata.org/">https://query.wikidata.org/</a>. </strong></p>
-      <p>The examples section has a RUN IT link under each examples where the query will load for you. Note to check the image grid view.</p>
-      <p>As example here is one of scultures by <a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples#Sculptures_by_Max_Bill" title="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples#Sculptures_by_Max_Bill">Max Bill</a>. You can use this and change the artists name, for example to <a href="https://w.wiki/6Zsa" title="https://w.wiki/6Zsa">Donatello</a>.</p>
-      <table id="T56964801" class="table-100 table-center table-fixed" data-width="100" data-aligned="center" data-layout="fixed" data-category="none">
-        <tbody>
-          <tr>
-            <td>
-              <p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Museums" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_Museums">Museums</a></p>
-            </td>
-            <td>
-              <p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Movies" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_Movies">Film</a></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings">WikiProject sum of all paintings</a></p>
-            </td>
-            <td>
-              <p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Visual_arts/Item_structure/Art_genres" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_Visual_arts/Item_structure/Art_genres">Art genres</a></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Books" title="https://www.wikidata.org/wiki/Wikidata:WikiProject_Books">Books</a></p>
-            </td>
-            <td>
-              <p><a href="https://www.wikidata.org/wiki/Category:GLAM_WikiProjects" title="https://www.wikidata.org/wiki/Category:GLAM_WikiProjects">GLAM WikiProjects</a></p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <h3 id="H4465979">Steps for making your own query</h3>
-      <ol id="L22725961">
-        <li>
-          <p>Start with a blank query <a href="https://query.wikidata.org/" title="https://query.wikidata.org/">https://query.wikidata.org/</a></p>
-        </li>
-        <li>
-          <p>Use the <strong>Examples</strong> button top left and then edit the example, or use DuckduckGo or Google to search for queries to edit.</p>
-        </li>
-        <li>
-          <p>Save your query link on your Wikiversity user homepage.</p>
-          <hr>
-        </li>
-      </ol>
-      <p>In the next section <em><strong>'Transfering a Wikidata SPARQL query to a Juypter Notebook'</strong></em> you will see how to move your queries to Jupyter Notebooks.</p>
-    </div>
-    <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_12_0">Transfering a Wikidata SPARQL query to a Juypter Notebook</div>
-    <div class="article-part article-richtext article-body">
-      <ul id="L11365601">
-        <li>
-          <p>Query 1: A painting collection - can already be rendered in the Notebook and by Quarto.</p>
-        </li>
-        <li>
-          <p>Query 2: Yourn own collection query - you will need assistance in the class to render this as the outputted SPARQL metadata results needs to be processed by some Python code and this quickly becomes complicated.</p>
-        </li>
-      </ul>
-      <h3 id="H9669908">Query 1: A painting collection</h3>
-      <p>For this collection you simply edit the existing Notebook for the painting collection <strong>'paintings.ipynb'</strong> rename as <strong>paintings_1xx.ipynb</strong> (with xx as your initails) - transfering across the new values that you have already created. See the section 'Making SPARQL Queries in Wikidata of Collections'.</p>
-      <figure id="F71506081" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/f1dc39b3-91a2-4377-bc97-1ba6e2f15706.png">
-        <figcaption><span class="label-counter" data-book-counter="3" data-chapter-counter="1">Figure</span><span class="text">Where to add your Wikidata SPARQL URL link and paste in the full query.</span></figcaption>
-      </figure>
-      <p>These are the values being changed: <strong>Collection, Date range, and Number of items. </strong></p>
-      <ol id="L56445551">
-        <li>
-          <p>All you need to do is paste in two items into the main cell of the Notebook:</p>
-          <ol id="L84389171">
-            <li>
-              <p>The SPARQL URL - see the green text indicated in Figure 1</p>
-            </li>
-            <li>
-              <p>Paste in the complete body of the SPARQL query - see the orange text in Figure 1. Note all of your query is pasted between the four apostrohies top and bottom:</p>
-              <p>''''</p>
-              <p>your query</p>
-              <p>'''''</p>
-            </li>
-          </ol>
-        </li>
-      </ol>
-      <p>Then run the Notebook and save the Notebook file when you are done and any other files edited.</p>
-      <p>Note: Change the notebook name in the _quarto.yml TOC so that your new file is included in the publication. Change paintings.ipynb to paintings_1xx.ipynb.</p>
-      <p>Note: Ensure requirements.txt has been added and run. </p>
-      <p>To render the output in Quarto, run the Quarto commands in your terminal - 'quarto preview' and/or 'quarto render'.</p>
-      <p>When your finished you can upload the results to your GitHub repository.</p>
-      <h3 id="H3164141">Query 2: Your custom collection query</h3>
-      <p>Because SPARQL queries are varied and complex the process of moving the query into a Jupyter Notebook is not simple and involved knowledge of SPARQL and Python. The challenge is that the SPARQL metadata output has to be parsed by Python for presentation in the publication and to do this custom code needs to be written.</p>
-      <p><strong>To help with this obstacle a support service is in place to consult and add the Python code to your Notebooks.</strong></p>
-      <p>When you have completed the steps below and have a Notebook ready raise a ticket in the GitHub Project and assign to support and we will review the Notebook.</p>
-      <p>See all class members collection notebooks here. This is a test zone where support will edit copies of your notebooks to show how to make them woirk: <a href="https://github.com/NFDI4Culture/sandbox-notebook-rendering" title="https://github.com/NFDI4Culture/sandbox-notebook-rendering">https://github.com/NFDI4Culture/sandbox-notebook-rendering</a></p>
-      <h4 id="H7994039">Steps</h4>
-      <p>This will prepare the Notebook to output the SPARQL results only. The additional rendering will need to be added by support.</p>
-      <p>Create a new Notebook in your Quarto publication 'collection-name.ipynb'.</p>
-      <p>Back in the custom collection query at the bottom right there is a &lt;code&gt; button - click on the button and it will launch a preview window. Top right click on the Python tab, this will present the Query as Python code. Now copy and paste the code into your Notebook.</p>
-      <p>Next, we want to copy the URL of your query to then also past this into your notebook. This will allow users to review your orginal query. The URL is found on the bottom right of the query page, as copy short link. If this does not work just copy the long address from your browser address bar.</p>
-      <p>Paste your query link into the Notebook as a comment, which means haveing a # at the start of the line. Like so, underneath the lines shown here:</p>
-      <blockquote>
-        <p>import sys</p>
-        <p>from SPARQLWrapper import SPARQLWrapper, JSON</p>
-        <p># query link - https://w.wiki/6YJi based on https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples#Paintings_by_Gustav_Klimt</p>
-      </blockquote>
-      <p>To finish your Notebook editing insert a Markdown field above your code cell as add a desciption, e.g., </p>
-      <blockquote>
-        <p>Custom Collection by Simon Worthington (April 23): Paintings by Lucas Cranach the Elder <a href="https://www.wikidata.org/wiki/Q191748" title="https://www.wikidata.org/wiki/Q191748">https://www.wikidata.org/wiki/Q191748</a>.</p>
-        <p>The collection Notebook only contains the SPARQL query and needs additional Python adding to parse the metadata output.</p>
-      </blockquote>
-      <p>Save and run your Notebook. The result will be the SPARQL unformatted output. </p>
-      <p>Add your Notebook to the Quarto TOC by adding the file name of your collection to the TOC in the file <strong>_quarto.yml</strong>, under the chapter header on line 12. Save and render the quart publication to see the results.</p>
-      <p>To complete this part raise a ticket in the GitHub project assigning to support. </p>
-      <p>This concludes this part of the process.</p>
-      <p></p>
-      <p></p>
-    </div>
-    <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_13_0">Publishing Tasks</div>
+    <div class="article-part article-title" id="_12_0">Publishing Tasks</div>
     <div class="article-part article-richtext article-body">
       <p>These are the small tasks needed for getting ready to publish. There will be an additional Flight Check round after this before completeing publishing.</p>
       <ol id="L37334751">
@@ -1334,7 +1145,7 @@
       </ul>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_14_0">Review and Flight Check</div>
+    <div class="article-part article-title" id="_13_0">Review and Flight Check</div>
     <div class="article-part article-richtext article-body">
       <p>These items will be covered in the class.</p>
       <ul id="L84569291">
@@ -1353,7 +1164,7 @@
       </ul>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_15_0">Software (open-source)</div>
+    <div class="article-part article-title" id="_14_0">Software (open-source)</div>
     <div class="article-part article-richtext article-body">
       <p>Over 2023/24 the computational components will be added to the <em><strong>ADA Semantic Publishing Pipeline</strong></em> as well as introducing <strong>Vivliostyle Create Book</strong> markdown renderer and swapping to <strong>Jupyter Book</strong> computational book platform away from Quarto – <a href="https://github.com/NFDI4Culture/ada">https://github.com/NFDI4Culture/ada</a></p>
       <ul id="L62492791">
