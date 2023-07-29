@@ -10,7 +10,7 @@ The class has three demonstration use cases for the auto-creation of multi-forma
 
  1. __A painting exhibition catalogue:__ This demostrates how Wikidata/base can be used to source content. 
  1. __A publishers book catalogue:__ Here the book catalogue and metdata service Thoth is queried automatically once a days to automatically update the publishers catalogue with new titles.
- 1. __A research literature collator to create readers:__ The example shows how climate change literature can be searched by authors to create references readers to support the work on City Climate Change Plan creation. Made with the FSCI Hackathon organisers #semanticClimate
+ 1. __A research literature collator to create readers (experimental prototype):__ The example shows how climate change literature can be searched by authors to create references readers to support the work on City Climate Change Plan creation. Made with the FSCI Hackathon organisers #semanticClimate
 
 The example workflows have been put together by researchers from the two research consortia NFDI4Culture – National Research Data Infrastructure Germany, and COPIM (Community-led Open Publication Infrastructures for Monographs) in consultation with the publisher Open Book Publishers, Cambridge (UK).
 
