@@ -1,4 +1,4 @@
-## FSCI 2023's E08 Publishing from Collections Using Linked Open Data Source and Computational Publishing Pipelines
+## Class Guide: FSCI 2023's E08 Publishing from Collections Using Linked Open Data Source and Computational Publishing Pipelines
 
 2023-07-28 v1.1
 
