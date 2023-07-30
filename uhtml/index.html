@@ -268,17 +268,12 @@
           </li>
           <li>
             <a href="#_8_0">
-              Quarto Rendering
+              Jupyter Notebooks: Setup, Editing, and Saving
             </a>
             <ol>
               <li>
-                <a href="#H6152061">
+                <a href="#H4680997">
                   Steps
-                </a>
-              </li>
-              <li>
-                <a href="#H5388104">
-                  Troubleshooting
                 </a>
               </li>
             </ol>
@@ -297,6 +292,38 @@
                     <a href="#H5672542">
                       Editing
                     </a>
+                    <ol>
+                      <li>
+                        <a href="#H2445104">
+                          Change repo address and make repo link visible in publication
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#H7516430">
+                          Add or move a publication sections (chapters)
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#H5060943">
+                          Adding multi-format output formats
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#H7675662">
+                          Change theme (style)
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#H3029832">
+                          Add metadata (HTML)
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#H8715973">
+                          Other settings
+                        </a>
+                      </li>
+                    </ol>
                   </li>
                 </ol>
               </li>
@@ -304,12 +331,17 @@
           </li>
           <li>
             <a href="#_10_0">
-              Jupyter Notebooks: Setup, Editing, and Saving
+              Quarto Rendering
             </a>
             <ol>
               <li>
-                <a href="#H4680997">
+                <a href="#H6152061">
                   Steps
+                </a>
+              </li>
+              <li>
+                <a href="#H5388104">
+                  Troubleshooting
                 </a>
               </li>
             </ol>
@@ -776,19 +808,83 @@
       <p>Save the Notebook.</p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_8_0">Quarto Rendering</div>
+    <div class="article-part article-title" id="_8_0">Jupyter Notebooks: Setup, Editing, and Saving</div>
+    <div class="article-part article-richtext article-body">
+      <p>General instructions for using Jupyter Notebooks.</p>
+      <p>Installation of Python and Jupyter Notebooks is covered in Quarto install section.</p>
+      <p>The default editor we use is Visual Code Studio, but you can use other Notebook editors.</p>
+      <h2 id="H4680997">Steps</h2>
+      <p>First run: <strong>requirements.txt</strong> file for Python libraries. See: <a href="https://note.nkmk.me/en/python-pip-install-requirements/" title="https://note.nkmk.me/en/python-pip-install-requirements/">https://note.nkmk.me/en/python-pip-install-requirements/</a></p>
+      <p>Use:</p>
+      <blockquote>
+        <p># install with 'pip install -r requirements.txt'</p>
+      </blockquote>
+      <p>Then you can run, edit, and save Notebooks.</p>
+      <p></p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+    <div class="article-part article-title" id="_9_0">Editing Quarto </div>
+    <div class="article-part article-richtext article-body">
+      <p>Visual Studio Code is one option as an editor, but you can use any editor suite that you like.</p>
+      <h2 id="H4307972">Install Visual Studio Code (VSC)</h2>
+      <p><a href="https://code.visualstudio.com/" title="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
+      <h3 id="H5672542">Editing</h3>
+      <p>Load the whole repository folder into your editor.</p>
+      <p>The key file to edit in Quart is <strong>_quarto.yml. </strong>This file contains the main configurations for your publication.</p>
+      <p>If you are using VSC you can run Notebooks as well as use the Terminal to run Quarto commands, and commit to GitHub.</p>
+      <h4 id="H2445104">Change repo address and make repo link visible in publication</h4>
+      <p>Edit <strong>_quarto.yml</strong></p>
+      <p>If you are working on a fork the first thing you need to do is edit the repository address on line 19 - this will point the GitHub icon in your publication to your own GitHub repo.</p>
+      <blockquote>
+        <p>repo-url: https://github.com/my-repository-address </p>
+      </blockquote>
+      <h4 id="H7516430">Add or move a publication sections (chapters)</h4>
+      <p>Edit <strong>_quarto.yml</strong></p>
+      <p>To add new sections to your publication jast add file names to the chapter list after line 12.</p>
+      <ul id="L87804601">
+        <li>
+          <p>Markdown files can be added</p>
+        </li>
+        <li>
+          <p>Jupyter Notesbooks can be added</p>
+        </li>
+      </ul>
+      <p>The publication home page uses the file <strong>index.qmd</strong></p>
+      <h4 id="H5060943">Adding multi-format output formats</h4>
+      <p>Edit <strong>_quarto.yml</strong></p>
+      <p>For books the following output formats can be added: HTML, PDF, MS Word, EPUB, AsciiDoc.</p>
+      <p><a href="https://quarto.org/docs/books/" title="https://quarto.org/docs/books/">https://quarto.org/docs/books/</a></p>
+      <p><strong>Note:</strong> epub needs a cover adding</p>
+      <blockquote>
+        <p>epub: </p>
+        <p>cover-image: cover.png</p>
+      </blockquote>
+      <h4 id="H7675662">Change theme (style)</h4>
+      <p>Edit <strong>_quarto.yml</strong></p>
+      <p><a href="https://quarto.org/docs/output-formats/html-themes.html" title="https://quarto.org/docs/output-formats/html-themes.html">https://quarto.org/docs/output-formats/html-themes.html</a></p>
+      <h4 id="H3029832">Add metadata (HTML)</h4>
+      <p>Edit <strong>_quarto.yml</strong></p>
+      <p><a href="https://quarto.org/docs/reference/formats/html.html" title="https://quarto.org/docs/reference/formats/html.html">https://quarto.org/docs/reference/formats/html.html</a></p>
+      <h4 id="H8715973">Other settings</h4>
+      <p>The other settings can we read about on the Quarto support pages, for example <a href="https://quarto.org/docs/books/book-structure.html#references" title="https://quarto.org/docs/books/book-structure.html#references">Book Structure</a>. </p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+    <div class="article-part article-title" id="_10_0">Quarto Rendering</div>
     <div class="article-part article-richtext article-body">
       <p>Quarto help docs: <a href="https://quarto.org/" title="https://quarto.org/">https://quarto.org/</a></p>
       <p>Using quarto to render as multi-format.</p>
       <p>Use the command line to run Quarto: Powershell, GitBash, Cygwin, OSX shell, or terminal in Visual Studio Code ('VSC), etc.</p>
       <p>Execute the Quarto commands from the top level of your publication repository.</p>
       <h2 id="H6152061">Steps</h2>
+      <figure id="F15912391" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none"><img src="images/779247c6-5acd-407f-81b3-67c765279350.png">
+        <figcaption><span class="label"></span><span class="text">Quarto rendering workflow. <a href="https://quarto.org/docs/get-started/hello/vscode.html" title="https://quarto.org/docs/get-started/hello/vscode.html">Courtesy Quarto</a>.</span></figcaption>
+      </figure>
       <ul id="L19814261">
         <li>
           <p><strong>IMPORTANT!</strong> Run and save Jupyter Notebooks, install the <strong>requirements.txt</strong> file before running Notebooks. SAVE all files.</p>
         </li>
         <li>
-          <p>Work locally with <strong>quarto preview</strong> - this will launch a browser window to preview your publication.</p>
+          <p>Work locally with command <strong>quarto preview</strong> - this will launch a browser window to preview your publication.</p>
         </li>
         <li>
           <p>Render: Use command <strong>quarto render. </strong></p>
@@ -825,40 +921,6 @@
           </ol>
         </li>
       </ol>
-      <p></p>
-      <p></p>
-    </div>
-    <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_9_0">Editing Quarto </div>
-    <div class="article-part article-richtext article-body">
-      <p>Visual Studio Code is one option as an editor, but you can use any editor suite that you like.</p>
-      <h2 id="H4307972">Install Visual Studio Code (VSC)</h2>
-      <p><a href="https://code.visualstudio.com/" title="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
-      <h3 id="H5672542">Editing</h3>
-      <p>Load the whole repository folder into your editor.</p>
-      <p>The key file to edit in Quart is <strong>_quarto.yml. </strong>This file contains the main configurations for your publication.</p>
-      <p>If you are working on a fork the first thing you need to do is edit the repository address on line 19 - this will point the GitHub icon in your publication to your own GitHub repo.</p>
-      <blockquote>
-        <p>repo-url: https://github.com/my-repository-address </p>
-      </blockquote>
-      <p>To add new sections to your publication jast add file names to the chapter list after line 12</p>
-      <p>The other settings can we read about on the Quarto support pages, for example <a href="https://quarto.org/docs/books/book-structure.html#references" title="https://quarto.org/docs/books/book-structure.html#references">Book Structure</a>. </p>
-      <p>If you are using VSC you can run Notebooks as well as use the Terminal to run Quarto commands, and commit to GitHub.</p>
-    </div>
-    <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_10_0">Jupyter Notebooks: Setup, Editing, and Saving</div>
-    <div class="article-part article-richtext article-body">
-      <p>General instructions for using Jupyter Notebooks.</p>
-      <p>Installation of Python and Jupyter Notebooks is covered in Quarto install section.</p>
-      <p>The default editor we use is Visual Code Studio, but you can use other Notebook editors.</p>
-      <h2 id="H4680997">Steps</h2>
-      <p>First run: <strong>requirements.txt</strong> file for Python libraries. See: <a href="https://note.nkmk.me/en/python-pip-install-requirements/" title="https://note.nkmk.me/en/python-pip-install-requirements/">https://note.nkmk.me/en/python-pip-install-requirements/</a></p>
-      <p>Use:</p>
-      <blockquote>
-        <p># install with 'pip install -r requirements.txt'</p>
-      </blockquote>
-      <p>Then you can run, edit, and save Notebooks.</p>
-      <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
     <div class="article-part article-title" id="_11_0">Software (open-source)</div>
