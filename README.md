@@ -8,7 +8,7 @@ This is a hands-on class for participants with no prior experience of computatio
 
 The class has three demonstration use cases for the auto-creation of multi-format catalogue publications:
 
- 1. __A painting exhibition catalogue:__ This demostrates how Wikidata/base can be used to source content. 
+ 1. __A painting exhibition catalogue:__ This demonstrates how Wikidata/base can be used to source content. 
  1. __A publishers book catalogue:__ Here the book catalogue and metdata service Thoth is queried automatically once a days to automatically update the publishers catalogue with new titles.
  1. __A research literature collator to create readers (experimental prototype):__ The example shows how climate change literature can be searched by authors to create references readers to support the work on City Climate Change Plan creation. Made with the FSCI Hackathon organisers #semanticClimate
 
